@@ -5,7 +5,7 @@ bash /home/encoder/ioncube_encoder.sh -C -x86-64 -74 /home/4jawaly/ -o /home/4ja
 cd /home/4jawaly-endcoded && git add .
 cd /home/4jawaly-endcoded && git add -u
 cd /home/4jawaly-endcoded && git  commit -m"update files"
-cd /home/4jawaly-endcoded && git push origin main
+cd /home/4jawaly-endcoded && git push origin master
 rm -rf /home/4jawaly-endcoded
 to="eslam@php-eg.com"
 to2="same7soliman.m@gmail.com"
