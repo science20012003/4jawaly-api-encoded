@@ -1,0 +1,10 @@
+<div class="success alert d-flex p-5" role="alert">
+    <div class="message d-flex align-items-center">
+        <i class="fas fa-2x  fa-check-circle"></i>
+        <p class="mx-3"><span class="font-weight-bolder">
+                قام المستخدم بفتح رابط تعيين كلمة المرور
+    </span></p>
+    </div>
+
+</div>
+<?php /**PATH /home/php/resources/views/tickets/creplies/reset_account_open_link.blade.php ENDPATH**/ ?>

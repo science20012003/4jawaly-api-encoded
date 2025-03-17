@@ -1,0 +1,205 @@
+[2025-03-11 00:04:18] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118684 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 00:06:13] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118685 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 00:08:29] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118686 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 04:12:06] production.ERROR: Failed to create user. {"exception":"[object] (Exception(code: 0): Failed to create user. at /home/php/app/Events/CreateShortenerAccountEvent.php:64)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#1 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#2 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#3 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#4 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#5 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#9 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#10 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#11 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#12 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#14 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#15 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#16 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#17 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#18 {main}
+"} 
+[2025-03-11 04:30:28] production.ERROR: Could not access https://odoo.4ja.ai/xmlrpc/common {"exception":"[object] (Ripcord_TransportException(code: -4): Could not access https://odoo.4ja.ai/xmlrpc/common at /home/php/vendor/edujugon/laradoo/src/ripcord/ripcord_client.php:488)
+[stacktrace]
+#0 /home/php/vendor/edujugon/laradoo/src/ripcord/ripcord_client.php(228): Ripcord_Transport_Stream->post()
+#1 /home/php/vendor/edujugon/laradoo/src/Odoo.php(631): Ripcord_Client->__call()
+#2 /home/php/vendor/edujugon/laradoo/src/Odoo.php(156): Edujugon\\Laradoo\\Odoo->auth()
+#3 /home/php/app/Traits/OdooTrait.php(20): Edujugon\\Laradoo\\Odoo->connect()
+#4 [internal function]: App\\Http\\Controllers\\Api\\V1\\Account\\AccountProfileController->__construct()
+#5 /home/php/vendor/illuminate/container/Container.php(849): ReflectionClass->newInstanceArgs()
+#6 /home/php/vendor/illuminate/container/Container.php(691): Illuminate\\Container\\Container->build()
+#7 /home/php/vendor/illuminate/container/Container.php(637): Illuminate\\Container\\Container->resolve()
+#8 /home/php/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#9 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\\Lumen\\Application->make()
+#10 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#11 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#12 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(48): call_user_func()
+#14 /home/php/app/Http/Middleware/DevicesMiddleware.php(30): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#15 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\DevicesMiddleware->handle()
+#16 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#18 /home/php/app/Http/Middleware/OtpMiddleware.php(173): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#19 /home/php/app/Http/Middleware/OtpMiddleware.php(90): App\\Http\\Middleware\\OtpMiddleware->checkDevice()
+#20 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\OtpMiddleware->handle()
+#21 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#23 /home/php/app/Http/Middleware/Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#24 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle()
+#25 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#27 /home/php/app/Http/Middleware/LanguageMiddleware.php(34): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#28 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#29 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#31 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#32 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#33 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#35 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#36 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#37 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#38 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#39 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#40 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#41 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#42 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#43 {main}
+"} 
+[2025-03-11 04:30:28] production.ERROR: Could not access https://odoo.4ja.ai/xmlrpc/common {"exception":"[object] (Ripcord_TransportException(code: -4): Could not access https://odoo.4ja.ai/xmlrpc/common at /home/php/vendor/edujugon/laradoo/src/ripcord/ripcord_client.php:488)
+[stacktrace]
+#0 /home/php/vendor/edujugon/laradoo/src/ripcord/ripcord_client.php(228): Ripcord_Transport_Stream->post()
+#1 /home/php/vendor/edujugon/laradoo/src/Odoo.php(631): Ripcord_Client->__call()
+#2 /home/php/vendor/edujugon/laradoo/src/Odoo.php(156): Edujugon\\Laradoo\\Odoo->auth()
+#3 /home/php/app/Traits/OdooTrait.php(20): Edujugon\\Laradoo\\Odoo->connect()
+#4 [internal function]: App\\Http\\Controllers\\Api\\V1\\Account\\AccountProfileController->__construct()
+#5 /home/php/vendor/illuminate/container/Container.php(849): ReflectionClass->newInstanceArgs()
+#6 /home/php/vendor/illuminate/container/Container.php(691): Illuminate\\Container\\Container->build()
+#7 /home/php/vendor/illuminate/container/Container.php(637): Illuminate\\Container\\Container->resolve()
+#8 /home/php/vendor/laravel/lumen-framework/src/Application.php(300): Illuminate\\Container\\Container->make()
+#9 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(321): Laravel\\Lumen\\Application->make()
+#10 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#11 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#12 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#13 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(48): call_user_func()
+#14 /home/php/app/Http/Middleware/DevicesMiddleware.php(30): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#15 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\DevicesMiddleware->handle()
+#16 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#18 /home/php/app/Http/Middleware/OtpMiddleware.php(173): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#19 /home/php/app/Http/Middleware/OtpMiddleware.php(90): App\\Http\\Middleware\\OtpMiddleware->checkDevice()
+#20 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\OtpMiddleware->handle()
+#21 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#23 /home/php/app/Http/Middleware/Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#24 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle()
+#25 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#27 /home/php/app/Http/Middleware/LanguageMiddleware.php(34): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#28 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#29 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#31 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#32 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#33 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#34 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#35 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#36 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#37 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#38 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#39 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#40 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#41 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#42 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#43 {main}
+"} 
+[2025-03-11 09:47:04] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118689 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 09:49:06] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118690 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 09:58:11] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118691 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 10:01:41] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118692 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 10:31:35] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118694 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 11:06:25] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118698 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 12:25:05] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118709 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 12:27:55] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118713 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 12:37:31] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118766 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 12:47:06] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118773 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 12:50:57] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118774 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 12:52:46] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118775 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 13:44:58] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118814 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 13:50:53] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118824 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 14:13:20] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118834 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 14:15:56] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118838 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 15:36:05] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118866 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 16:03:29] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118883 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 16:06:46] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118885 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-11 16:06:59] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AQrkpHJ67cY4KSC1SZZh1Kx',
+  ),
+)  
+[2025-03-11 17:09:58] production.ERROR: Error sending 3132248  
+[2025-03-11 17:09:58] production.ERROR: Error sending 3132248  
+[2025-03-11 17:09:58] production.ERROR: Error sending 3132248  
+[2025-03-11 17:09:58] production.ERROR: Error sending 3132248  
+[2025-03-11 17:09:58] production.ERROR: Error sending 3132248  
+[2025-03-11 17:09:58] production.ERROR: Error sending 3132248  
+[2025-03-11 17:09:58] production.ERROR: Error sending 3132248  
+[2025-03-11 19:21:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AXfQ4tEXBVfkK5DUoPJoH8m',
+  ),
+)  
+[2025-03-11 19:21:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'Ay6K9TMJmPsRAFvZsdz3N-C',
+  ),
+)  
+[2025-03-11 19:21:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'Ajh_PPi1y95H8ebOYWzL3yG',
+  ),
+)  
+[2025-03-11 22:47:56] production.DEBUG: Odoo -> postPayment -> Success! {"id":118928} 

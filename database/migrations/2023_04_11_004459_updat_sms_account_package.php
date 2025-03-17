@@ -1,0 +1,39 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class UpdatSmsAccountPackage extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('sms_account_packages', function (Blueprint $table) {
+            $table->tinyInteger("approve_via")->default(1)->after("deposit_date");
+        });
+
+        Schema::table('sms_account_package_subs', function (Blueprint $table) {
+            $table->unsignedBigInteger("daftra_id")->nullable()->after("sms_package_id");
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('sms_account_packages', function (Blueprint $table) {
+            $table->dropColumn("approve_via");
+        });
+        Schema::table('sms_account_package_subs', function (Blueprint $table) {
+            $table->dropColumn("daftra_id");
+        });
+    }
+}

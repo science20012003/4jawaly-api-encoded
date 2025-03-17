@@ -1,0 +1,984 @@
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-08-13 10:06:15][5jGsWA7tyZb5n2PqYpnDJkWv2cDogYz9] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-13 10:06:16][5jGsWA7tyZb5n2PqYpnDJkWv2cDogYz9] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-13 10:07:16][m1tdmI086o5J1s35JKEu5D5oiOweAWNC] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-13 10:07:16][m1tdmI086o5J1s35JKEu5D5oiOweAWNC] Processed:  App\Jobs\CrmCopyMainGroupJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-08-20 07:44:41][pyBIDvq9EL0VlseakFdvTyihRn2TOBK3] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 07:44:41][pyBIDvq9EL0VlseakFdvTyihRn2TOBK3] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 07:44:54][IuXpLAoLXZqF9bzrjyy2Dv1D2jk5xF0k] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 07:44:55][IuXpLAoLXZqF9bzrjyy2Dv1D2jk5xF0k] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 07:45:04][HwzQLVLYQpf1O3qsbgZMj9PQrhQQ92Dq] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 07:45:04][HwzQLVLYQpf1O3qsbgZMj9PQrhQQ92Dq] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 07:57:38][AvAzx5vP6hgi0kCkoDctSTyv7j2U1LNf] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 07:57:38][AvAzx5vP6hgi0kCkoDctSTyv7j2U1LNf] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 20:33:56][YLV3uRySYa8a7CJgWoAZO1BGwLOhytz2] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 20:33:56][YLV3uRySYa8a7CJgWoAZO1BGwLOhytz2] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 20:34:45][8ICcYaQ6NCzeh02MAhyGRcwoDetZWOl2] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-20 20:34:45][8ICcYaQ6NCzeh02MAhyGRcwoDetZWOl2] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 12:28:51][RogbQr56PTrZ3FAzC1FgDUxJzaxZe0O7] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 12:28:51][RogbQr56PTrZ3FAzC1FgDUxJzaxZe0O7] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 12:42:16][ezpZWrHdpgvQkz2f2WikOlTIBxoRHJdz] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 12:42:16][ezpZWrHdpgvQkz2f2WikOlTIBxoRHJdz] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:00:20][U7y3lQaHJmjWdvHo6RNHip0CCLcR9pTn] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:00:20][U7y3lQaHJmjWdvHo6RNHip0CCLcR9pTn] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:09:51][XPFnY0yebG98YqAqTKNLO3OFTtk8hRcb] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:09:51][XPFnY0yebG98YqAqTKNLO3OFTtk8hRcb] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:22:04][jqlbMW5zCuvmuU3V8DGLKlA66024lAU9] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:22:04][jqlbMW5zCuvmuU3V8DGLKlA66024lAU9] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:27:37][HiR132NZYLSrwA6PDgLYtq4ZW5tRpXng] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:27:38][HiR132NZYLSrwA6PDgLYtq4ZW5tRpXng] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:32:08][76HTrHHv1NMgKD0lAsfjSVTV7J2jIYqa] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 13:32:08][76HTrHHv1NMgKD0lAsfjSVTV7J2jIYqa] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 14:22:41][YOB7Y5Oi3LI8YdD1eXRpaf7xw9knGTWL] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 14:22:42][YOB7Y5Oi3LI8YdD1eXRpaf7xw9knGTWL] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 14:23:00][cBTFfSaDW3YSeAzW6dVpuRFe2DujNULv] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 14:23:00][cBTFfSaDW3YSeAzW6dVpuRFe2DujNULv] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 14:23:21][nyDW5KfF0TZG7O5fJE0wcHrXORuM3KaJ] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-21 14:23:21][nyDW5KfF0TZG7O5fJE0wcHrXORuM3KaJ] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-08-24 10:25:59][Gducxdm89RVPsT2EJRt8uoQNLhBxbMb5] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 10:25:59][Gducxdm89RVPsT2EJRt8uoQNLhBxbMb5] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 10:26:11][WvT7BEx2li1cvCG3UyBG5wRbMs02UmMn] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 10:26:11][WvT7BEx2li1cvCG3UyBG5wRbMs02UmMn] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 10:26:29][t9r5QHDvXmIUn5Cfinl6z1V2c8kK4P1v] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 10:26:29][t9r5QHDvXmIUn5Cfinl6z1V2c8kK4P1v] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:11:10][5pKVtgXLSPrhacXRZJ90j8gymxmNVtuR] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:11:10][5pKVtgXLSPrhacXRZJ90j8gymxmNVtuR] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:11:25][2tpSBeyJB4azF9MP71AL3LTXlhxB2xsm] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:11:25][2tpSBeyJB4azF9MP71AL3LTXlhxB2xsm] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:11:44][sTORAmgu2yeOp49eoeAc4idgX3l45jQO] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:11:44][sTORAmgu2yeOp49eoeAc4idgX3l45jQO] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:12:53][aIptnlQ8ck11WApyfuaGOdGzqqus7vRJ] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-24 11:12:54][aIptnlQ8ck11WApyfuaGOdGzqqus7vRJ] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 10:06:30][kTsnU9ZnpB6KuE6wTuE5XpNrXa24YCqV] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 10:06:33][kTsnU9ZnpB6KuE6wTuE5XpNrXa24YCqV] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:08:01][Zqt8m2fBXoBj27EJxRix5XDANZFPtFWH] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:08:01][Zqt8m2fBXoBj27EJxRix5XDANZFPtFWH] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:08:10][jnG94AMbVbYTMsRwOAVA2MfHUltPZfiV] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:08:10][jnG94AMbVbYTMsRwOAVA2MfHUltPZfiV] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:09:01][eAEdxSoeeixDvDZa37eYr0qAeN1tBaXQ] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:09:01][eAEdxSoeeixDvDZa37eYr0qAeN1tBaXQ] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:09:13][dorT8niY00MjYjLkaafSyoEesOlVwfpn] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:09:13][dorT8niY00MjYjLkaafSyoEesOlVwfpn] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:12:02][SLyenqj4qLRCiiSR2PKQb8ukxp8hCbur] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:12:02][SLyenqj4qLRCiiSR2PKQb8ukxp8hCbur] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:12:38][6GcoMF6b5I02poIByJwfk3h19XbjcxV5] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:12:38][6GcoMF6b5I02poIByJwfk3h19XbjcxV5] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:14:47][9aBjsTdG1gs7kFcJQ0iCORkizeW8omcv] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:14:48][9aBjsTdG1gs7kFcJQ0iCORkizeW8omcv] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:15:00][02aD8bRVKXS5sVLsoDFbTWvDrJPtnZv4] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-26 22:15:00][02aD8bRVKXS5sVLsoDFbTWvDrJPtnZv4] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:32:55][0ScWgWs4nvZNUWYsj59uOU8N1d44h8bi] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:32:55][0ScWgWs4nvZNUWYsj59uOU8N1d44h8bi] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:33:49][QcfUr90nClQHmxeHLEVVo67Wluoa1DP1] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:33:49][QcfUr90nClQHmxeHLEVVo67Wluoa1DP1] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:34:10][RGidFGDS69aOLNomJaL4fyRbxrHHJkes] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:34:10][RGidFGDS69aOLNomJaL4fyRbxrHHJkes] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:34:25][Vspn0pQA9pfUoNTPW2o6hcs3tS2BUFvP] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-28 08:34:26][Vspn0pQA9pfUoNTPW2o6hcs3tS2BUFvP] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 10:35:45][GfaPboE88ZXG5Fg4DhiYgPdGKfsH7Qc9] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 10:35:45][GfaPboE88ZXG5Fg4DhiYgPdGKfsH7Qc9] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 10:36:00][mtVW8WCewobKTtr5v57PTN34jAIakyew] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 10:36:01][mtVW8WCewobKTtr5v57PTN34jAIakyew] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 10:36:13][AN8M1dwkPFZNTLTilwDKb6fQOrnJHDe1] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 10:36:13][AN8M1dwkPFZNTLTilwDKb6fQOrnJHDe1] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 12:49:48][AGKbJM6CvMNLpHYsEUkZBFyd1q0OEItd] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-08-29 12:49:48][AGKbJM6CvMNLpHYsEUkZBFyd1q0OEItd] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-01 08:19:29][UxV3ArnHlSKvJzKmcszq4UI9q7cunrwh] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-01 08:19:30][UxV3ArnHlSKvJzKmcszq4UI9q7cunrwh] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-01 08:25:33][DcuJ2fNCHMxTgltnp42t13rwtvtgrrr4] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-01 08:25:34][DcuJ2fNCHMxTgltnp42t13rwtvtgrrr4] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-03 12:15:09][YSF5j7KTIMxhOX43FKM9vs0UAxxl7fKu] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-03 12:15:10][YSF5j7KTIMxhOX43FKM9vs0UAxxl7fKu] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-03 12:16:31][8zUfc8I3YqqrxvY4El7pQmeI8iHRD360] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-03 12:16:32][8zUfc8I3YqqrxvY4El7pQmeI8iHRD360] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-04 09:10:07][EkOcDWnAW3onJscu4LH8L7IlabtGV2ef] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-04 09:10:07][EkOcDWnAW3onJscu4LH8L7IlabtGV2ef] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-08 08:26:03][0Uo3A45MXSxN1qbv5TXj4COscr85Aaqs] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-08 08:26:03][0Uo3A45MXSxN1qbv5TXj4COscr85Aaqs] Processed:  App\Jobs\CrmCopyMainGroupJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-09-11 10:30:40][3NGFZsho3pgCWnOLc1feW8zXIOrQ8sR8] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:30:40][3NGFZsho3pgCWnOLc1feW8zXIOrQ8sR8] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:30:58][iXOnurI8Wq8HM6UbjPHyqjzHMXTYHl2K] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:30:58][iXOnurI8Wq8HM6UbjPHyqjzHMXTYHl2K] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:10][AYOEA3P39uvulaX3nDQvEHIjhuMsejGy] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:10][AYOEA3P39uvulaX3nDQvEHIjhuMsejGy] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:23][6OJEYeuKTvu4uv7odMTOdpQgJw9o5JSO] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:23][6OJEYeuKTvu4uv7odMTOdpQgJw9o5JSO] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:38][Zt0ElKTadvMLY5he1dB8GlXSF1MOsuKk] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:38][Zt0ElKTadvMLY5he1dB8GlXSF1MOsuKk] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:47][sMYuL9s8sPUB3cuo6VlOY6qhmtVFxMaw] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-11 10:31:47][sMYuL9s8sPUB3cuo6VlOY6qhmtVFxMaw] Processed:  App\Jobs\CrmCopyMainGroupJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-09-25 08:50:36][EvhYJ39v9tMmwcXmwqZsPn9AesFouQZr] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 08:50:37][EvhYJ39v9tMmwcXmwqZsPn9AesFouQZr] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:02:05][cdrPU9nnqgPCGJBA1iMk5sLKJOdyJFtI] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:02:05][cdrPU9nnqgPCGJBA1iMk5sLKJOdyJFtI] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:15:45][zQQ8TwlJ6rMiETjD5TpMWCJCADACY3gt] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:15:45][zQQ8TwlJ6rMiETjD5TpMWCJCADACY3gt] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:16:03][7o6bQYwqqO0EnCX83hbY61DKO9JC1g4x] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:16:03][7o6bQYwqqO0EnCX83hbY61DKO9JC1g4x] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:39:08][1UtIrQy7eRjRcQ4VRB2Fgwaf2zdi3kqx] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-09-25 10:39:08][1UtIrQy7eRjRcQ4VRB2Fgwaf2zdi3kqx] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-10-27 00:46:15][ONfg1w5lXucsqYd5op1GMVJUBwovr4SR] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][ONfg1w5lXucsqYd5op1GMVJUBwovr4SR] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][BmwRpnwklD96zmBqMIUudNCiIDFQ0hjp] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][BmwRpnwklD96zmBqMIUudNCiIDFQ0hjp] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][t6hp0X2VIGQvV9YBbYE76P8SRZ3sfTTJ] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][t6hp0X2VIGQvV9YBbYE76P8SRZ3sfTTJ] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][wNZMHLkz8iF03Fy0cYeAPU3XUJxvLYDh] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][wNZMHLkz8iF03Fy0cYeAPU3XUJxvLYDh] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][4KVe42eR4oyw9toTM6Ryzq5BnEDaMSuP] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][4KVe42eR4oyw9toTM6Ryzq5BnEDaMSuP] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:16][V7ytStgtyfgK4jS3aqsUjruC9zUn2Xp7] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][V7ytStgtyfgK4jS3aqsUjruC9zUn2Xp7] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][YOwMZuWagi4RM0Pudy8ySHEBA1JVLb2k] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][YOwMZuWagi4RM0Pudy8ySHEBA1JVLb2k] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][KizKQNjhP2Pkc5RlplGqmryxIb1Kydrp] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][KizKQNjhP2Pkc5RlplGqmryxIb1Kydrp] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][P1V8FxKrm2kdm5zNKXc1NtvP8VsC1u6W] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][P1V8FxKrm2kdm5zNKXc1NtvP8VsC1u6W] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][uHXKwMEyTdrhg7fd138bQ9rLddiIjjMT] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][uHXKwMEyTdrhg7fd138bQ9rLddiIjjMT] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][6gTeLH01HtSADgaXeHf925QYZxQdVaz4] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][6gTeLH01HtSADgaXeHf925QYZxQdVaz4] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][muohKWtPizl9bCHJgXlKGqebQ7EFLHhF] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][muohKWtPizl9bCHJgXlKGqebQ7EFLHhF] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][gpRzYKsWSOcIDBcY2xv3SyP6PW8IuWpn] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-10-27 00:46:17][gpRzYKsWSOcIDBcY2xv3SyP6PW8IuWpn] Processed:  App\Jobs\CrmCopyMainGroupJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  unlink(/home/php/storage/logs/lumen-2024-11-04.log): No such file or directory in /home/php/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php on line 172
+
+Warning: unlink(/home/php/storage/logs/lumen-2024-11-04.log): No such file or directory in /home/php/vendor/monolog/monolog/src/Monolog/Handler/RotatingFileHandler.php on line 172
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-11-20 13:31:37][Q2SfLQBwu5YwgfdhQ2MgSM8rLQL25rll] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:39][Q2SfLQBwu5YwgfdhQ2MgSM8rLQL25rll] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:39][vYLl6JEazkn3vPDtyzG0QQphhxZDH1vK] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][vYLl6JEazkn3vPDtyzG0QQphhxZDH1vK] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][N36kdRIbAcogpjtPTjtaDZDaZU7E6HsJ] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][N36kdRIbAcogpjtPTjtaDZDaZU7E6HsJ] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][3KAPbGa8ATrUnJR8HETAORoALysWT2K1] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][3KAPbGa8ATrUnJR8HETAORoALysWT2K1] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][BlOl6MKPc5iXraUWOPwS9q9ecMnwOTY1] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][BlOl6MKPc5iXraUWOPwS9q9ecMnwOTY1] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:42][2w5fsasooYS6StoNwkamLxWZyos1bZ00] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][2w5fsasooYS6StoNwkamLxWZyos1bZ00] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][5pu9W3dbZSvPROe3f2vccNrKWgkcIB0s] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][5pu9W3dbZSvPROe3f2vccNrKWgkcIB0s] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][GllMwgY4Nz9QJa930OqcGhbZMDD4gvFN] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][GllMwgY4Nz9QJa930OqcGhbZMDD4gvFN] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][CesVgal0cTyFQ7Ec3VmeYefXTo9f9wE6] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][CesVgal0cTyFQ7Ec3VmeYefXTo9f9wE6] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][xpCUGkE1KNUfF2jvqhwCm4Vvo24jKm0d] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][xpCUGkE1KNUfF2jvqhwCm4Vvo24jKm0d] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][EcrpVuXfaYGiSwlO1Wh4o6s22gNSnM9F] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][EcrpVuXfaYGiSwlO1Wh4o6s22gNSnM9F] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][ohiEaXYUwAGwmusLOEjj8Zk3bIxoY6gr] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][ohiEaXYUwAGwmusLOEjj8Zk3bIxoY6gr] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:43][HefpNsccLrOEpwiXcamPeqz3k6rz3Ndh] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-20 13:31:44][HefpNsccLrOEpwiXcamPeqz3k6rz3Ndh] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-21 10:05:30][eASUiMGuDFgcc2mbPIxkKdZTd142nomQ] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-21 10:05:30][eASUiMGuDFgcc2mbPIxkKdZTd142nomQ] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-21 10:05:39][6t274hQxDi4kwCIxQzrD5WUV06JJsZOH] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-21 10:05:39][6t274hQxDi4kwCIxQzrD5WUV06JJsZOH] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-21 10:07:06][9Jbqou1LPR19w7WeUS5m7czNTXqHhMlq] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-21 10:07:06][9Jbqou1LPR19w7WeUS5m7czNTXqHhMlq] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-11-27 13:07:05][PTisUJLsTmXkVGndRADl8aJcyytaa3fO] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-27 13:07:05][PTisUJLsTmXkVGndRADl8aJcyytaa3fO] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-11-27 13:07:20][gijLOmoTClqFW1az069pyvIVvlt7TKPc] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-11-27 13:07:20][gijLOmoTClqFW1az069pyvIVvlt7TKPc] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-12-02 08:36:37][1UTcUZ1jlDZeWMrEIVYLZ5dbo6qwoOBH] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-02 08:36:38][1UTcUZ1jlDZeWMrEIVYLZ5dbo6qwoOBH] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-02 08:36:47][I5z01COnICr04WPLLnGLLTPUiz8MRfDj] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-02 08:36:47][I5z01COnICr04WPLLnGLLTPUiz8MRfDj] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-02 08:37:59][6VBbx2V9Y1DJOf8RlKd3Lg2SAjDmcDhc] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-02 08:37:59][6VBbx2V9Y1DJOf8RlKd3Lg2SAjDmcDhc] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-02 08:56:34][jCJaNksYOf07w3bkIbwWDPjqoB89fvea] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-02 08:56:34][jCJaNksYOf07w3bkIbwWDPjqoB89fvea] Processed:  App\Jobs\CrmCopyMainGroupJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-12-11 18:27:48][X47NzEXlFveb2kQCfKMZlOuWCuY3judF] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-11 18:27:49][X47NzEXlFveb2kQCfKMZlOuWCuY3judF] Processed:  App\Jobs\CrmCopyMainGroupJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-12-23 09:32:40][CmXtkKjaekZKkoUtLyYzGWzBudGoUpY9] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-23 09:32:40][CmXtkKjaekZKkoUtLyYzGWzBudGoUpY9] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-24 11:41:22][eiytH47RDbFIsasLMzQmBJ5bloqmqN1J] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-24 11:41:22][eiytH47RDbFIsasLMzQmBJ5bloqmqN1J] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-12-30 09:38:49][xMT4hhW8SI1vdowFximn9Ncdy4S87ArO] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-30 09:38:49][xMT4hhW8SI1vdowFximn9Ncdy4S87ArO] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:06:58][r9hh7VfAJ4uZDhGdIR8AeWvHSocNar1F] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:06:58][r9hh7VfAJ4uZDhGdIR8AeWvHSocNar1F] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:16][K2nOMPanEIEjc46ifQlPg9feipPiBy4t] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:17][K2nOMPanEIEjc46ifQlPg9feipPiBy4t] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:32][FO6Vy0SpcQ7PgIvijq8H3ADvTSGutaZt] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:32][FO6Vy0SpcQ7PgIvijq8H3ADvTSGutaZt] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:41][utC6SpJYdxFl8evrR47RIDr6TqfBf5D8] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:41][utC6SpJYdxFl8evrR47RIDr6TqfBf5D8] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:53][9RC08OMBjrN0Z5riFiP4WdzzI7mTzE8V] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:07:53][9RC08OMBjrN0Z5riFiP4WdzzI7mTzE8V] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:08:05][gABgkLEnvV5Y8ggyI5tnb5lnk22LFjxX] Processing: App\Jobs\CrmCopyMainGroupJob
+[2024-12-31 11:08:05][gABgkLEnvV5Y8ggyI5tnb5lnk22LFjxX] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-02 08:15:23][tJgAPvBb7GXcIOGFyQ1V7g6ApiHdVxeL] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-02 08:15:23][tJgAPvBb7GXcIOGFyQ1V7g6ApiHdVxeL] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:03:17][DUYmUmKV0wMDW2uyeHb5vG8LEpxHyLBe] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:03:20][DUYmUmKV0wMDW2uyeHb5vG8LEpxHyLBe] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:03:50][UwQrxAB3VNQqYeKiRUQ6InmYQJZiW0GL] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:03:50][UwQrxAB3VNQqYeKiRUQ6InmYQJZiW0GL] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:02][xhyW3U9m5LXhLTBLK4JMRuTLo5sdjBr6] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:02][xhyW3U9m5LXhLTBLK4JMRuTLo5sdjBr6] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:11][mKWE4se5QKZRI2xzv05ylBJ40wwl4jxk] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:12][mKWE4se5QKZRI2xzv05ylBJ40wwl4jxk] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:24][MEhcGoZa5xgpwbd9f16FXqKpfFna7YMG] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:24][MEhcGoZa5xgpwbd9f16FXqKpfFna7YMG] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:39][ngmP9fkOSoYCECzRzB7JuQhBNI4BEKhE] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:39][ngmP9fkOSoYCECzRzB7JuQhBNI4BEKhE] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:51][RvY4mBzsfrJovk3jC5ncFi6rigkhVsFs] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:04:52][RvY4mBzsfrJovk3jC5ncFi6rigkhVsFs] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:01][xNG2N8RU0vSEDdqUPMMr5Y36Pn9eYPqh] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:01][xNG2N8RU0vSEDdqUPMMr5Y36Pn9eYPqh] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:22][xrK14LKM6sfo1KMk7EYPUIJGzAwaz5vb] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:23][xrK14LKM6sfo1KMk7EYPUIJGzAwaz5vb] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:38][qQOGQS6ol8wpBlPPEJmEAWLzQgDigPIU] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:39][qQOGQS6ol8wpBlPPEJmEAWLzQgDigPIU] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:48][YskltInqmUqDzrlE3wLm9kEnzWD5QGwj] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:48][YskltInqmUqDzrlE3wLm9kEnzWD5QGwj] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:57][9S0xTPhFdNWhxDotN81sNAInEpTz2acC] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:05:58][9S0xTPhFdNWhxDotN81sNAInEpTz2acC] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:06:07][4ark4QMEpiSsuHrr2BGylDe107o7HWCu] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-11 18:06:08][4ark4QMEpiSsuHrr2BGylDe107o7HWCu] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-16 09:19:41][xDypQhkH8JcZnA6FA5qRSJyNtKJrjrMK] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-16 09:19:41][xDypQhkH8JcZnA6FA5qRSJyNtKJrjrMK] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-20 14:20:11][k4sPhmCqTE13aR4pcJsq4JBqF9ACpkDk] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-20 14:21:25][k4sPhmCqTE13aR4pcJsq4JBqF9ACpkDk] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-20 14:47:32][fKfIRBpP3253eI5xRCv2BelqWo0kGyy0] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-20 14:51:11][fKfIRBpP3253eI5xRCv2BelqWo0kGyy0] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-28 18:36:11][9aBd6PjSjTn6OayArOHiQ4INi8fdvXuC] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-28 18:36:11][9aBd6PjSjTn6OayArOHiQ4INi8fdvXuC] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-28 18:37:14][hB9ckRIHlyRATfXCj5wV7FprJ2GXE1ps] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-28 18:37:15][hB9ckRIHlyRATfXCj5wV7FprJ2GXE1ps] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:32:43][vMFXV8MiUWKBAmvOz23qAUloxlUyEWfW] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:32:43][vMFXV8MiUWKBAmvOz23qAUloxlUyEWfW] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:11][b6Vfwjt3RhJj2vqhTxhDPeHpNwdJo1dh] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:11][b6Vfwjt3RhJj2vqhTxhDPeHpNwdJo1dh] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:26][h5tOYPeTjZldOtGa6vruclSNqFy0Kosx] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:26][h5tOYPeTjZldOtGa6vruclSNqFy0Kosx] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:38][L9Yd3uJXBajwwC3QKXrr9Hz3MjFKH3Cd] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:38][L9Yd3uJXBajwwC3QKXrr9Hz3MjFKH3Cd] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:50][qOa7YpM7H3IvMNqUvMLAoTVESutIcjlC] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:33:50][qOa7YpM7H3IvMNqUvMLAoTVESutIcjlC] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:34:02][Bjx9UH7MpjV3rVyuXsY15HMSUDDzfK95] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:34:03][Bjx9UH7MpjV3rVyuXsY15HMSUDDzfK95] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:34:27][g2czSHaIRIDCsRbSEI1RZAazp8DhpGjy] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:34:27][g2czSHaIRIDCsRbSEI1RZAazp8DhpGjy] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:34:45][9uG3hy6Lio1SWw1rHxTyGWDq6XYM271F] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:34:45][9uG3hy6Lio1SWw1rHxTyGWDq6XYM271F] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:00][NJ0qACwxEFv2Pz84fflCVpOwRjYbTuTs] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:00][NJ0qACwxEFv2Pz84fflCVpOwRjYbTuTs] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:12][ChDHtwl5v0MjgOTcZRhX4nJHeQZcP0pP] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:12][ChDHtwl5v0MjgOTcZRhX4nJHeQZcP0pP] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:21][Ri6jd2wMITGWydMwy6b1V5MUQpT5TCvM] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:21][Ri6jd2wMITGWydMwy6b1V5MUQpT5TCvM] Processed:  App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:30][bCJZoNMte2nEsUj7deGAQEpKM2RLpgIA] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-01-29 10:35:30][bCJZoNMte2nEsUj7deGAQEpKM2RLpgIA] Processed:  App\Jobs\CrmCopyMainGroupJob
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                   
+  Connection lost  
+                   
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 91:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-02-20 08:48:34][R4EqRPWctJuiccK9a4DT2cesdXu04RHO] Processing: App\Jobs\CrmCopyMainGroupJob
+[2025-02-20 08:48:34][R4EqRPWctJuiccK9a4DT2cesdXu04RHO] Processed:  App\Jobs\CrmCopyMainGroupJob

@@ -1,0 +1,26 @@
+#!/bin/sh
+rm -rf storage/app/public/ver.txt
+touch storage/app/public/ver.txt
+printf "start pull " > storage/app/public/ver.txt
+cd /home/php/ && cp .env.dev .env
+printf "give storage 777 " > storage/app/public/ver.txt
+cd /home/php/ &&  chmod 777 -R storage
+#sudo chown www-data:www-data -R /home/php/storage
+printf "composer update stage " > storage/app/public/ver.txt
+cd /home/php/ &&  php composer.phar update --optimize-autoloader --no-dev
+cd /home/php/ &&  rm -rf public/storage
+ln -s /home/php/storage/app/public /home/php/public/storage
+printf "migration and seeds " > storage/app/public/ver.txt
+cd /home/php/ && php artisan migrate --force --seed
+printf "prod last update file is $(date)" > storage/app/public/ver.txt
+supervisorctl restart all
+cd /home/php/ &&   php artisan cache:clear
+#cd /home/php/ &&   php artisan account-packages:cache
+echo "ok done"
+to="eslam@php-eg.com"
+to2="same7soliman.m@gmail.com"
+from="support@4jawaly.com"
+subject="4jawaly api has been uploaded Dev"
+body="4jawaly  api has been uploaded just published. Dev"
+swaks --to "$to" --from "$from" --header "Subject: $subject" --body "$body" --server 5-79-107-171.cprapid.com --port 587 --tls --auth LOGIN --auth-user "mail@noreply.4jawaly.com" --auth-password "nB7wNgR5G7IoycRoN8"
+swaks --to "$to2" --from "$from" --header "Subject: $subject" --body "$body" --server 5-79-107-171.cprapid.com --port 587 --tls --auth LOGIN --auth-user "mail@noreply.4jawaly.com" --auth-password "nB7wNgR5G7IoycRoN8"

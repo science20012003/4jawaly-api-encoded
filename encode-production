@@ -1,0 +1,21 @@
+#!/bin/sh
+cd /home/ && git clone git@github.com:science20012003/4jawaly-api-encoded.git 4jawaly-endcoded
+bash /home/encoder/ioncube_encoder.sh -C -x86-64 -74 /home/4jawaly/ -o /home/4jawaly-endcoded --allowed-server api-4j.4jawaly.com --allowed-server api-users.4jawaly.com   --allowed-server 192.168.1.26  --allowed-server 94.77.194.26 --allowed-server 94.77.193.14  --copy database/ --copy resources/ --ignore .git/ --ignore storage/ --merge-target
+#bash /home/encoder/ioncube_encoder.sh -C -x86-64 -74 /home/4jawaly/ -o /home/4jawaly-endcoded --allowed-server api-4j.4jawaly.com --allowed-server 94.77.194.26 --copy database/ --copy resources/ --ignore .git/ --ignore storage/ --merge-target
+cd /home/4jawaly-endcoded && git add .
+cd /home/4jawaly-endcoded && git add -u
+cd /home/4jawaly-endcoded && git  commit -m"update files"
+cd /home/4jawaly-endcoded && git push origin main
+rm -rf /home/4jawaly-endcoded
+to="eslam@php-eg.com"
+to2="same7soliman.m@gmail.com"
+to3="fatma.ahmed@4jawaly.net"
+to4="mariam.kamal@4jawaly.com"
+from="support@4jawaly.com"
+subject="4jawaly encode main site "
+body="4jawaly main site has been encoded successfully and now we will upload it "
+
+swaks --to "$to" --from "$from" --header "Subject: $subject" --body "$body" --server 5-79-107-171.cprapid.com --port 587 --tls --auth LOGIN --auth-user "mail@noreply.4jawaly.com" --auth-password "nB7wNgR5G7IoycRoN8"
+swaks --to "$to2" --from "$from" --header "Subject: $subject" --body "$body" --server 5-79-107-171.cprapid.com --port 587 --tls --auth LOGIN --auth-user "mail@noreply.4jawaly.com" --auth-password "nB7wNgR5G7IoycRoN8"
+swaks --to "$to3" --from "$from" --header "Subject: $subject" --body "$body" --server 5-79-107-171.cprapid.com --port 587 --tls --auth LOGIN --auth-user "mail@noreply.4jawaly.com" --auth-password "nB7wNgR5G7IoycRoN8"
+swaks --to "$to4" --from "$from" --header "Subject: $subject" --body "$body" --server 5-79-107-171.cprapid.com --port 587 --tls --auth LOGIN --auth-user "mail@noreply.4jawaly.com" --auth-password "nB7wNgR5G7IoycRoN8"

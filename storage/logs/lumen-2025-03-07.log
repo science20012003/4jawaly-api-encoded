@@ -1,0 +1,1393 @@
+[2025-03-07 04:11:44] production.ERROR: Undefined index: userid {"exception":"[object] (ErrorException(code: 0): Undefined index: userid at /home/php/app/Events/CreateShortenerAccountEvent.php:60)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(60): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#2 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#3 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#4 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#5 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#6 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#10 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#11 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#12 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#14 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#17 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#18 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#19 {main}
+"} 
+[2025-03-07 11:40:12] production.ERROR: cURL error 6: Could not resolve host: rwazen.odoo.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rwazen.odoo.com/web/dataset/call_kw {"exception":"[object] (Illuminate\\Http\\Client\\ConnectionException(code: 0): cURL error 6: Could not resolve host: rwazen.odoo.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rwazen.odoo.com/web/dataset/call_kw at /home/php/vendor/illuminate/http/Client/PendingRequest.php:568)
+[stacktrace]
+#0 /home/php/vendor/illuminate/support/helpers.php(404): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}()
+#1 /home/php/vendor/illuminate/http/Client/PendingRequest.php(570): retry()
+#2 /home/php/vendor/illuminate/http/Client/PendingRequest.php(474): Illuminate\\Http\\Client\\PendingRequest->send()
+#3 /home/php/app/Custom/Odoo.php(178): Illuminate\\Http\\Client\\PendingRequest->post()
+#4 /home/php/app/Console/Commands/Odoo/UpdateUserCommand.php(62): App\\Custom\\Odoo->update()
+#5 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\Odoo\\UpdateUserCommand->handle()
+#6 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#10 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#11 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#12 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#14 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#17 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#18 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#19 {main}
+
+[previous exception] [object] (GuzzleHttp\\Exception\\ConnectException(code: 0): cURL error 6: Could not resolve host: rwazen.odoo.com (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://rwazen.odoo.com/web/dataset/call_kw at /home/php/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php:275)
+[stacktrace]
+#0 /home/php/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(205): GuzzleHttp\\Handler\\CurlFactory::createRejection()
+#1 /home/php/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php(157): GuzzleHttp\\Handler\\CurlFactory::finishError()
+#2 /home/php/vendor/guzzlehttp/guzzle/src/Handler/CurlHandler.php(47): GuzzleHttp\\Handler\\CurlFactory::finish()
+#3 /home/php/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(28): GuzzleHttp\\Handler\\CurlHandler->__invoke()
+#4 /home/php/vendor/guzzlehttp/guzzle/src/Handler/Proxy.php(48): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#5 newrelic/Guzzle6(1): GuzzleHttp\\Handler\\Proxy::GuzzleHttp\\Handler\\{closure}()
+#6 /home/php/vendor/illuminate/http/Client/PendingRequest.php(697): newrelic\\Guzzle6\\{closure}()
+#7 /home/php/vendor/illuminate/http/Client/PendingRequest.php(667): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}()
+#8 /home/php/vendor/illuminate/http/Client/PendingRequest.php(653): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}()
+#9 /home/php/vendor/guzzlehttp/guzzle/src/PrepareBodyMiddleware.php(64): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}()
+#10 /home/php/vendor/guzzlehttp/guzzle/src/Middleware.php(38): GuzzleHttp\\PrepareBodyMiddleware->__invoke()
+#11 /home/php/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php(71): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#12 /home/php/vendor/guzzlehttp/guzzle/src/Middleware.php(63): GuzzleHttp\\RedirectMiddleware->__invoke()
+#13 /home/php/vendor/guzzlehttp/guzzle/src/HandlerStack.php(75): GuzzleHttp\\Middleware::GuzzleHttp\\{closure}()
+#14 /home/php/vendor/guzzlehttp/guzzle/src/Client.php(333): GuzzleHttp\\HandlerStack->__invoke()
+#15 /home/php/vendor/guzzlehttp/guzzle/src/Client.php(169): GuzzleHttp\\Client->transfer()
+#16 /home/php/vendor/guzzlehttp/guzzle/src/Client.php(189): GuzzleHttp\\Client->requestAsync()
+#17 /home/php/vendor/illuminate/http/Client/PendingRequest.php(555): GuzzleHttp\\Client->request()
+#18 /home/php/vendor/illuminate/support/helpers.php(404): Illuminate\\Http\\Client\\PendingRequest->Illuminate\\Http\\Client\\{closure}()
+#19 /home/php/vendor/illuminate/http/Client/PendingRequest.php(570): retry()
+#20 /home/php/vendor/illuminate/http/Client/PendingRequest.php(474): Illuminate\\Http\\Client\\PendingRequest->send()
+#21 /home/php/app/Custom/Odoo.php(178): Illuminate\\Http\\Client\\PendingRequest->post()
+#22 /home/php/app/Console/Commands/Odoo/UpdateUserCommand.php(62): App\\Custom\\Odoo->update()
+#23 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\Odoo\\UpdateUserCommand->handle()
+#24 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#25 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#26 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#27 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#28 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#29 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#30 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#31 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#32 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#33 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#34 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#35 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#36 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#37 {main}
+"} 
+[2025-03-07 13:05:20] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A1Gcxyh3PksIvKeesWKS__W',
+  ),
+)  
+[2025-03-07 13:05:20] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AulnbpUYZL2om2MFkQNaEsU',
+  ),
+)  
+[2025-03-07 13:06:11] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Aq_Og7o4pSZtadku7E073_B',
+  ),
+)  
+[2025-03-07 13:06:11] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AMsnncfsHIuUMfq-IwGQjF7',
+  ),
+)  
+[2025-03-07 16:04:18] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AbyCocy-mZSpzOXrMbGo08H',
+  ),
+)  
+[2025-03-07 16:05:46] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Avzw0iSUMJSym5MnZ9U4uLw',
+  ),
+)  
+[2025-03-07 16:05:46] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AkBhVkr7mgiLl_v8tZMSKJ3',
+  ),
+)  
+[2025-03-07 16:05:46] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Au8hOKa7TMNJMBsRB09DnHR',
+  ),
+)  
+[2025-03-07 16:05:57] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A1hl2xskXIiv-HPeQBY2lmr',
+  ),
+)  
+[2025-03-07 16:05:57] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AsVMfiRPDvBijMt6Fi5_QwO',
+  ),
+)  
+[2025-03-07 16:05:57] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AYQqpX3iNd_JHgZfPrvakuv',
+  ),
+)  
+[2025-03-07 16:06:00] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ALKojR3rab3B70kMteiHs25',
+  ),
+)  
+[2025-03-07 16:06:02] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AJ-XHbHPCqDNYT1qGfPauTA',
+  ),
+)  
+[2025-03-07 16:06:04] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AgpoEiGzF_DxfUKtXTmFGAH',
+  ),
+)  
+[2025-03-07 16:06:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AnKDMjcLjlVvItahDuwWKZc',
+  ),
+)  
+[2025-03-07 16:06:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AtcBJNSOIRkoRgz5x7uN8Mf',
+  ),
+)  
+[2025-03-07 16:06:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AquSJ65JjipcPyMSwx2rRtZ',
+  ),
+)  
+[2025-03-07 16:06:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AUoOtx-UCJSDqW9zHk-tGMy',
+  ),
+)  
+[2025-03-07 16:06:09] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AOAIwWFwEpDob0Ase91uocp',
+  ),
+)  
+[2025-03-07 16:06:09] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AP6u0oXKlaHjoIjU8j0CLex',
+  ),
+)  
+[2025-03-07 16:06:09] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AbRukKiAl6wLrnYLY59vzzz',
+  ),
+)  
+[2025-03-07 16:06:11] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AXacMlSY7If96WD7-9xUVlu',
+  ),
+)  
+[2025-03-07 16:06:11] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AMjLtILVNtL5cGUK60-H5nl',
+  ),
+)  
+[2025-03-07 16:06:11] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A4DP1WhJJiQj2y7zs-qNaw2',
+  ),
+)  
+[2025-03-07 16:06:13] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AOtfN1monqdT6pqcyxr3ob2',
+  ),
+)  
+[2025-03-07 16:06:15] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Apz3o29RuP9jHJ2c2iO3LrG',
+  ),
+)  
+[2025-03-07 16:06:15] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Azadz4k_wHgxsPvqu-oKtAQ',
+  ),
+)  
+[2025-03-07 16:06:48] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A9K1IFL83rqEe_MtcYsivz-',
+  ),
+)  
+[2025-03-07 16:06:52] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AgYjuVeA1pg25fwaRKN-YN0',
+  ),
+)  
+[2025-03-07 16:06:54] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AsF6v4kjVOQC19cQIRLrtmE',
+  ),
+)  
+[2025-03-07 16:06:56] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ASS5DH8XS1JMp2adLdLdOuq',
+  ),
+)  
+[2025-03-07 16:06:56] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AtUut3_b5djf5U2pYaEiPm2',
+  ),
+)  
+[2025-03-07 16:06:56] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AV97frOtWq_pEj992ZFqo0Q',
+  ),
+)  
+[2025-03-07 16:07:01] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AjQlQs7CHuGAblzlC892Izz',
+  ),
+)  
+[2025-03-07 16:07:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AsisCx9rDYXgkWdtR4YWEvk',
+  ),
+)  
+[2025-03-07 16:07:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AOYoiHyhdktIQFN5RVLhNI6',
+  ),
+)  
+[2025-03-07 16:07:46] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A2NS2KLGaRCNhSmijgRXCzq',
+  ),
+)  
+[2025-03-07 16:07:50] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AMQ_vGsx0S9Iqy63-l5NXYL',
+  ),
+)  
+[2025-03-07 16:07:55] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AThJ1jk4_zXolDpqVkVA56L',
+  ),
+)  
+[2025-03-07 16:07:55] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AHtyvzfHK0YlHlk42MaGAKL',
+  ),
+)  
+[2025-03-07 16:07:55] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A_mHKuqcmK-mPPXBFGLYu-h',
+  ),
+)  
+[2025-03-07 16:07:57] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A-Bx1G6v3MD4lHOdQYjgH2A',
+  ),
+)  
+[2025-03-07 16:07:57] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AFQg_V6BKMN_AK5152HyTw-',
+  ),
+)  
+[2025-03-07 16:08:00] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A0B3rmtih_xyx0dCEvIt5IQ',
+  ),
+)  
+[2025-03-07 16:08:03] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ATGF2yj-tooUrbEfdpn1fyO',
+  ),
+)  
+[2025-03-07 16:08:44] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ACOAnkywAxfzxg37GOe05wr',
+  ),
+)  
+[2025-03-07 16:08:44] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AvCpuGpsNhBd-AxbevLPHmB',
+  ),
+)  
+[2025-03-07 16:08:51] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A5jNPYL0VROVKgn5HnBfYH4',
+  ),
+)  
+[2025-03-07 16:08:51] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AZPdFdKtL_w0_pceo20qvvx',
+  ),
+)  
+[2025-03-07 16:08:53] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AQn8cfifkVBtQjXug2IvlOm',
+  ),
+)  
+[2025-03-07 16:08:58] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AK1463VHPT4F6EobOBQO8R1',
+  ),
+)  
+[2025-03-07 16:09:00] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A7PMYSrmsxn_vQYcEzecfgu',
+  ),
+)  
+[2025-03-07 16:09:00] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AI5fRoZy6JvmvK8fw9FxlZo',
+  ),
+)  
+[2025-03-07 16:09:08] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A7zJkB8ktgwcFGX8bWCzDDl',
+  ),
+)  
+[2025-03-07 16:09:47] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AO3TqfbliQOFq5Cy9fzuML3',
+  ),
+)  
+[2025-03-07 16:09:47] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Abe08_II1kulrXvjSviPPnl',
+  ),
+)  
+[2025-03-07 16:09:52] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AZr6K3qflspit9E5O-WVI9l',
+  ),
+)  
+[2025-03-07 16:09:58] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AOnyQNpJwt6p9GxGuCqde91',
+  ),
+)  
+[2025-03-07 16:10:47] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A4NwMxzBjTMpy-NUfYQb6iv',
+  ),
+)  
+[2025-03-07 16:10:47] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AhNngN5hrCPvThyfEEARGKM',
+  ),
+)  
+[2025-03-07 16:10:47] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AqM8RiWCFIws2W374hA9sDy',
+  ),
+)  
+[2025-03-07 16:10:49] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ACZj14OR_IKRJrz5_XLfKuo',
+  ),
+)  
+[2025-03-07 16:10:49] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ADGWiA6pOJG6m4Gn-oFocsb',
+  ),
+)  
+[2025-03-07 16:10:54] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'An8PCjqYBQ-RKHgkagBnMhx',
+  ),
+)  
+[2025-03-07 16:11:02] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A8lVUMQubPunAmTKQnM7edi',
+  ),
+)  
+[2025-03-07 16:11:02] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A4eCXulopUZRaiaIAD9LZeW',
+  ),
+)  
+[2025-03-07 16:11:04] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A3XmDtaguigCVi-vy4Djwv0',
+  ),
+)  
+[2025-03-07 16:11:06] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AnqYZGNw1lWmCB_8TWlUa4W',
+  ),
+)  
+[2025-03-07 16:11:06] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Ax6az0C1TXZyJ5qgoleVJd2',
+  ),
+)  
+[2025-03-07 16:11:08] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AvmQC-aeZ2CJNEhYuLI4hMr',
+  ),
+)  
+[2025-03-07 16:11:47] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AyAUnZq4IbDXoTft5A5-Oop',
+  ),
+)  
+[2025-03-07 16:11:49] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AlnqZWDDnhINO8WdObjz19U',
+  ),
+)  
+[2025-03-07 16:11:54] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AmWUB-1WQPD2Mdzo6PYweQl',
+  ),
+)  
+[2025-03-07 16:12:03] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A77ar29PWWt_R7UubtBfFux',
+  ),
+)  
+[2025-03-07 16:12:08] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AshHZoz659w3zdq7xQm9SbQ',
+  ),
+)  
+[2025-03-07 16:12:08] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AVmYp1JWf95gRnW_u648usZ',
+  ),
+)  
+[2025-03-07 16:12:51] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ANRenRUb2WY6d9Vx_FdINmE',
+  ),
+)  
+[2025-03-07 16:12:53] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A-6eXM_8I55Q41L2pOkORyl',
+  ),
+)  
+[2025-03-07 16:12:53] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AZlVnQmm_3Ff3FoXyMq4_yR',
+  ),
+)  
+[2025-03-07 16:12:58] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AzDGFJid_-6bYhLIGcD-3pc',
+  ),
+)  
+[2025-03-07 16:13:03] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AA4esFNWkBhZR9hn1p0Haly',
+  ),
+)  
+[2025-03-07 16:13:05] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ABHYW_GaB6y5YhaopiPIyDr',
+  ),
+)  
+[2025-03-07 16:13:05] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AQeR3z8IF3xW_cF_0TZbzWB',
+  ),
+)  
+[2025-03-07 16:13:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AkdZQmFvfLSAtH8cIUOawSD',
+  ),
+)  
+[2025-03-07 16:13:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AAsmRByKKMUe_0hGdpKx0mO',
+  ),
+)  
+[2025-03-07 16:13:17] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AVfp3MVU6heDpj6Ny_g7-1r',
+  ),
+)  
+[2025-03-07 16:13:19] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AM_kDZl4GGECO2NnMc99AX8',
+  ),
+)  
+[2025-03-07 16:13:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AQf_Pv4fnQB4d8sl15e3Hn_',
+  ),
+)  
+[2025-03-07 16:13:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AggoseVagwzSHKFItXDWIjv',
+  ),
+)  
+[2025-03-07 16:13:23] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AbNgyH0_fV9ZqQ2JeKPcy8Y',
+  ),
+)  
+[2025-03-07 16:13:23] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A13QAYi82PtWK3hMmAO86Hc',
+  ),
+)  
+[2025-03-07 17:15:44] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AmaBdCHGixXQ3wMAMmHgwBX',
+  ),
+)  
+[2025-03-07 18:05:34] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'APIAL0iSNr1md1vZKQTTKzk',
+  ),
+)  

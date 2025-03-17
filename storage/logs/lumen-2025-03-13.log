@@ -1,0 +1,145 @@
+[2025-03-13 00:31:12] production.DEBUG: Odoo -> postPayment -> Success! {"id":119344} 
+[2025-03-13 04:10:36] production.ERROR: Failed to create user. {"exception":"[object] (Exception(code: 0): Failed to create user. at /home/php/app/Events/CreateShortenerAccountEvent.php:64)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#1 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#2 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#3 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#4 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#5 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#9 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#10 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#11 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#12 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#14 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#15 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#16 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#17 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#18 {main}
+"} 
+[2025-03-13 09:45:02] production.DEBUG: Odoo -> postPayment -> Success! {"id":119348} 
+[2025-03-13 09:47:52] production.DEBUG: Odoo -> postPayment -> Success! {"id":119350} 
+[2025-03-13 09:52:45] production.DEBUG: Odoo -> postPayment -> Success! {"id":119352} 
+[2025-03-13 10:02:12] production.DEBUG: Odoo -> postPayment -> Success! {"id":119354} 
+[2025-03-13 12:22:34] production.DEBUG: Odoo -> postPayment -> Success! {"id":119383} 
+[2025-03-13 13:14:37] production.DEBUG: Odoo -> postPayment -> Success! {"id":119457} 
+[2025-03-13 13:34:14] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'body: Parameter at index 0 exceeds the parameter length limit 15',
+    ),
+    'fbtrace_id' => 'Aj0EoyZMaAEPL837aBe-k3V',
+  ),
+)  
+[2025-03-13 13:34:42] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'body: Parameter at index 0 exceeds the parameter length limit 15',
+    ),
+    'fbtrace_id' => 'ADJ423_JurNeKdX-38cryNO',
+  ),
+)  
+[2025-03-13 14:20:17] production.DEBUG: Odoo -> postPayment -> Success! {"id":119472} 
+[2025-03-13 14:22:05] production.DEBUG: Odoo -> postPayment -> Success! {"id":119474} 
+[2025-03-13 14:53:37] production.DEBUG: Odoo -> postPayment -> Success! {"id":119491} 
+[2025-03-13 14:56:02] production.DEBUG: Odoo -> postPayment -> Success! {"id":119493} 
+[2025-03-13 14:57:42] production.DEBUG: Odoo -> postPayment -> Success! {"id":119495} 
+[2025-03-13 15:08:04] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 119498 The amount must be Exceed than Zero.  
+[2025-03-13 16:31:21] production.DEBUG: Odoo -> postPayment -> Success! {"id":119532} 
+[2025-03-13 16:32:41] production.DEBUG: Odoo -> postPayment -> Success! {"id":119534} 
+[2025-03-13 19:41:38] production.DEBUG: Odoo -> postPayment -> Success! {"id":119536} 
+[2025-03-13 22:11:53] production.DEBUG: Odoo -> postPayment -> Success! {"id":119541} 
+[2025-03-13 22:47:01] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AasfthsWmp7hDjHyHGY6FVL',
+  ),
+)  
+[2025-03-13 22:47:01] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'An4-xHHL-vzH15DADLn7jp3',
+  ),
+)  
+[2025-03-13 22:47:01] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'ADErXoEUhFuiAmY1CEwri7c',
+  ),
+)  
+[2025-03-13 22:47:01] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'ANzlLSEkM3jcuL16Zi6W6Q8',
+  ),
+)  
+[2025-03-13 22:47:01] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A4-yIH09DMxO20u15Fde4T9',
+  ),
+)  
+[2025-03-13 23:12:23] production.DEBUG: Odoo -> postPayment -> Success! {"id":119543} 
+[2025-03-13 23:18:30] production.DEBUG: Odoo -> postPayment -> Success! {"id":119545} 
+[2025-03-13 23:46:58] production.DEBUG: Odoo -> postPayment -> Success! {"id":119547} 

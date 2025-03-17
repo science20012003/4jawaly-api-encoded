@@ -1,0 +1,1926 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Sheet 1</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--><meta http-equiv="content-type" content="text/plain; charset=UTF-8"/></head><body><table>
+	<thead>
+	<tr>
+		<th width="80">رقم القيد</th>
+		<th>الحساب / بيان العملية</th>
+		<th>مركز التكلفة</th>
+		<th width="120">مدين</th>
+		<th width="120">دائن</th>
+		<th width="120">الرصيد لكل حركة</th>
+		<th width="120">تاريخ القيد</th>
+		<th width="120">رقم المستند</th>
+	</tr>
+	</thead>
+			<tbody><tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3 - التبرعات والإيرادات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">334,611.44</td>
+			<td data-label="دائن" column-label="دائن">(334,611.44)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31 - التبرعات والايرادات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">334,611.44</td>
+			<td data-label="دائن" column-label="دائن">(334,611.44)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>311 - التبرعات وإلإيرادات المقيدة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">104,497.44</td>
+			<td data-label="دائن" column-label="دائن">(104,497.44)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31101 - الزكاة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31101001 - الزكاة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102 - تبرعات وهبات مقيدة - نقدية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">21,997.44</td>
+			<td data-label="دائن" column-label="دائن">(21,997.44)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102001 - تبرعات وهبات مقيدة نقدية - كفالات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102002 - تبرعات وهبات مقيدة نقدية -  مساعدات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102003 - تبرعات وهبات مقيدة نقدية - برامج موسمية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102004 - تبرعات وهبات مقيدة نقدية - السلة الغذائية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102005 - تبرعات وهبات مقيدة نقدية - دعم أسرة محتاجة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102006 - تبرعات وهبات مقيدة نقدية - دعم دور تحفيظ القران النسائي</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">14,997.44</td>
+			<td data-label="دائن" column-label="دائن">(14,997.44)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3110200601 - مكافآت معلمات دور التحفيظ النسائي بدعم من الشيخ اسماعيل القاسم</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">8,000.00</td>
+			<td data-label="دائن" column-label="دائن">(8,000.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">12</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">تبرعات الشيخ اسماعيل القاسم لدعم معلمات الدور</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">8,000.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(8,000.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3110200602 - مكافآت معلمات دور التحفيظ النسائي بدعم من منصة تبرع</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">6,997.44</td>
+			<td data-label="دائن" column-label="دائن">(6,997.44)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">13</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">دعم لمعلمات الدور بدعم من منصة تبرع</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">3,003.84</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(3,003.84)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">13</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">دعم لمعلمات الدور بدعم من منصة تبرع</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">3,993.60</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(6,997.44)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102007 - تبرعات وهبات مقيدة نقدية - إعانات زواج</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31102008 - تبرعات وهبات مقيدة نقدية - تبرعات معلمين حلقات القرآن الرجالي</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">7,000.00</td>
+			<td data-label="دائن" column-label="دائن">(7,000.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3110200801 - مكافآت معلمين حلقات القرآن الرجالي بدعم من مؤسسة وقف مبرة الوالدين</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">7,000.00</td>
+			<td data-label="دائن" column-label="دائن">(7,000.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">13</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">دعم لمعلمي حلقة المقدم بدعم من وقف مبرة الوالدين</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">7,000.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(7,000.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103 - تبرعات وهبات مقيدة - عينية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">82,500.00</td>
+			<td data-label="دائن" column-label="دائن">(82,500.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103001 - زكاة - عينية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103002 - تبرعات عينية - أيتام </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103003 - تبرعات عينية - أسر محتاجة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103004 - تبرعات عينية - دور نسائية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103005 - تبرعات عينية - اندية شبابية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103006 - تبرعات عينية - مساعدات زواج </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103007 - تبرعات عينية - ادوية طبية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103008 - تبرعات عينية - زكاة فطر</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31103009 - تبرعات عينية - ..............</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">82,500.00</td>
+			<td data-label="دائن" column-label="دائن">(82,500.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3110300901 - تبرعات عينية - حلقات تحفيظ القرآن الكريم بالحكامية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">82,500.00</td>
+			<td data-label="دائن" column-label="دائن">(82,500.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">15</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">تبرع عيني 500 تمر - 500 كرتون ماء لتوزيعها علي حلقات تحفيظ القرآن الكريم بالحكامية</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">82,500.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(82,500.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31104 - تبرعات وهبات  مقيدة - خدمات تطوعية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31104001 - تبرعات خدمات تطوعية - (  إسم النشاط  ) </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31104002 - تبرعات خدمات تطوعية - ساعات استشارية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31104003 - تبرعات خدمات تطوعية - عيادات طبية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31104004 - تبرعات خدمات تطوعية - تدريب وتأهيل </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31104005 - تبرعات خدمات تطوعية - ...............</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105 - تبرعات وهبات  مقيدة - المنح  الحكومي </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105001 - المنح الحكومي - تأسيس</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3110500101 - منحة الدعم التأسيسي</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105002 - المنح الحكومي - دعم التشغيل </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105003 - المنح الحكومي - التميز المؤسسي </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105004 - المنح الحكومي - الاستدامة المالية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105005 - المنح الحكومي - دعم القطاع </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105006 - المنح الحكومي - الدعم الاجتماعي </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105007 - المنح الحكومي - التدريب والتعليم </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105008 - المنح الحكومي - مشروعات المرافق</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105009 - المنح الحكومي - البحوث والمؤازرة</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31105010 - المنح الحكومي - المنتجات المالية والتمويلية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31106 - ايرادات مقيدة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31106001 - ارباح استثمارات مخصصة للبرامج والانشطة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31106002 - مبيعات سلع وخدمات مخصصة للبرامج والانشطة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31106003 - رسوم برامج وأنشطة مخصصة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>312 - ايرادات وتبرعات غير مقيدة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">230,114.00</td>
+			<td data-label="دائن" column-label="دائن">(230,114.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31201 - تبرعات  وهبات غير مقيدة - نقدية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">181,014.00</td>
+			<td data-label="دائن" column-label="دائن">(181,014.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31201001 - التبرع العام </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">181,014.00</td>
+			<td data-label="دائن" column-label="دائن">(181,014.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3120100101 - تبرعات عامة</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">14.00</td>
+			<td data-label="دائن" column-label="دائن">(14.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">12</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">تبرع عام من علي محمد حكمي</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">7.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(7.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">13</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">تبرع عام من علي محمد حكمي</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">7.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(14.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3120100102 - دعم جمعية تحفيظ القرآن بمنطقة جازان</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">150,000.00</td>
+			<td data-label="دائن" column-label="دائن">(150,000.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">12</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">دعم جمعية تحفيظ القران بجازان</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">100,000.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(100,000.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">13</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">دعم جمعية تحفيظ القران بجازان</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">50,000.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(150,000.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3120100103 - تبرعات الشيخ اسماعيل محمد عبدالرحمن القاسم</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">31,000.00</td>
+			<td data-label="دائن" column-label="دائن">(31,000.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">12</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">تبرع عام من الشيخ اسماعيل القاسم لمصاريف الجمعية التشغيلية</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">31,000.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(31,000.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31201002 - الاستقطاعات ( الأوامر المستديمة )</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31201003 - .................</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31202 - تبرعات وهبات غير مقيدة - عينية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">48,000.00</td>
+			<td data-label="دائن" column-label="دائن">(48,000.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31202001 - تبرعات وهبات غير مقيدة - عينية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">48,000.00</td>
+			<td data-label="دائن" column-label="دائن">(48,000.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3120200101 - تبرع عيني - إيجار مقر الجمعية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">4,500.00</td>
+			<td data-label="دائن" column-label="دائن">(4,500.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">15</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">تبرع عيني من جمعية البر بالحكامية - إيجار مقر الجمعية</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">4,500.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(4,500.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3120200102 - تبرعات وهبات غير مقيدة عينية - تبرع أصول ثابتة</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">43,500.00</td>
+			<td data-label="دائن" column-label="دائن">(43,500.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">7</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">تبرع من جمعية ارتقاء 15 جهاز كمبيوتر مكتبي - 3 جهاز حاسب آلي محمول</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">43,500.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(43,500.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">20-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31203 - تبرعات وهبات غير مقيدة - خدمات تطوعية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31203001 - تبرعات وهبات غير مقيدة - خدمات تطوعية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31204 - تبرعات تخفيض التزام ( خصم ممنوح )</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31204001 - تبرعات تخفيض التزام ( خصم ممنوح )</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205 - ايرادات غير مقيدة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">1,100.00</td>
+			<td data-label="دائن" column-label="دائن">(1,100.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205001 - الاشتراكات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">1,100.00</td>
+			<td data-label="دائن" column-label="دائن">(1,100.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>3120500101 - رسوم اشتراك عضوية الجمعية العمومية</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">1,100.00</td>
+			<td data-label="دائن" column-label="دائن">(1,100.00)</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+				<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد">12</td>
+			<td data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية">رسوم اشتراك عضوية الجمعية العمومية</td>
+						<td data-label="مركز التكلفة" column-label="مركز التكلفة"><i class="na">غير متاح</i></td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">1,100.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة">(1,100.00)</td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد">31-12-2023</td>
+			<td data-label="رقم المستند" column-label="رقم المستند"></td>
+		</tr>		
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205002 - مبيعات السلع والخدمات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205003 - ارباح استثمارات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205004 - ارباح بيع اصول ثابته </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205005 - رسوم </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205006 - عوائد شراكات محافظ اقراضية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205007 - ايرادات تأجير </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31205008 - ايرادات دورات </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>313 - ايرادات وتبرعات اوقاف</b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31301 - تبرعات نقدية  لبناء أو شراء أوقاف </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31301001 - وقف بر الوالدين </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31301002 - وقف الخير </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31301003 - وقف -  ( اسم الوقف ) </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31302 - تبرعات عينية أوقاف </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31302001 - تبرعات عينية - وقف ... ( اسم الوقف ) </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31302002 - تبرعات عينية - وقف ... ( اسم الوقف ) </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31302003 - تبرعات عينية - لصالح وقف - ( اسم الوقف ) </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31303 - إيرادات - ريع أوقاف </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31303001 - ريع اوقاف - وقف .... </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31303002 - ريع اوقاف - وقف .... </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31304 - ارباح استثمارات وقفية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31304001 - ارباح استثمارات وقفية - وقف  </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31304002 - ارباح استثمارات وقفية - وقف  </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31304003 - ارباح استثمارات فائض الغلة </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>314 - إيرادات التحويلات واعادة التصنيف </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31401 - إيرادات التحويلات واعادة التصنيف </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31401001 - تحويلات وإعادة تصنيف  - قيود استخدام </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31401002 - تحويلات وإعادة تصنيف - قيود وقت </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31401003 - تحويلات وإعادة تصنيف - قيود استخدام ووقت </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31401004 - تحويلات وإعادة تصنيف - قيود إدارية </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+					<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><font color="red"><b>31401005 - تحويلات وإعادة تصنيف - قيود اخرى </b></font></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن">0.00</td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+		<tr>
+			<td data-label="رقم القيد" column-label="رقم القيد"></td>
+			<td colspan="2" data-label="الحساب / بيان العملية" column-label="الحساب / بيان العملية"><b>الرصيد السابق</b></td>
+			<td data-label="مركز التكلفة" column-label="مركز التكلفة">0.00</td>
+			<td data-label="مدين" column-label="مدين">0.00</td>
+			<td data-label="دائن" column-label="دائن"></td>
+			<td data-label="الرصيد لكل حركة" column-label="الرصيد لكل حركة"></td>
+			<td data-label="تاريخ القيد" column-label="تاريخ القيد"></td>
+		</tr>
+			</tbody></table></body></html>

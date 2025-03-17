@@ -1,0 +1,112 @@
+[2025-03-05 04:13:18] production.ERROR: Undefined index: userid {"exception":"[object] (ErrorException(code: 0): Undefined index: userid at /home/php/app/Events/CreateShortenerAccountEvent.php:60)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(60): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#2 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#3 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#4 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#5 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#6 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#10 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#11 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#12 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#14 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#17 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#18 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#19 {main}
+"} 
+[2025-03-05 12:08:51] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A50Mx3jwvcgjLP_7FIZO9RX',
+  ),
+)  
+[2025-03-05 12:08:51] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'ABMgWcWW72slix8YTYuAomR',
+  ),
+)  
+[2025-03-05 12:08:51] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AFyje0c5FdBnLfhOiuaETHV',
+  ),
+)  
+[2025-03-05 15:58:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#132001) Template name does not exist in the translation',
+    'type' => 'OAuthException',
+    'code' => 132001,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'template name (1) does not exist in ar',
+    ),
+    'fbtrace_id' => 'ABe7EG9wlmAZGGJjRDQMuWu',
+  ),
+)  
+[2025-03-05 19:06:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AfUGdSrXGQu6jv01GKdwr-H',
+  ),
+)  
+[2025-03-05 19:06:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'ALFVZ4M7neAg1ep5ccWssZS',
+  ),
+)  

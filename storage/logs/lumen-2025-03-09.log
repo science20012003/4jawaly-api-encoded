@@ -1,0 +1,79 @@
+[2025-03-09 04:09:07] production.ERROR: Undefined index: userid {"exception":"[object] (ErrorException(code: 0): Undefined index: userid at /home/php/app/Events/CreateShortenerAccountEvent.php:60)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(60): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#2 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#3 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#4 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#5 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#6 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#8 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#9 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#10 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#11 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#12 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#14 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#15 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#16 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#17 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#18 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#19 {main}
+"} 
+[2025-03-09 14:00:16] production.ERROR: https://api-sms.4jawaly.com/api/v1/admin/area/accounts  
+[2025-03-09 14:00:16] production.ERROR:   
+[2025-03-09 15:23:31] production.DEBUG: Odoo -> postPayment -> Success! {"id":118184} 
+[2025-03-09 16:41:12] production.DEBUG: Odoo -> postPayment -> Success! {"id":118222} 
+[2025-03-09 17:02:11] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'Aq-aRWYSvNgfu8nz4lJCmrs',
+  ),
+)  
+[2025-03-09 17:13:25] production.DEBUG: Odoo -> postPayment -> Success! {"id":118235} 
+[2025-03-09 17:14:59] production.DEBUG: Odoo -> postPayment -> Success! {"id":118236} 
+[2025-03-09 22:25:02] production.DEBUG: Odoo -> postPayment -> Success! {"id":118272} 
+[2025-03-09 22:27:57] production.DEBUG: Odoo -> postPayment -> Success! {"id":118273} 
+[2025-03-09 22:34:06] production.DEBUG: Odoo -> postPayment -> Success! {"id":118274} 
+[2025-03-09 22:47:38] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A3E0tQiLO9a-ZOlfEtwE8mM',
+  ),
+)  
+[2025-03-09 22:47:38] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AGPOCP9GvveH2PUA37Y5BTi',
+  ),
+)  
+[2025-03-09 23:33:18] production.DEBUG: Odoo -> postPayment -> Success! {"id":118282} 
+[2025-03-09 23:49:07] production.DEBUG: Odoo -> postPayment -> Success! {"id":118287} 

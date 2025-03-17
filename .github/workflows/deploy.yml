@@ -1,0 +1,31 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ master1 ]
+  pull_request:
+    branches: [ master1 ]
+
+jobs:
+  lumen-tests:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: Down  docker
+        run: docker-compose down
+      - name: Rebuild docker
+        run: docker-compose up --build -d
+      - name: Make vendor folder
+        run: mkdir vendor
+      - name: set vendor 777
+        run: chmod 777 -R vendor
+      - name: Copy .env
+        run:  cp -n .env.dev  .env
+      - name: Install Dependencies
+        run: docker exec  app   composer install --optimize-autoloader --no-dev
+      - name: set storage 777
+        run: chmod 777 -R storage
+      - name: install migrations
+        run: docker exec  app php  artisan migrate --force
+      - name: Seeder
+        run: docker exec  app php  artisan db:seed --force

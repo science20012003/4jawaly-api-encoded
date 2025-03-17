@@ -1,0 +1,811 @@
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-08-07 17:08:13][lmoXpIxHVepQ9lZBsh2yfq6RgYh6TvQJ] Processing: App\Jobs\CrmLeadsExportJob
+[2024-08-07 17:08:30][lmoXpIxHVepQ9lZBsh2yfq6RgYh6TvQJ] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-09-08 12:53:51][ZJHBzE9iFzK4wE1EkjabNy8bh9RNAp0N] Processing: App\Jobs\CrmLeadsExportJob
+[2024-09-08 12:55:48][ZJHBzE9iFzK4wE1EkjabNy8bh9RNAp0N] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-09-12 11:31:58][spuVaIuw2YaFOdFehxA5CKAEkEgJFFjq] Processing: App\Jobs\CrmLeadsExportJob
+[2024-09-12 11:32:10][spuVaIuw2YaFOdFehxA5CKAEkEgJFFjq] Processed:  App\Jobs\CrmLeadsExportJob
+[2024-09-12 17:26:09][ppxskFjY7cdnuP9W4KD6TdnABeIzc5NQ] Processing: App\Jobs\CrmLeadsExportJob
+[2024-09-12 17:26:22][ppxskFjY7cdnuP9W4KD6TdnABeIzc5NQ] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-10-27 00:46:15][BCO0m2xr7dHp4pZYmfdrctJW7VJheL8p] Processing: App\Jobs\CrmLeadsExportJob
+[2024-10-27 00:47:48][BCO0m2xr7dHp4pZYmfdrctJW7VJheL8p] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2024-11-14 20:58:22][tD74AH2JRS7cJwnT5bndlRG3IHaUeXjm] Processing: App\Jobs\CrmLeadsExportJob
+[2024-11-14 20:58:57][tD74AH2JRS7cJwnT5bndlRG3IHaUeXjm] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-20 13:23:44][5NIxREalOZb1zZvHasXg4CvbsC2HCwrs] Processing: App\Jobs\CrmLeadsExportJob
+[2025-01-20 13:24:25][5NIxREalOZb1zZvHasXg4CvbsC2HCwrs] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-20 14:47:53][pHJXOkbYP70OezXiFpzCb0qHt7lUJkzq] Processing: App\Jobs\CrmLeadsExportJob
+[2025-01-20 14:48:27][pHJXOkbYP70OezXiFpzCb0qHt7lUJkzq] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-20 15:27:49][HrnoT3CvICoB670NhXgMlnZRrbmrKwdx] Processing: App\Jobs\CrmLeadsExportJob
+[2025-01-20 15:28:23][HrnoT3CvICoB670NhXgMlnZRrbmrKwdx] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-22 13:42:28][D8qdYsrSH3wMvrIzQTocIC7oK10AusU6] Processing: App\Jobs\CrmLeadsExportJob
+[2025-01-22 13:45:21][D8qdYsrSH3wMvrIzQTocIC7oK10AusU6] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-22 15:17:41][EwLDZEnhLfedsnYOh9EcqBhhkoDjpaaW] Processing: App\Jobs\CrmLeadsExportJob
+[2025-01-22 15:18:40][EwLDZEnhLfedsnYOh9EcqBhhkoDjpaaW] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-01-28 13:37:30][CyvEWS3bqrQftDc6ekaU0fnRuXoOBlmY] Processing: App\Jobs\CrmLeadsExportJob
+[2025-01-28 13:37:57][CyvEWS3bqrQftDc6ekaU0fnRuXoOBlmY] Processed:  App\Jobs\CrmLeadsExportJob
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 116:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 91:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 91:
+                                               
+  read error on connection to 127.0.0.1:55543  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In PhpRedisConnector.php line 135:
+                      
+  Connection refused  
+                      
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-02-05 17:11:11][Mu0uaqft7KuQwfHQHmPGtldubkmtf5eN] Processing: App\Jobs\CrmLeadsExportJob
+[2025-02-05 17:11:44][Mu0uaqft7KuQwfHQHmPGtldubkmtf5eN] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-02-05 17:11:46][MrDtSVtgbSevElpvCECQsYAfc1KHOX4y] Processing: App\Jobs\CrmLeadsExportJob
+[2025-02-05 17:12:19][MrDtSVtgbSevElpvCECQsYAfc1KHOX4y] Processed:  App\Jobs\CrmLeadsExportJob
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-02-09 06:38:01][jOO8RquD49NmOIBj7Ay3qTQhCGk1JR4h] Processing: App\Jobs\CrmLeadsExportJob
+[2025-02-09 06:38:17][jOO8RquD49NmOIBj7Ay3qTQhCGk1JR4h] Processed:  App\Jobs\CrmLeadsExportJob
+
+In RedisStore.php line 306:
+                                               
+  unserialize(): Error at offset 0 of 2 bytes  
+                                               
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+
+In Connection.php line 671:
+                                                                               
+  SQLSTATE[HY000] [2002] No such file or directory (SQL: select * from `gener  
+  al_settings` where `key` = hawsabah_domain_send limit 1)                     
+                                                                               
+
+In Exception.php line 18:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+In PDOConnection.php line 40:
+                                                    
+  SQLSTATE[HY000] [2002] No such file or directory  
+                                                    
+
+PHP Warning:  Module 'newrelic' already loaded in Unknown on line 0
+[2025-02-16 11:49:45][8ifuTAjjYi4uE7qmsKC5iFqoLhCGljc8] Processing: App\Jobs\CrmLeadsExportJob
+[2025-02-16 11:50:03][8ifuTAjjYi4uE7qmsKC5iFqoLhCGljc8] Processed:  App\Jobs\CrmLeadsExportJob
+[2025-02-24 17:07:22][rtzr8rV8adDA0KpGbQ8z7F4HXSACZ9FK] Processing: App\Jobs\CrmLeadsExportJob
+[2025-02-24 17:07:51][rtzr8rV8adDA0KpGbQ8z7F4HXSACZ9FK] Processed:  App\Jobs\CrmLeadsExportJob

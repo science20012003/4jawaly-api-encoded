@@ -1,0 +1,575 @@
+[2025-03-17 00:41:16] production.DEBUG: Odoo -> postPayment -> Success! {"id":120246} 
+[2025-03-17 00:44:14] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AtGG4qQ3bfqbt3g7hgJBCQc',
+  ),
+)  
+[2025-03-17 00:44:14] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AH2Wqzssl_lblgU37u9TQoR',
+  ),
+)  
+[2025-03-17 00:44:14] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A-66e__aAAt9yAVij4uH905',
+  ),
+)  
+[2025-03-17 00:44:14] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A85fvMEdSY-9seB6us1zJ1f',
+  ),
+)  
+[2025-03-17 03:07:48] production.DEBUG: Odoo -> postPayment -> Success! {"id":120248} 
+[2025-03-17 03:12:53] production.DEBUG: Odoo -> postPayment -> Success! {"id":120250} 
+[2025-03-17 04:09:17] production.ERROR: Failed to create user. {"exception":"[object] (Exception(code: 0): Failed to create user. at /home/php/app/Events/CreateShortenerAccountEvent.php:64)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#1 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#2 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#3 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#4 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#5 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#9 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#10 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#11 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#12 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#14 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#15 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#16 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#17 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#18 {main}
+"} 
+[2025-03-17 05:14:46] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:16:01] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:18:07] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:18:43] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:20:00] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:20:44] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:21:25] production.ERROR: xx  
+[2025-03-17 05:21:31] production.ERROR: xx  
+[2025-03-17 05:21:35] production.ERROR: xx  
+[2025-03-17 05:21:55] production.ERROR: xx  
+[2025-03-17 05:22:10] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:22:20] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:22:28] production.ERROR: xx  
+[2025-03-17 05:23:20] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:23:33] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:23:43] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:23:59] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:24:56] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:25:28] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 05:25:35] production.ERROR: Trying to access array offset on value of type null {"exception":"[object] (ErrorException(code: 0): Trying to access array offset on value of type null at /home/php/app/Http/Middleware/AccountTokenMiddleware.php:39)
+[stacktrace]
+#0 /home/php/app/Http/Middleware/AccountTokenMiddleware.php(39): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#1 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\AccountTokenMiddleware->handle()
+#2 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#3 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#4 /home/php/app/Http/Middleware/FixRequestLanguagesMiddleware.php(36): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#5 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\FixRequestLanguagesMiddleware->handle()
+#6 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#8 /home/php/app/Http/Middleware/LanguageMiddleware.php(47): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#9 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#10 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#12 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#13 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#14 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#17 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#18 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#19 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(234): Laravel\\Lumen\\Application->handleFoundRoute()
+#20 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(170): Laravel\\Lumen\\Application->handleDispatcherResponse()
+#21 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#22 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#23 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#24 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#25 {main}
+"} 
+[2025-03-17 09:43:25] production.DEBUG: Odoo -> postPayment -> Success! {"id":120252} 
+[2025-03-17 09:47:23] production.DEBUG: Odoo -> postPayment -> Success! {"id":120254} 
+[2025-03-17 09:48:53] production.DEBUG: Odoo -> postPayment -> Success! {"id":120256} 
+[2025-03-17 09:50:46] production.DEBUG: Odoo -> postPayment -> Success! {"id":120258} 
+[2025-03-17 09:52:13] production.DEBUG: Odoo -> postPayment -> Success! {"id":120260} 
+[2025-03-17 10:09:30] production.DEBUG: Odoo -> postPayment -> Success! {"id":120262} 
+[2025-03-17 10:25:54] production.DEBUG: Odoo -> postPayment -> Success! {"id":120264} 
+[2025-03-17 11:40:50] production.DEBUG: Odoo -> postPayment -> Success! {"id":120272} 
+[2025-03-17 11:45:10] production.DEBUG: Odoo -> postPayment -> Success! {"id":120274} 
+[2025-03-17 11:48:21] production.DEBUG: Odoo -> postPayment -> Success! {"id":120276} 
+[2025-03-17 12:22:09] production.DEBUG: Odoo -> postPayment -> Success! {"id":120295} 
+[2025-03-17 12:50:22] production.DEBUG: Odoo -> postPayment -> Success! {"id":120345} 
+[2025-03-17 12:51:33] production.DEBUG: Odoo -> postPayment -> Success! {"id":120349} 
+[2025-03-17 12:58:55] production.DEBUG: Odoo -> postPayment -> Success! {"id":120355} 
+[2025-03-17 13:01:00] production.DEBUG: Odoo -> postPayment -> Success! {"id":120359} 
+[2025-03-17 13:01:13] production.DEBUG: Odoo -> postPayment -> Success! {"id":120361} 
+[2025-03-17 13:10:58] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AMxL3scWDv--12cStdUH5KJ',
+  ),
+)  
+[2025-03-17 13:10:58] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A96qrif6pL-SyzJS5PNfmg7',
+  ),
+)  
+[2025-03-17 13:25:44] production.DEBUG: Odoo -> postPayment -> Success! {"id":120370} 
+[2025-03-17 14:02:54] production.DEBUG: Odoo -> postPayment -> Success! {"id":120381} 
+[2025-03-17 14:08:53] production.DEBUG: Odoo -> postPayment -> Success! {"id":120383} 
+[2025-03-17 14:21:33] production.DEBUG: Odoo -> postPayment -> Success! {"id":120393} 

@@ -1,0 +1,232 @@
+[2025-03-12 00:19:31] production.ERROR: You must have the blacklist enabled to invalidate a token. {"exception":"[object] (Tymon\\JWTAuth\\Exceptions\\JWTException(code: 0): You must have the blacklist enabled to invalidate a token. at /home/php/vendor/tymon/jwt-auth/src/Manager.php:154)
+[stacktrace]
+#0 /home/php/vendor/tymon/jwt-auth/src/JWT.php(121): Tymon\\JWTAuth\\Manager->invalidate()
+#1 /home/php/vendor/tymon/jwt-auth/src/JWTGuard.php(157): Tymon\\JWTAuth\\JWT->invalidate()
+#2 /home/php/app/Http/Controllers/Api/V1/Account/AccountProfileController.php(1099): Tymon\\JWTAuth\\JWTGuard->logout()
+#3 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Http\\Controllers\\Api\\V1\\Account\\AccountProfileController->logout()
+#4 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#6 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#8 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#9 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#10 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#11 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#12 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#13 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#14 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(48): call_user_func()
+#15 /home/php/app/Http/Middleware/DevicesMiddleware.php(30): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\DevicesMiddleware->handle()
+#17 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#19 /home/php/app/Http/Middleware/OtpMiddleware.php(173): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#20 /home/php/app/Http/Middleware/OtpMiddleware.php(90): App\\Http\\Middleware\\OtpMiddleware->checkDevice()
+#21 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\OtpMiddleware->handle()
+#22 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#24 /home/php/app/Http/Middleware/Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#25 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle()
+#26 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#28 /home/php/app/Http/Middleware/LanguageMiddleware.php(34): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#29 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#30 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#32 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#33 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#34 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#36 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#37 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#38 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#39 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#40 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#41 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#42 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#43 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#44 {main}
+"} 
+[2025-03-12 03:30:17] production.ERROR: You must have the blacklist enabled to invalidate a token. {"exception":"[object] (Tymon\\JWTAuth\\Exceptions\\JWTException(code: 0): You must have the blacklist enabled to invalidate a token. at /home/php/vendor/tymon/jwt-auth/src/Manager.php:154)
+[stacktrace]
+#0 /home/php/vendor/tymon/jwt-auth/src/JWT.php(121): Tymon\\JWTAuth\\Manager->invalidate()
+#1 /home/php/vendor/tymon/jwt-auth/src/JWTGuard.php(157): Tymon\\JWTAuth\\JWT->invalidate()
+#2 /home/php/app/Http/Controllers/Api/V1/Account/AccountProfileController.php(1099): Tymon\\JWTAuth\\JWTGuard->logout()
+#3 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Http\\Controllers\\Api\\V1\\Account\\AccountProfileController->logout()
+#4 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#6 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#8 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(386): Illuminate\\Container\\Container->call()
+#9 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(352): Laravel\\Lumen\\Application->callControllerCallable()
+#10 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(326): Laravel\\Lumen\\Application->callLumenController()
+#11 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(279): Laravel\\Lumen\\Application->callControllerAction()
+#12 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(259): Laravel\\Lumen\\Application->callActionOnArrayBasedRoute()
+#13 [internal function]: Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#14 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(48): call_user_func()
+#15 /home/php/app/Http/Middleware/DevicesMiddleware.php(30): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#16 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\DevicesMiddleware->handle()
+#17 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#19 /home/php/app/Http/Middleware/OtpMiddleware.php(173): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#20 /home/php/app/Http/Middleware/OtpMiddleware.php(90): App\\Http\\Middleware\\OtpMiddleware->checkDevice()
+#21 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\OtpMiddleware->handle()
+#22 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#24 /home/php/app/Http/Middleware/Authenticate.php(42): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#25 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\Authenticate->handle()
+#26 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#28 /home/php/app/Http/Middleware/LanguageMiddleware.php(34): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#29 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\LanguageMiddleware->handle()
+#30 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#32 /home/php/app/Http/Middleware/CoreMiddleware.php(100): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#33 /home/php/vendor/illuminate/pipeline/Pipeline.php(167): App\\Http\\Middleware\\CoreMiddleware->handle()
+#34 [internal function]: Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /home/php/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): call_user_func()
+#36 /home/php/vendor/illuminate/pipeline/Pipeline.php(103): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}()
+#37 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(423): Illuminate\\Pipeline\\Pipeline->then()
+#38 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(260): Laravel\\Lumen\\Application->sendThroughPipeline()
+#39 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(166): Laravel\\Lumen\\Application->handleFoundRoute()
+#40 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(426): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}()
+#41 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(172): Laravel\\Lumen\\Application->sendThroughPipeline()
+#42 /home/php/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(109): Laravel\\Lumen\\Application->dispatch()
+#43 /home/php/public/index.php(27): Laravel\\Lumen\\Application->run()
+#44 {main}
+"} 
+[2025-03-12 04:14:23] production.ERROR: Failed to create user. {"exception":"[object] (Exception(code: 0): Failed to create user. at /home/php/app/Events/CreateShortenerAccountEvent.php:64)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#1 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#2 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#3 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#4 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#5 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#9 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#10 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#11 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#12 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#14 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#15 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#16 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#17 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#18 {main}
+"} 
+[2025-03-12 06:14:17] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'There can be at most one button at index 0',
+    ),
+    'fbtrace_id' => 'AdFJgVSpsVzRfFz8qFJE6J8',
+  ),
+)  
+[2025-03-12 06:15:54] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'There can be at most one button at index 0',
+    ),
+    'fbtrace_id' => 'AJtT3TXvrrbQOTEmSWqNFq6',
+  ),
+)  
+[2025-03-12 10:39:23] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 10:46:03] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:03:52] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:03:53] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:05:21] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:06:13] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:08:56] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:09:36] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:09:44] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:24:30] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:37:32] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:42:44] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:44:50] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:52:27] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 11:55:28] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 12:04:54] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 12:33:49] production.DEBUG: Odoo -> postPayment -> Success! {"id":119164} 
+[2025-03-12 13:16:15] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 14:03:02] production.ERROR: 999992:cURL error 28: Connection timed out after 10001 milliseconds (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://api.telegram.org/bot1844696149:AAF7By21XndWT-53BPYGX40xE6XvLkJHeP8/sendMessage  
+[2025-03-12 14:55:31] production.DEBUG: Odoo -> postPayment -> Success! {"id":119234} 
+[2025-03-12 14:57:45] production.DEBUG: Odoo -> postPayment -> Success! {"id":119238} 
+[2025-03-12 15:45:50] production.DEBUG: Odoo -> postPayment -> Success! {"id":119272} 
+[2025-03-12 15:47:16] production.DEBUG: Odoo -> postPayment -> Success! {"id":119274} 
+[2025-03-12 15:53:21] production.DEBUG: Odoo -> postPayment -> Success! {"id":119282} 
+[2025-03-12 15:55:58] production.DEBUG: Odoo -> postPayment -> Success! {"id":119286} 
+[2025-03-12 16:19:17] production.DEBUG: Odoo -> postPayment -> Success! {"id":119291} 
+[2025-03-12 16:21:29] production.DEBUG: Odoo -> postPayment -> Success! {"id":119293} 
+[2025-03-12 16:38:39] production.ERROR: error shorten url Failed to create user.  
+[2025-03-12 16:45:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'Ajch3hstv2Hcr57I4anDTZi',
+  ),
+)  
+[2025-03-12 16:45:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A0x8dwRS9dKzE9bOMR0J_kR',
+  ),
+)  
+[2025-03-12 16:45:07] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'AoiuP-5gJyM96MKD1MAPMPA',
+  ),
+)  
+[2025-03-12 16:50:29] production.ERROR: 2:Trying to access array offset on value of type null  
+[2025-03-12 16:55:04] production.DEBUG: Odoo -> postPayment -> Success! {"id":119295} 
+[2025-03-12 22:29:46] production.DEBUG: Odoo -> postPayment -> Success! {"id":119309} 
+[2025-03-12 22:32:24] production.DEBUG: Odoo -> postPayment -> Success! {"id":119311} 
+[2025-03-12 22:35:34] production.DEBUG: Odoo -> postPayment -> Success! {"id":119313} 
+[2025-03-12 22:39:27] production.DEBUG: Odoo -> postPayment -> Success! {"id":119315} 
+[2025-03-12 22:52:17] production.ERROR: Error sending 3148189  
+[2025-03-12 23:15:38] production.DEBUG: Odoo -> postPayment -> Success! {"id":119329} 
+[2025-03-12 23:20:28] production.DEBUG: Odoo -> postPayment -> Success! {"id":119334} 
+[2025-03-12 23:20:52] production.DEBUG: Odoo -> postPayment -> Success! {"id":119336} 
+[2025-03-12 23:30:53] production.DEBUG: Odoo -> postPayment -> Success! {"id":119338} 
+[2025-03-12 23:35:26] production.DEBUG: Odoo -> postPayment -> Success! {"id":119340} 
+[2025-03-12 23:57:18] production.DEBUG: Odoo -> postPayment -> Success! {"id":119342} 

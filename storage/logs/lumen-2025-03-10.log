@@ -1,0 +1,619 @@
+[2025-03-10 00:45:10] production.DEBUG: Odoo -> postPayment -> Success! {"id":118288} 
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Aj-Ea0RX64nCMQG51--V525',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AqJegcd8yFo82ds4l66d2E3',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AHPhQm0XjieYMpvWfMlToSI',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AESJjFHofBVHE14qdELJTNp',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A08Gc034V4nQnFQtFBMtGU3',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AZ-o_CoacqpRe6zNpayg-Oi',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AyWt95RshacRBeXjRFkucer',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A22Sd8wqrqx2nE9ipOWAJTL',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ATcZ6-jcJPEefBTmNn5yeck',
+  ),
+)  
+[2025-03-10 00:57:21] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AmJQsXNlh7HwChQ1r5iiywR',
+  ),
+)  
+[2025-03-10 00:57:24] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AYA2YDOe2KMev6kyG6YE0hP',
+  ),
+)  
+[2025-03-10 00:57:24] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ADq_zbovC9b6_b3mbzvU0Z5',
+  ),
+)  
+[2025-03-10 00:57:28] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ArnaszakpeQefFy0MK7RUFK',
+  ),
+)  
+[2025-03-10 00:57:28] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AUDC3VlLVOLVA225HZ31Hok',
+  ),
+)  
+[2025-03-10 00:57:28] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ABVHJiYQot753W8u7Te_iK7',
+  ),
+)  
+[2025-03-10 00:57:28] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'Aaitqa4Icc2eULzcWQMysbT',
+  ),
+)  
+[2025-03-10 00:57:28] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AFJ2baFsaa6n_Y-sJ-2x2TW',
+  ),
+)  
+[2025-03-10 00:57:30] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ACGdMI5BB-50_RKhR55fbOQ',
+  ),
+)  
+[2025-03-10 00:57:30] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AbwDLgoGSBk6rCEL4RyuEwm',
+  ),
+)  
+[2025-03-10 00:57:30] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AmBa4J2F8QSoxJlWVJvZdbo',
+  ),
+)  
+[2025-03-10 00:57:30] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AktkNxJVNMG6ATojgNbkccH',
+  ),
+)  
+[2025-03-10 00:57:30] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'ApRm8qClMfYhr8GUPYV8gJ7',
+  ),
+)  
+[2025-03-10 00:57:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AHnv0ZMeLJ-mDQGqer9UjnS',
+  ),
+)  
+[2025-03-10 00:57:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A7ReG5exKt9OftQVUYRKnCg',
+  ),
+)  
+[2025-03-10 00:57:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AoSWzXVeZNvpN_syrIXJH12',
+  ),
+)  
+[2025-03-10 00:57:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A2_uUKjZW8i4Bh0XBDgTOFi',
+  ),
+)  
+[2025-03-10 00:57:34] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AEZ4UptJCj-SM7kLVA2AdlV',
+  ),
+)  
+[2025-03-10 00:57:34] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AeCrWFx7Si1bS_8XsBZzAQb',
+  ),
+)  
+[2025-03-10 00:57:34] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'AhGbgL8TgyxEm6crQedMill',
+  ),
+)  
+[2025-03-10 00:57:34] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131000) Something went wrong',
+    'type' => 'OAuthException',
+    'code' => 131000,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Something went wrong',
+    ),
+    'fbtrace_id' => 'A6TB6N7zZ7Fkq6DmTlOF-oL',
+  ),
+)  
+[2025-03-10 01:19:04] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131008) Required parameter is missing',
+    'type' => 'OAuthException',
+    'code' => 131008,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: Button at index 0 of type Url requires a parameter',
+    ),
+    'fbtrace_id' => 'Ags3P3l7YZAzRnfwwPReLmH',
+  ),
+)  
+[2025-03-10 02:04:40] production.ERROR: error shorten url Failed to create user.  
+[2025-03-10 04:06:06] production.ERROR: Failed to create user. {"exception":"[object] (Exception(code: 0): Failed to create user. at /home/php/app/Events/CreateShortenerAccountEvent.php:64)
+[stacktrace]
+#0 /home/php/app/Events/CreateShortenerAccountEvent.php(17): App\\Events\\CreateShortenerAccountEvent->createUser()
+#1 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(48): App\\Events\\CreateShortenerAccountEvent->__construct()
+#2 /home/php/vendor/illuminate/database/Concerns/BuildsQueries.php(39): App\\Console\\Commands\\CreateShortenerAccountCommand->App\\Console\\Commands\\{closure}()
+#3 /home/php/app/Console/Commands/CreateShortenerAccountCommand.php(53): Illuminate\\Database\\Eloquent\\Builder->chunk()
+#4 /home/php/vendor/illuminate/container/BoundMethod.php(36): App\\Console\\Commands\\CreateShortenerAccountCommand->handle()
+#5 /home/php/vendor/illuminate/container/Util.php(37): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#6 /home/php/vendor/illuminate/container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure()
+#7 /home/php/vendor/illuminate/container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#8 /home/php/vendor/illuminate/container/Container.php(596): Illuminate\\Container\\BoundMethod::call()
+#9 /home/php/vendor/illuminate/console/Command.php(134): Illuminate\\Container\\Container->call()
+#10 /home/php/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute()
+#11 /home/php/vendor/illuminate/console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run()
+#12 /home/php/vendor/symfony/console/Application.php(1040): Illuminate\\Console\\Command->run()
+#13 /home/php/vendor/symfony/console/Application.php(301): Symfony\\Component\\Console\\Application->doRunCommand()
+#14 /home/php/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#15 /home/php/vendor/illuminate/console/Application.php(93): Symfony\\Component\\Console\\Application->run()
+#16 /home/php/vendor/laravel/lumen-framework/src/Console/Kernel.php(116): Illuminate\\Console\\Application->run()
+#17 /home/php/artisan(35): Laravel\\Lumen\\Console\\Kernel->handle()
+#18 {main}
+"} 
+[2025-03-10 09:41:32] production.DEBUG: Odoo -> postPayment -> Success! {"id":118296} 
+[2025-03-10 09:44:26] production.DEBUG: Odoo -> postPayment -> Success! {"id":118297} 
+[2025-03-10 09:46:47] production.DEBUG: Odoo -> postPayment -> Success! {"id":118298} 
+[2025-03-10 09:49:31] production.DEBUG: Odoo -> postPayment -> Success! {"id":118299} 
+[2025-03-10 09:50:44] production.DEBUG: Odoo -> postPayment -> Success! {"id":118300} 
+[2025-03-10 10:06:54] production.DEBUG: Odoo -> postPayment -> Success! {"id":118306} 
+[2025-03-10 10:19:55] production.DEBUG: Odoo -> postPayment -> Success! {"id":118308} 
+[2025-03-10 10:23:31] production.DEBUG: Odoo -> postPayment -> Success! {"id":118309} 
+[2025-03-10 10:31:47] production.DEBUG: Odoo -> postPayment -> Success! {"id":118310} 
+[2025-03-10 10:33:01] production.DEBUG: Odoo -> postPayment -> Success! {"id":118311} 
+[2025-03-10 10:58:42] production.ERROR: error shorten url Failed to create user.  
+[2025-03-10 11:02:56] production.DEBUG: Odoo -> postPayment -> Success! {"id":118323} 
+[2025-03-10 11:04:54] production.DEBUG: Odoo -> postPayment -> Success! {"id":118325} 
+[2025-03-10 11:05:58] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: URL parameter generates an invalid URL: https://www.whatsapp.com/otp/code/?otp_type=COPY_CODE&code=otp<redacted-param-value>',
+    ),
+    'fbtrace_id' => 'A7i9_RuxMNAwFFzUw26wEvi',
+  ),
+)  
+[2025-03-10 11:06:32] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: URL parameter generates an invalid URL: https://www.whatsapp.com/otp/code/?otp_type=COPY_CODE&code=otp<redacted-param-value>',
+    ),
+    'fbtrace_id' => 'AImuP51jcXkOG3MaUa1maFw',
+  ),
+)  
+[2025-03-10 11:10:39] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: URL parameter generates an invalid URL: https://www.whatsapp.com/otp/code/?otp_type=COPY_CODE&code=otp<redacted-param-value>',
+    ),
+    'fbtrace_id' => 'AMS7c4G9OUxZOGu8qpWqnA5',
+  ),
+)  
+[2025-03-10 11:10:58] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: URL parameter generates an invalid URL: https://www.whatsapp.com/otp/code/?otp_type=COPY_CODE&code=otp<redacted-param-value>',
+    ),
+    'fbtrace_id' => 'A1JMHW-YochGsxTf4nOfNSk',
+  ),
+)  
+[2025-03-10 11:13:11] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131008) Required parameter is missing',
+    'type' => 'OAuthException',
+    'code' => 131008,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: Button at index 0 of type Url requires a parameter',
+    ),
+    'fbtrace_id' => 'Ah51cAgrXYfFHkZ9ECjkQKv',
+  ),
+)  
+[2025-03-10 11:14:55] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131008) Required parameter is missing',
+    'type' => 'OAuthException',
+    'code' => 131008,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: Button at index 0 of type Url requires a parameter',
+    ),
+    'fbtrace_id' => 'AbtkQP5iWGWsm0PgmKx-vQ7',
+  ),
+)  
+[2025-03-10 11:23:05] production.DEBUG: Odoo -> postPayment -> Success! {"id":118338} 
+[2025-03-10 11:40:08] production.DEBUG: Odoo -> postPayment -> Success! {"id":118350} 
+[2025-03-10 12:14:51] production.DEBUG: Odoo -> postPayment -> Success! {"id":118370} 
+[2025-03-10 12:16:45] production.DEBUG: Odoo -> postPayment -> Success! {"id":118371} 
+[2025-03-10 12:58:10] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#100) Invalid parameter',
+    'type' => 'OAuthException',
+    'code' => 100,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'buttons: URL parameter generates an invalid URL: https://www.whatsapp.com/otp/code/?otp_type=COPY_CODE&code=otp<redacted-param-value>',
+    ),
+    'fbtrace_id' => 'AB_N1QE9lbu-k7lu7NMSW4r',
+  ),
+)  
+[2025-03-10 13:22:42] production.DEBUG: Odoo -> postPayment -> Success! {"id":118416} 
+[2025-03-10 13:26:51] production.DEBUG: Odoo -> postPayment -> Success! {"id":118420} 
+[2025-03-10 13:57:02] production.DEBUG: Odoo -> postPayment -> Success! {"id":118476} 
+[2025-03-10 13:59:11] production.DEBUG: Odoo -> postPayment -> Success! {"id":118479} 
+[2025-03-10 14:00:52] production.DEBUG: Odoo -> postPayment -> Success! {"id":118482} 
+[2025-03-10 14:39:27] production.DEBUG: Odoo -> postPayment -> Success! {"id":118509} 
+[2025-03-10 15:19:05] production.ERROR: Class 'App\Custom\Mandrill\MandrillServiceProvider' not found {"exception":"[object] (Error(code: 0): Class 'App\\Custom\\Mandrill\\MandrillServiceProvider' not found at /home/php/vendor/laravel/lumen-framework/src/Application.php:223)
+[stacktrace]
+#0 /home/php/bootstrap/app.php(135): Laravel\\Lumen\\Application->register()
+#1 /home/php/public/index.php(13): unknown()
+#2 {main}
+"} 
+[2025-03-10 15:56:46] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118524 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-10 15:58:59] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118526 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-10 16:04:55] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#2) Service temporarily unavailable',
+    'type' => 'OAuthException',
+    'is_transient' => true,
+    'code' => 2,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'Server is temporarily unavailable. Please retry after some time.',
+    ),
+    'fbtrace_id' => 'A-anNayZp9dbw6ynivlbgN3',
+  ),
+)  
+[2025-03-10 16:41:44] production.ERROR: array (
+  'error' => 
+  array (
+    'message' => '(#131037) WhatsApp provided number needs display name approval before message can be sent.',
+    'type' => 'OAuthException',
+    'code' => 131037,
+    'error_data' => 
+    array (
+      'messaging_product' => 'whatsapp',
+      'details' => 'WhatsApp provided number needs display name approval before message can be sent.',
+    ),
+    'fbtrace_id' => 'AqsRFgard8DQSpYW95xgadZ',
+  ),
+)  
+[2025-03-10 22:09:14] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118676 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   
+[2025-03-10 22:13:36] production.ERROR: error shorten url Failed to create user.  
+[2025-03-10 23:20:02] production.ERROR: Odoo -> postPayment -> Error -> Invoice id: 118677 يمكنك تسجيل الدفع لقيود اليومية المرحّلة فقط.   

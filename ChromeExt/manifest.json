@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Jawaly Extention",
+    "version": "1.0",
+    "description": "Read sms hawsabah",
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "host_permissions": [
+        "https://sms.stc.com.sa/*",
+        "https://smsidmanagment.sa.zain.com/*",
+        "https://sms.mobily.com.sa/*",
+        "https://sms.hawsabah.sa/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}

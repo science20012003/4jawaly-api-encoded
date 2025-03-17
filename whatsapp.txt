@@ -1,0 +1,122 @@
+<?php
+
+namespace App\Console\Commands;
+
+use App\Custom\Hawsabah;
+use App\Events\SendHawsanahNotificationsEvent;
+use Carbon\Carbon;
+use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Http;
+use Namshi\JOSE\JWS;
+use Propaganistas\LaravelPhone\PhoneNumber;
+
+
+class AutoLoginCommand extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'hawsabah:auto-login {domain}';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'auto login';
+
+    /**
+     * Create a new command instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
+     * Execute the console command.
+     *
+     * @return int
+     */
+    public function handle()
+    {
+        $file = json_decode(<<<eslam
+[
+    {"name": "العقيد بندر الخرمي", "phone": "504171920"},
+    {"name": "اللواء خالد الرشيد", "phone": "505808252"},
+    {"name": "الدكتور عبدالله الحارثي", "phone": "556557111"},
+    {"name": "فضيلة الشيخ الدكتور / زيد القرون", "phone": "505232441"},
+    {"name": "فضيلة الشيخ الدكتور/فهد بن عبدالعزيز الكثيري", "phone": "503278771"},
+    {"name": "محمد عماد الشيخ", "phone": "503363223"},
+    {"name": "ظافر العمري", "phone": "566099807"},
+    {"name": "سلمان الزبن", "phone": "500022887"},
+    {"name": "م.عبدالعزيز الجنفاوي", "phone": "503889165"},
+    {"name": "صقر الحميد", "phone": "599228850"},
+    {"name": "عبدالله الجراح", "phone": "509058899"},
+    {"name": "سطام بن فهد الراجحي", "phone": "552222272"},
+    {"name": "نورا القحطاني", "phone": "536161543"},
+    {"name": "مشاعل الجلعود", "phone": "555423808"}
+]
+eslam
+            ,true);
+        $to_send = [];
+        foreach ($file as $s){
+//            try {
+//                $ph_number = PhoneNumber::make($s["number"], "SA");
+//            }catch (Exception $exception){
+//                dd($s["number"]);
+//            }
+            //     $nx = $ph_number->formatE164();
+            $to_send[] = ["name"=>$s["name"],"number"=>"966".$s["phone"]];
+        }
+        foreach ($to_send as $item) {
+            $response = Http::withHeaders([
+                'accept' => 'application/json',
+                'Content-Type' => 'application/json',
+            ])->withBasicAuth("9nVGTIPkgoxALws6OkN34UrHAJ2c6Nm2Wn7Sbt31", "SdP7UWMSFzEuKBGiMxoZIvnpaNIGgxmRE8SlOtZaHrrVwQMY4XwwiIsS6SOjMzllqaTZ5FuaairzhbQF8T2X4okDaVtc6F2xGisI")->post('https://api-users.4jawaly.com/api/v1/whatsapp/353', [
+                'path' => 'message/template',
+                'params' => [
+                    'phone' => $item["number"],
+                    'template' => 'dawa2',
+                    'language' => [
+                        'policy' => 'deterministic',
+                        'code' => 'ar',
+                    ],
+                    'namespace' => 'd62f7444_aa0b_40b8_8f46_0bb55ef2862e',
+                    'params' => [
+                        [
+                            'type' => 'body',
+                            'parameters' => [
+                                [
+                                    'type' => 'text',
+                                    'text' => $item["name"]
+                                ]
+                            ]
+                        ],
+                        [
+                            'type' => 'header',
+                            'parameters' => [
+                                [
+                                    'type' => 'image',
+                                    'image' => [
+                                        'link' => 'https://cdn-dev.4jawaly.com/WhatsApp%20Image%202025-03-02%20at%204.14.51%20PM.jpeg'
+                                    ]
+                                ]
+                            ]
+                        ]
+                    ]
+                ]
+            ]);
+
+// طباعة الاستجابة
+            dump($response->json());
+        }
+    }
+}
+
+

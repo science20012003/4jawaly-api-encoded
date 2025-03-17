@@ -1,0 +1,19 @@
+#!/bin/sh
+cd /home/php/storage/app/ && rm -rf ver.txt
+cd /home/php/storage/app/ && touch ver.txt
+printf "start pull " > /home/php/storage/app/ver.txt
+cd /home/php/ && cp .env.prod .env
+printf "give storage 777 " > /home/php/storage/app/ver.txt
+cd /home/php/ &&  chmod 777 -R /home/php/storage
+#sudo chown www-data:www-data -R /home/php/storage
+printf "composer update stage " > /home/php/storage/app/ver.txt
+cd /home/php/ &&  composer update --optimize-autoloader --no-dev
+#cd /home/php/ &&  rm -rf /home/php/storage
+#ln -s /home/php/storage/app/public /home/php/public/storage
+printf "migration and seeds " > /home/php/storage/app/ver.txt
+cd /home/php/ && php artisan migrate --force --seed
+printf "prod last update file is $(date)" > /home/php/storage/app/ver.txt
+#supervisorctl restart all
+#cd /home/php/ &&   php artisan cache:clear
+cd /home/php/ &&   php artisan release:email
+echo "ok done"

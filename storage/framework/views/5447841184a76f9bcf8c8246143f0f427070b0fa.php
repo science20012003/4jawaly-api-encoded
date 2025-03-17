@@ -1,0 +1,9 @@
+<div class="success alert d-flex p-5" role="alert">
+    <div class="message d-flex align-items-center">
+        <i class="fas fa-2x  fa-check-circle"></i>
+        <p class="mx-3"><span class="font-weight-bolder">عملينا العزيز تم تاكيد الباقة وبالفعل موجودة  متاحة للاستخدام لك وللعملاء الخاصين بك
+    </span></p>
+    </div>
+
+</div>
+<?php /**PATH /home/php/resources/views/tickets/creplies/sms_packages_1.blade.php ENDPATH**/ ?>

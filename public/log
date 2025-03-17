@@ -1,0 +1,1000 @@
+SET timestamp=1738488348;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:49.026800Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   270
+# Query_time: 0.000179  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488349;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:49.287840Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   492
+# Query_time: 0.000255  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488349;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351016);
+# Time: 2025-02-02T09:25:49.356617Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   278
+# Query_time: 0.000175  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488349;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:49.628456Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   494
+# Query_time: 0.000434  Lock_time: 0.000004 Rows_sent: 30  Rows_examined: 30
+SET timestamp=1738488349;
+select * from `crm_lead_inputs` where (`account_id` = 31284 or `account_id` is null);
+# Time: 2025-02-02T09:25:50.014497Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   278
+# Query_time: 0.000260  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488350;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:50.023849Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   499
+# Query_time: 0.000194  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488350;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351016);
+# Time: 2025-02-02T09:25:50.158271Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   491
+# Query_time: 0.002500  Lock_time: 0.000008 Rows_sent: 1  Rows_examined: 378
+SET timestamp=1738488350;
+select count(*) as aggregate from `whatsapp_numbers` where exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:25:50' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:25:50')) and (`account_id` = 32252 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 32252 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:25:50'))) and `expired_at` >= '2025-02-02 12:25:50';
+# Time: 2025-02-02T09:25:50.160557Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   491
+# Query_time: 0.000288  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488350;
+select * from `users` where `status` = 1 limit 1;
+# Time: 2025-02-02T09:25:50.304550Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   501
+# Query_time: 0.088914  Lock_time: 0.000003 Rows_sent: 15  Rows_examined: 40455
+SET timestamp=1738488350;
+select *,(select created_at from ticket_replies where ticket_id=id order by created_at desc LIMIT 1) as last_reply from `tickets` order by ifnull(last_update,created_at) desc limit 15 offset 0;
+# Time: 2025-02-02T09:25:50.345821Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   491
+# Query_time: 0.000217  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 11
+SET timestamp=1738488350;
+select * from `currencies` where `is_default` = 1 limit 1;
+# Time: 2025-02-02T09:25:50.460820Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   270
+# Query_time: 0.000188  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488350;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:50.823524Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   414
+# Query_time: 0.000269  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488350;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356244);
+# Time: 2025-02-02T09:25:50.832942Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   346
+# Query_time: 0.028930  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 11007
+SET timestamp=1738488350;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 2) limit 1;
+# Time: 2025-02-02T09:25:51.470611Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   414
+# Query_time: 0.000234  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488351;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356244);
+# Time: 2025-02-02T09:25:51.676727Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   505
+# Query_time: 0.006656  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 14511
+SET timestamp=1738488351;
+select `account_commercial_records`.*, (select count(*) from `account_commercial_representatives` where `account_commercial_records`.`id` = `account_commercial_representatives`.`account_commercial_record_id`) as `account_commercial_representatives_count`, (select count(*) from `account_commercial_contracts` where `account_commercial_records`.`id` = `account_commercial_contracts`.`account_commercial_record_id`) as `account_commercial_contracts_count` from `account_commercial_records` where `account_id` = '19304' order by `id` desc limit 15 offset 0;
+# Time: 2025-02-02T09:25:51.699618Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   505
+# Query_time: 0.021750  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 14508
+SET timestamp=1738488351;
+select * from `account_commercial_contracts` where `account_commercial_contracts`.`account_commercial_record_id` in (10152) order by `expiry_date` desc;
+# Time: 2025-02-02T09:25:51.717693Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   507
+# Query_time: 0.001111  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1738488351;
+select count(*) as aggregate from (select * from `explanation_forms` where exists (select * from `account_commercial_records` where `explanation_forms`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = '19304') and `attachment1_path` is not null and `attachment1_path` != '' group by `name`) as `aggregate_table`;
+# Time: 2025-02-02T09:25:51.725944Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   505
+# Query_time: 0.022065  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 14508
+SET timestamp=1738488351;
+select * from `account_commercial_contracts` where `account_commercial_contracts`.`account_commercial_record_id` in (10152) order by `expiry_date` desc;
+# Time: 2025-02-02T09:25:51.749991Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   505
+# Query_time: 0.021301  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 26458
+SET timestamp=1738488351;
+select `services`.*, `account_commercial_contract_service`.`account_commercial_contract_id` as `pivot_account_commercial_contract_id`, `account_commercial_contract_service`.`service_id` as `pivot_service_id` from `services` inner join `account_commercial_contract_service` on `services`.`id` = `account_commercial_contract_service`.`service_id` where `account_commercial_contract_service`.`account_commercial_contract_id` in (20951);
+# Time: 2025-02-02T09:25:51.895545Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   504
+# Query_time: 0.000206  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488351;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (9295, 223288, 245186, 269456, 340806, 350774, 351013, 351016, 354042, 356117, 356131, 356244, 356261, 356276, 356286);
+# Time: 2025-02-02T09:25:52.069706Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   414
+# Query_time: 0.000263  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488352;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356244);
+# Time: 2025-02-02T09:25:53.041937Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   511
+# Query_time: 0.000832  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 226
+SET timestamp=1738488353;
+select * from `account_commercial_contracts` where `account_commercial_record_id` = 9237 limit 1;
+# Time: 2025-02-02T09:25:53.108872Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   511
+# Query_time: 0.063293  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488353;
+select * from `hawsabah_senders` where lower(sender_name) = 'hjis';
+# Time: 2025-02-02T09:25:53.125514Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   511
+# Query_time: 0.005043  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 14
+SET timestamp=1738488353;
+select * from `tickets` where exists (select * from `ticket_replies` where `tickets`.`id` = `ticket_replies`.`ticket_id` and `model` = 'App\\Model\\HawsabahPay' and `type` = 1 and `model_id` = 224) order by `created_at` desc limit 1;
+# Time: 2025-02-02T09:25:55.453976Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   270
+# Query_time: 0.000200  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488355;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:55.589248Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   278
+# Query_time: 0.000188  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488355;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:55.854724Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   346
+# Query_time: 0.013630  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488355;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:25:56.040763Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   278
+# Query_time: 0.000285  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488356;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:56.250317Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   516
+# Query_time: 0.000310  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488356;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:25:56.928125Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000414  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488356;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:25:56.985370Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   270
+# Query_time: 0.000206  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488356;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356285);
+# Time: 2025-02-02T09:25:57.872851Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   346
+# Query_time: 0.013224  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488357;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:25:57.984207Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000280  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488357;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:25:59.194519Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   516
+# Query_time: 0.000263  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488359;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:25:59.796502Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000304  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488359;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:25:59.889248Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   346
+# Query_time: 0.011071  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488359;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:00.470560Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000245  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488360;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:01.906648Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   346
+# Query_time: 0.012425  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488361;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:03.466907Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   516
+# Query_time: 0.000245  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488363;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:03.774690Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   531
+# Query_time: 0.000225  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488363;
+select * from `users` where `status` = 1 limit 1;
+# Time: 2025-02-02T09:26:03.908209Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.134587  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 21871
+SET timestamp=1738488363;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 1) limit 1;
+# Time: 2025-02-02T09:26:03.921637Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   346
+# Query_time: 0.011192  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488363;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:03.931104Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000267  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488363;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:03.972473Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   531
+# Query_time: 0.000199  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 11
+SET timestamp=1738488363;
+select * from `currencies` where `is_default` = 1 limit 1;
+# Time: 2025-02-02T09:26:04.081544Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   531
+# Query_time: 0.000351  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488364;
+select * from `users` where `status` = 1 limit 1;
+# Time: 2025-02-02T09:26:04.270970Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   531
+# Query_time: 0.000188  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 11
+SET timestamp=1738488364;
+select * from `currencies` where `is_default` = 1 limit 1;
+# Time: 2025-02-02T09:26:04.657548Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.001478  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488364;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:05.939116Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   346
+# Query_time: 0.013297  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488365;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:06.025909Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   537
+# Query_time: 0.000185  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488366;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354411);
+# Time: 2025-02-02T09:26:06.395576Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   425
+# Query_time: 0.000278  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488366;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354411);
+# Time: 2025-02-02T09:26:07.967555Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   425
+# Query_time: 0.000253  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488367;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354411);
+# Time: 2025-02-02T09:26:09.031561Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.116481  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 21871
+SET timestamp=1738488368;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 1) limit 1;
+# Time: 2025-02-02T09:26:09.383308Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   549
+# Query_time: 0.004585  Lock_time: 0.000007 Rows_sent: 0  Rows_examined: 642
+SET timestamp=1738488369;
+select R.id,S.sender,
+            SU.account_id,
+SU.`key`,
+S.types,
+SU.site_api_response,
+SU.sent_to_site,
+SU.username,
+SU.sender_uuid,
+S.hawsabah_request_id from `hawsabah_requests` as `R` inner join `hawsabah_request_senders` as `S` on `S`.`hawsabah_request_id` = `R`.`id` inner join `hawsabah_request_sender_users` as `SU` on `S`.`sender_uuid` = `SU`.`sender_uuid` where `S`.`c_request_status` = 4 and `S`.`request_status` not in (3, 2, 1) and `S`.`c_remaining_days_date` > '2025-02-02 12:26:09' and (`S`.`remaining_days_date` > '2025-02-02 12:26:09' or `S`.`remaining_days_date` is null) and `S`.`status` in (4, 5, 7, 10) and `S`.`sent_to_zajel` = 1 and `SU`.`sent_to_site` = 0;
+# Time: 2025-02-02T09:26:09.601652Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   552
+# Query_time: 0.000426  Lock_time: 0.000004 Rows_sent: 30  Rows_examined: 30
+SET timestamp=1738488369;
+select * from `crm_lead_inputs` where (`sub_account_id` = 202 or `account_id` is null);
+# Time: 2025-02-02T09:26:10.433180Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   560
+# Query_time: 0.003187  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 442
+SET timestamp=1738488370;
+select `whatsapp_numbers`.*, (select count(*) from `whatsapp_number_account_packages` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id`) as `whatsapp_number_account_package_count` from `whatsapp_numbers` where (`account_id` = 22302 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 22302 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:10'))) order by CASE WHEN status='authenticated' THEN -1  WHEN status='payment-required' then 0 ELSE 1 END, CASE WHEN expired_at IS NULL THEN 1 ELSE 0 END, `expired_at` desc, `id` desc limit 200 offset 0;
+# Time: 2025-02-02T09:26:11.181613Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   492
+# Query_time: 0.000241  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351016);
+# Time: 2025-02-02T09:26:11.343384Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   553
+# Query_time: 0.000198  Lock_time: 0.000023 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354395);
+# Time: 2025-02-02T09:26:11.511234Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000374  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_records` where `account_id` = 22302 and (select count(*) from `account_commercial_contracts` where `account_commercial_records`.`id` = `account_commercial_contracts`.`account_commercial_record_id`) <= 0 and `status` = 1;
+# Time: 2025-02-02T09:26:11.519292Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.001718  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 0;
+# Time: 2025-02-02T09:26:11.521534Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000451  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 0;
+# Time: 2025-02-02T09:26:11.523275Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000412  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 3;
+# Time: 2025-02-02T09:26:11.525483Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000667  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 3;
+# Time: 2025-02-02T09:26:11.527527Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000381  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 4;
+# Time: 2025-02-02T09:26:11.529506Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000381  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 4;
+# Time: 2025-02-02T09:26:11.532310Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000384  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 11;
+# Time: 2025-02-02T09:26:11.534338Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000408  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 11;
+# Time: 2025-02-02T09:26:11.536505Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000410  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 12;
+# Time: 2025-02-02T09:26:11.539237Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000398  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 12;
+# Time: 2025-02-02T09:26:11.541088Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000379  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 5;
+# Time: 2025-02-02T09:26:11.543370Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000514  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 5;
+# Time: 2025-02-02T09:26:11.545258Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000388  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 7;
+# Time: 2025-02-02T09:26:11.547470Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000402  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 7;
+# Time: 2025-02-02T09:26:11.549585Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000450  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` in (6, 10, 2, 4) and `expiry_date` between '2025-02-02 12:26:11' and '2025-03-04 12:26:11';
+# Time: 2025-02-02T09:26:11.551826Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   561
+# Query_time: 0.000443  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 22302) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` in (6, 10, 2, 4) and `expiry_date` between '2025-02-02 12:26:11' and '2025-03-04 12:26:11';
+# Time: 2025-02-02T09:26:11.656115Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   499
+# Query_time: 0.000232  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488371;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351016);
+# Time: 2025-02-02T09:26:12.387371Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   573
+# Query_time: 0.000371  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 30
+SET timestamp=1738488372;
+select * from `crm_lead_inputs` where (`account_id` = 8980 or `account_id` is null);
+# Time: 2025-02-02T09:26:12.836470Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   568
+# Query_time: 0.001878  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 442
+SET timestamp=1738488372;
+select count(*) as aggregate from `whatsapp_numbers` where exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:26:12' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:26:12')) and (`account_id` = 22302 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 22302 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:12'))) and `expired_at` >= '2025-02-02 12:26:12';
+# Time: 2025-02-02T09:26:12.839640Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   568
+# Query_time: 0.000180  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488372;
+select * from `users` where `status` = 1 limit 1;
+# Time: 2025-02-02T09:26:13.034518Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   568
+# Query_time: 0.000243  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 11
+SET timestamp=1738488373;
+select * from `currencies` where `is_default` = 1 limit 1;
+# Time: 2025-02-02T09:26:14.150338Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.113085  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 21871
+SET timestamp=1738488374;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 1) limit 1;
+# Time: 2025-02-02T09:26:14.400971Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   581
+# Query_time: 0.002725  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 442
+SET timestamp=1738488374;
+select `whatsapp_numbers`.*, (select count(*) from `whatsapp_number_account_packages` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id`) as `whatsapp_number_account_package_count` from `whatsapp_numbers` where (`account_id` = 22302 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 22302 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:14'))) order by CASE WHEN status='authenticated' THEN -1  WHEN status='payment-required' then 0 ELSE 1 END, CASE WHEN expired_at IS NULL THEN 1 ELSE 0 END, `expired_at` desc, `id` desc limit 200 offset 0;
+# Time: 2025-02-02T09:26:15.032379Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   577
+# Query_time: 0.000231  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488375;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (18328, 46490, 92710, 228148, 232854, 249350, 250875, 256313, 260163, 285821, 351094, 351439, 351586, 356017, 356097);
+# Time: 2025-02-02T09:26:15.831089Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   553
+# Query_time: 0.000297  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488375;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354395);
+# Time: 2025-02-02T09:26:16.640397Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   597
+# Query_time: 0.004389  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 1126
+SET timestamp=1738488376;
+select count(*) as aggregate from `whatsapp_labels` where (`account_id` = 22302 or (exists (select * from `whatsapp_numbers` where `whatsapp_labels`.`whatsapp_number_id` = `whatsapp_numbers`.`id` and exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:26:16' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:26:16')) and (`account_id` = 22302 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 22302 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:16'))) and `expired_at` >= '2025-02-02 12:26:16')));
+# Time: 2025-02-02T09:26:16.650268Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   597
+# Query_time: 0.008501  Lock_time: 0.000005 Rows_sent: 68  Rows_examined: 2254
+SET timestamp=1738488376;
+select `whatsapp_labels`.*, (select count(*) from `whatsapp_dialog_labels` where `whatsapp_labels`.`id` = `whatsapp_dialog_labels`.`whatsapp_label_id`) as `whatsapp_dialog_labels_count` from `whatsapp_labels` where (`account_id` = 22302 or (exists (select * from `whatsapp_numbers` where `whatsapp_labels`.`whatsapp_number_id` = `whatsapp_numbers`.`id` and exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:26:16' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:26:16')) and (`account_id` = 22302 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 22302 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:16'))) and `expired_at` >= '2025-02-02 12:26:16'))) order by `created_at` desc limit 10000 offset 0;
+# Time: 2025-02-02T09:26:16.703769Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   596
+# Query_time: 0.000222  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488376;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (18328, 46490, 92710, 228148, 232854, 249350, 250875, 256313, 260163, 285821, 351094, 351439, 351586, 356017, 356097);
+# Time: 2025-02-02T09:26:17.078628Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   602
+# Query_time: 0.005482  Lock_time: 0.000006 Rows_sent: 1  Rows_examined: 1126
+SET timestamp=1738488377;
+select count(*) as aggregate from `whatsapp_labels` where (`account_id` = 22302 or (exists (select * from `whatsapp_numbers` where `whatsapp_labels`.`whatsapp_number_id` = `whatsapp_numbers`.`id` and exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:26:17' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:26:17')) and (`account_id` = 22302 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 22302 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:17'))) and `expired_at` >= '2025-02-02 12:26:17')));
+# Time: 2025-02-02T09:26:17.087340Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   602
+# Query_time: 0.007240  Lock_time: 0.000006 Rows_sent: 68  Rows_examined: 2254
+SET timestamp=1738488377;
+select `whatsapp_labels`.*, (select count(*) from `whatsapp_dialog_labels` where `whatsapp_labels`.`id` = `whatsapp_dialog_labels`.`whatsapp_label_id`) as `whatsapp_dialog_labels_count` from `whatsapp_labels` where (`account_id` = 22302 or (exists (select * from `whatsapp_numbers` where `whatsapp_labels`.`whatsapp_number_id` = `whatsapp_numbers`.`id` and exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:26:17' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:26:17')) and (`account_id` = 22302 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 22302 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:17'))) and `expired_at` >= '2025-02-02 12:26:17'))) order by `created_at` desc limit 10000 offset 0;
+# Time: 2025-02-02T09:26:17.179102Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   516
+# Query_time: 0.000220  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488377;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:17.536853Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000165  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488377;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:17.902698Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   607
+# Query_time: 0.000427  Lock_time: 0.000004 Rows_sent: 30  Rows_examined: 30
+SET timestamp=1738488377;
+select * from `crm_lead_inputs` where (`sub_account_id` = 202 or `account_id` is null);
+# Time: 2025-02-02T09:26:18.142288Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.009364  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_records` where `account_id` = 8169 and (select count(*) from `account_commercial_contracts` where `account_commercial_records`.`id` = `account_commercial_contracts`.`account_commercial_record_id`) <= 0 and `status` = 1;
+# Time: 2025-02-02T09:26:18.182239Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.034086  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 0;
+# Time: 2025-02-02T09:26:18.213911Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.030195  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 0;
+# Time: 2025-02-02T09:26:18.243791Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.028434  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 3;
+# Time: 2025-02-02T09:26:18.272060Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.026048  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 3;
+# Time: 2025-02-02T09:26:18.299488Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.025552  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 4;
+# Time: 2025-02-02T09:26:18.337910Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.035940  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 4;
+# Time: 2025-02-02T09:26:18.367780Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.026967  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 11;
+# Time: 2025-02-02T09:26:18.398100Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.028318  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 11;
+# Time: 2025-02-02T09:26:18.428604Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.028563  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 12;
+# Time: 2025-02-02T09:26:18.464406Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.033873  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 12;
+# Time: 2025-02-02T09:26:18.497317Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.030695  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 5;
+# Time: 2025-02-02T09:26:18.525872Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.026511  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 5;
+# Time: 2025-02-02T09:26:18.552518Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.024740  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 7;
+# Time: 2025-02-02T09:26:18.589668Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.035650  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 7;
+# Time: 2025-02-02T09:26:18.621544Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.030056  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` in (6, 10, 2, 4) and `expiry_date` between '2025-02-02 12:26:18' and '2025-03-04 12:26:18';
+# Time: 2025-02-02T09:26:18.651186Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.027449  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488378;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` in (6, 10, 2, 4) and `expiry_date` between '2025-02-02 12:26:18' and '2025-03-04 12:26:18';
+# Time: 2025-02-02T09:26:18.657937Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   601
+# Query_time: 0.000454  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488378;
+select count(*) as aggregate from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `status` = 1 and `expiry_date` > '2025-02-02 12:26:18' and `account_id` = 8169) and `status` = 7;
+# Time: 2025-02-02T09:26:19.222882Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   411
+# Query_time: 0.000256  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488379;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356244);
+# Time: 2025-02-02T09:26:19.280956Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.125645  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 21871
+SET timestamp=1738488379;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 1) limit 1;
+# Time: 2025-02-02T09:26:19.799452Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   614
+# Query_time: 0.002215  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 378
+SET timestamp=1738488379;
+select count(*) as aggregate from `whatsapp_numbers` where exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:26:19' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:26:19')) and (`account_id` = 8169 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 8169 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:19'))) and `expired_at` >= '2025-02-02 12:26:19';
+# Time: 2025-02-02T09:26:19.811937Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   614
+# Query_time: 0.000374  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488379;
+select * from `users` where `status` = 1 limit 1;
+# Time: 2025-02-02T09:26:20.013472Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   614
+# Query_time: 0.000240  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 11
+SET timestamp=1738488380;
+select * from `currencies` where `is_default` = 1 limit 1;
+# Time: 2025-02-02T09:26:23.720429Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000276  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488383;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:24.315102Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   516
+# Query_time: 0.000277  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488384;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:24.317562Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.031484  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 11007
+SET timestamp=1738488384;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 2) limit 1;
+# Time: 2025-02-02T09:26:25.671583Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   629
+# Query_time: 0.000268  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488385;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (355645);
+# Time: 2025-02-02T09:26:26.116997Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   492
+# Query_time: 0.000248  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488386;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351016);
+# Time: 2025-02-02T09:26:26.550116Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   499
+# Query_time: 0.000287  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488386;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351016);
+# Time: 2025-02-02T09:26:28.552086Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000247  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488388;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:28.987902Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   519
+# Query_time: 0.000184  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488388;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356276);
+# Time: 2025-02-02T09:26:28.993441Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   634
+# Query_time: 0.000303  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 30
+SET timestamp=1738488388;
+select * from `crm_lead_inputs` where (`account_id` = 8169 or `account_id` is null);
+# Time: 2025-02-02T09:26:29.345284Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.022915  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 11007
+SET timestamp=1738488389;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 2) limit 1;
+# Time: 2025-02-02T09:26:32.939215Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   640
+# Query_time: 0.000324  Lock_time: 0.000003 Rows_sent: 20  Rows_examined: 20
+SET timestamp=1738488392;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` limit 20 offset 0;
+# Time: 2025-02-02T09:26:32.962916Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   640
+# Query_time: 0.021464  Lock_time: 0.000004 Rows_sent: 3452  Rows_examined: 6703
+SET timestamp=1738488392;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 320, 1892);
+# Time: 2025-02-02T09:26:33.121215Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   640
+# Query_time: 0.020775  Lock_time: 0.000005 Rows_sent: 5203  Rows_examined: 6703
+SET timestamp=1738488393;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 6, 8, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 1950, 1987, 2022, 2149, 2151, 2173, 2177, 2179, 2181, 2233, 2234, 2235, 2238, 2241, 2247, 2303, 2307, 2341, 2342, 2346, 2361, 2363, 2364, 2415, 2476, 2483, 2531, 2533, 2534, 2572, 2573, 2575, 2651, 2662, 2706, 2722, 2782, 2819, 2947, 2953, 2974, 2982, 2983, 3088, 3091, 3098, 3099, 3124, 3168, 3233, 3234, 3235, 3256, 3315, 3316, 3331, 3332, 3333, 3334, 3335, 3355, 3357, 3365, 3378, 3418, 3419, 3420, 3421, 3422, 3424, 3425, 3426, 3428, 3429, 3430, 3431, 3432, 3433, 3434, 3435, 3437, 3440, 3441, 3449, 3452, 3459, 3466, 3467, 3468, 3469, 3471, 3472, 3473, 3474, 3475, 3476, 3477, 3481, 3482, 3483, 3484, 3485, 3486, 3487, 3488, 3489, 3490, 3491, 3492, 3493, 3495, 3496, 3497, 3498, 3499, 3500, 3501, 3502, 3503, 3504, 3505, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3515, 3516, 3517, 3519, 3520, 3521, 3522, 3523, 3524, 3525, 3526, 3527, 3529, 3531, 3533, 3535, 3536, 3537, 3538, 3539, 3540, 3542, 3543, 3544, 3545, 3546, 3547, 3548, 3549, 3550, 3551, 3552, 3553, 3554, 3556, 3557, 3558, 3559, 3560, 3562, 3563, 3564, 3565, 3567, 3568, 3569, 3570, 3571, 3573, 3574, 3575, 3576, 3577, 3578, 3579, 3580, 3581, 3582, 3583, 3584, 3585, 3586, 3587, 3588, 3603, 3604, 3605, 3613, 3621, 3622, 3629, 3636, 3637, 3656, 3657, 3658, 3659, 3660, 3662, 3666, 3667, 3668, 3669, 3682, 3683, 3684, 3686, 3687, 3691, 3702, 3703, 3704, 3705, 3706, 3707, 3708, 3709, 3716, 3717, 3718, 3719, 3720, 3722, 3723, 3724, 3726, 3727, 3740, 3747, 3748, 3749, 3771, 3772, 3773, 3774, 3776, 3777, 3778, 3779, 3780, 3787, 3788, 3789, 3790, 3791, 3792, 3794, 3795, 3796, 3797, 3799, 3807, 3820, 3827, 3861, 3862, 3863, 3865, 3872, 3874, 3905, 3906, 3907, 3924, 3925, 3926, 3927, 3928, 3935, 3936, 3937, 3938, 3957, 3958, 3959, 3980, 3987, 3988, 3989, 3990, 3991, 3992, 3993, 3994, 3995, 3996, 4034, 4035, 4042, 4055, 4063, 4067, 4068, 4070, 4078, 4080, 4081, 4082, 4096, 4101, 4103, 4105, 4106, 4110, 4118, 4120, 4122, 4132, 4137, 4140, 4141, 4144, 4155, 4156, 4158, 4162, 4164, 4170, 4171, 4175, 4178, 4179, 4180, 4181, 4183, 4184, 4185, 4188, 4190, 4192, 4195, 4197, 4201, 4202, 4204, 4205, 4208, 4209, 4210, 4212, 4213, 4214, 4215, 4217, 4218, 4219, 4221, 4223, 4224, 4227, 4228, 4230, 4232, 4234, 4235, 4236, 4237, 4239, 4240, 4242, 4243, 4245, 4250, 4251, 4252, 4254, 4255, 4256, 4260, 4261, 4262, 4263, 4264, 4265, 4266, 4267, 4268, 4269, 4271, 4273, 4276, 4277, 4280, 4281, 4285, 4286, 4287, 4290, 4292, 4296, 4297, 4298, 4300, 4302, 4304, 4306, 4308, 4309, 4314, 4315, 4316, 4318, 4319, 4325, 4327, 4328, 4333, 4335, 4338, 4348, 4350, 4351, 4353, 4362, 4364, 4370, 4371, 4380, 4381, 4395, 4396, 4399, 4404, 4406, 4408, 4410, 4411, 4414, 4415, 4416, 4417, 4418, 4419, 4420, 4422, 4423, 4424, 4430, 4433, 4434, 4438, 4439, 4440, 4441, 4442, 4443, 4444, 4445, 4448, 4449, 4450, 4451, 4453, 4454, 4455, 4456, 4460, 4461, 4462, 4463, 4465, 4466, 4470, 4471, 4472, 4473, 4474, 4475, 4476, 4477, 4480, 4481, 4482, 4484, 4486, 4487, 4488, 4489, 4490, 4491, 4492, 4493, 4497, 4498, 4499, 4500, 4504, 4505, 4506, 4508, 4509, 4512, 4515, 4516, 4517, 4520, 4523, 4527, 4530, 4531, 4534, 4536, 4539, 4540, 4542, 4543, 4545, 4546, 4548, 4549, 4550, 4551, 4552, 4554, 4556, 4557, 4558, 4560, 4562, 4563, 4564, 4567, 4568, 4569, 4572, 4573, 4574, 4575, 4576, 4577, 4579, 4582, 4585, 4587, 4592, 4594, 4595, 4596, 4600, 4602, 4603, 4604, 4605, 4606, 4608, 4609, 4610, 4611, 4612, 4613, 4615, 4616, 4617, 4620, 4623, 4625, 4627, 4628, 4629, 4630, 4631, 4632, 4633, 4635, 4637, 4638, 4639, 4641, 4642, 4643, 4644, 4645, 4647, 4649, 4650, 4653, 4654, 4655, 4656, 4657, 4658, 4660, 4662, 4663, 4664, 4665, 4666, 4668, 4669, 4670, 4672, 4673, 4674, 4676, 4680, 4684, 4687, 4689, 4690, 4691, 4693, 4694, 4697, 4698, 4699, 4700, 4702, 4705, 4706, 4707, 4710, 4711, 4713, 4714, 4715, 4716, 4717, 4718, 4719, 4720, 4722, 4723, 4725, 4727, 4728, 4729, 4730, 4731, 4732, 4733, 4734, 4737, 4740, 4741, 4743, 4744, 4746, 4747, 4748, 4749, 4750, 4751, 4752, 4753, 4754, 4755, 4756, 4759, 4760, 4762, 4763, 4764, 4765, 4766, 4767, 4769, 4770, 4771, 4772, 4773, 4774, 4776, 4777, 4778, 4781, 4782, 4784, 4785, 4786, 4787, 4788, 4790, 4791, 4794, 4795, 4796, 4797, 4798, 4799, 4800, 4802, 4803, 4804, 4805, 4806, 4807, 4808, 4809, 4811, 4813, 4814, 4815, 4816, 4817, 4819, 4820, 4821, 4822, 4823, 4825, 4826, 4827, 4828, 4830, 4832, 4833, 4838, 4840, 4841, 4843, 4844, 4845, 4847, 4848, 4849, 4851, 4852, 4853, 4854, 4856, 4857, 4858, 4859, 4860, 4863, 4865, 4884, 4891, 4892, 4893, 4895, 4902, 4903, 4904, 4905, 4912, 4925, 4926, 4927, 4928, 4929, 4930, 4952, 4953, 4954, 4955, 4968, 4969, 4988, 4989, 4991, 4992, 4994, 4995, 4996, 4997, 4998, 4999, 5001, 5002, 5004, 5005, 5012, 5013, 5014, 5015, 5023, 5024, 5025, 5026, 5027, 5028, 5029, 5031, 5033, 5034, 5041, 5042, 5050, 5051, 5052, 5053, 5054, 5055, 5057, 5058, 5059, 5060, 5080, 5088, 5090, 5091, 5092, 5094, 5095, 5102, 5109, 5110, 5111, 5112, 5114, 5121, 5122, 5129, 5130, 5131, 5133, 5134, 5135, 5136, 5149, 5150, 5155, 5156, 5157, 5158, 5159, 5160, 5167, 5180, 5187, 5188, 5189, 5190, 5191, 5192, 5193, 5194, 5195, 5196, 5197, 5198, 5199, 5200, 5201, 5202, 5203, 5204, 5205, 5208, 5210, 5211, 5212, 5213, 5214, 5216, 5218, 5219, 5221, 5222, 5223, 5224, 5225, 5226, 5227, 5228, 5229, 5230, 5231, 5232, 5233, 5234, 5236, 5244, 5251, 5264, 5265, 5266, 5268, 5269, 5270, 5271, 5272, 5273, 5274, 5318, 5321, 5328, 5329, 5347, 5349, 5350, 5352, 5353, 5354, 5356, 5357, 5424, 5425, 5426, 5428, 5435, 5436, 5439, 5440, 5442, 5443, 5444, 5445, 5450, 5451, 5484, 5485, 5486, 5487, 5488, 5489, 5496, 5497, 5510, 5511, 5518, 5521, 5522, 5525, 5538, 5558, 5565, 5566, 5567, 5568, 5569, 5571, 5573, 5574, 5575, 5576, 5577, 5578, 5589, 5590, 5591, 5592, 5593, 5595, 5596, 5603, 5610, 5611, 5612, 5613, 5614, 5615, 5616, 5619, 5620, 5621, 5622, 5623, 5627, 5634, 5642, 5643, 5645, 5646, 5647, 5648, 5649, 5651, 5652, 5654, 5690, 5691, 5695, 5702, 5703, 5778, 5821, 6144, 6146, 6164, 6169, 6170, 6174, 6175, 6178, 6184, 6186, 6205, 6210, 6225, 6230, 6237, 6255, 6270, 6274, 6280, 6287, 6299, 6304, 6313, 6325, 6341, 6399, 6412, 6415, 6465, 6487, 6505, 6574, 6628, 6631, 6729, 6745, 6774, 6815, 6842, 6880, 6887, 6919, 6948, 6974, 6977, 6983, 7005, 7038, 7076, 7083, 7123, 7225, 7233, 7262, 7264, 7267, 7275, 7279, 7280, 7281, 7282, 7284, 7285, 7286, 7290, 7297, 7298, 7299, 7314, 7315, 7316, 7317, 7348, 7351, 7352, 7353, 7463, 7470, 7484, 7521, 7535, 7537, 7543, 7545, 7546, 7547, 7549, 7550, 7552, 7554, 7559, 7560, 7563, 7565, 7578, 7580, 7594, 7652, 7657, 7661, 7663, 7665, 7670, 7672, 7674, 7702, 7710, 7718, 7720, 7721, 7727, 7729, 7734, 7736, 7738, 7741, 7746, 7753, 7764, 7788, 7791, 7796, 7803, 7808, 7811, 7817, 7836, 7842, 7843, 7853, 7854, 7857, 7858, 7860, 7862, 7863, 7865, 7867, 7873, 7874, 7876, 7885, 7887, 7890, 7895, 7898, 7928, 7936, 7944, 7948, 7962, 7964, 7966, 7968, 7970, 8011, 8013, 8016, 8030, 8034, 8103, 8114, 8144, 8187, 8229, 8236, 8249, 8270, 8298, 8313, 8314, 8316, 8319, 8322, 8345, 8348, 8355, 8363, 8372, 8378, 8386, 8389, 8403, 8404, 8411, 8436, 8448, 8464, 8466, 8480, 8486, 8492, 8501, 8516, 8529, 8530, 8545, 8546, 8548, 8549, 8551, 8574, 8575, 8577, 8580, 8584, 8585, 8586, 8587, 8590, 8592, 8594, 8595, 8598, 8599, 8602, 8606, 8608, 8613, 8614, 8624, 8626, 8628, 8629, 8630, 8635, 8636, 8637, 8639, 8977, 8979, 8981, 8982, 8983, 8984, 8985, 8995, 9010, 9049, 9059, 9060, 9077, 9078, 9086, 9095, 9102, 9104, 9107, 9109, 9112, 9113, 9114, 9118, 9119, 9122, 9124, 9125, 9127, 9129, 9132, 9137, 9140, 9141, 9143, 9146, 9153, 9155, 9163, 9182, 9183, 9192, 9198, 9200, 9201, 9202, 9213, 9230, 9233, 9237, 9246, 9265, 9272, 9276, 9288, 9306, 9321, 9326, 9327, 9339, 9348, 9352, 9358, 9367, 9371, 9379, 9384, 9389, 9400, 9412, 9417, 9447, 9454, 9456, 9474, 9487, 9496, 9511, 9524, 9527, 9537, 9545, 9556, 9558, 9563, 9565, 9568, 9575, 9592, 9627, 9628, 9634, 9636, 9643, 9658, 9660, 9673, 9674, 9684, 9690, 9697, 9711, 9728, 9729, 9749, 9753, 9754, 9763, 9766, 9770, 9782, 9791, 9798, 9800, 9814, 9836, 9839, 9850, 9861, 9867, 9869, 9874, 9876, 9879, 9885, 9892, 9896, 9900, 9921, 9927, 9932, 9933, 9937, 9944, 9945, 9955, 9961, 9975, 9976, 9980, 9985, 9990, 9991, 9994, 9997, 10002, 10005, 10013, 10015, 10041, 10072, 10082, 10086, 10089, 10091, 10104, 10106, 10109, 10117, 10123, 10136, 10139, 10145, 10150, 10159, 10160, 10161, 10168, 10169, 10171, 10172, 10174, 10177, 10178, 10181, 10185, 10199, 10200, 10206, 10207, 10208, 10209, 10212, 10213, 10223, 10228, 10229, 10231, 10232, 10233, 10234, 10237, 10239, 10240, 10242, 10244, 10245, 10248, 10249, 10278, 10279, 10280, 10282, 10301, 10335, 10347, 10362, 10369, 10370, 10371, 10372, 10373, 10374, 10375, 10377, 10378, 10379, 10380, 10381, 10390, 10391, 10392, 10393, 10394, 10396, 10403, 10412, 10420, 10422, 10445, 10448, 10449, 10450, 10460, 10480, 10491, 10501, 10571, 10573, 10574, 10575, 10578, 10579, 10581, 10587, 10590, 10591, 10595, 10597, 10623, 10676, 10679, 10685, 10691, 10699, 10700, 10702, 10716, 10750, 10755, 10756, 10758, 10759, 10779, 10788, 10797, 10805, 10807, 10808, 10815, 10880, 10950, 10982, 10983, 10984, 10986, 10988, 10993, 10996, 11005, 11008, 11009, 11010, 11026, 11029, 11030, 11031, 11041, 11047, 11050, 11055, 11068, 11069, 11070, 11073, 11081, 11087, 11090, 11135, 11142, 11149, 11150, 11153, 11155, 11169, 11249, 11250, 11255, 11256, 11257, 11258, 11260, 11261, 11262, 11263, 11276, 11301, 11302, 11303, 11308, 11311, 11312, 11313, 11315, 11317, 11319, 11321, 11327, 11328, 11330, 11346, 11348, 11349, 11351, 11352, 11371, 11372, 11383, 11390, 11398, 11408, 11410, 11411, 11474, 11476, 11477, 11478, 11485, 11486, 11487, 11492, 11499, 11513, 11514, 11518, 11528, 11530, 11561, 11562, 11564, 11565, 11568, 11570, 11577, 11581, 11582, 11583, 11585, 11588, 11589, 11591, 11592, 11594, 11595, 11597, 11631, 11632, 11633, 11634, 11641, 11648, 11649, 11651, 11720, 11795, 11797, 11826, 11873, 11880, 11890, 11911, 11919, 11926, 11932, 11933, 11934, 11935, 11936, 11940, 11941, 11945, 11946, 11948, 11953, 11961, 11963, 11964, 11966, 11979, 11986, 11988, 11990, 11993, 11996, 11997, 12004, 12005, 12006, 12019, 12033, 12058, 12068, 12069, 12070, 12077, 12078, 12079, 12099, 12126, 12128, 12153, 12160, 12185, 12186, 12188, 12190, 12191, 12204, 12213, 12216, 12217, 12220, 12223, 12233, 12234, 12236, 12254, 12268, 12297, 12300, 12316, 12321, 12325, 12327, 12330, 12340, 12341, 12348, 12356, 12363, 12365, 12374, 12378, 12379, 12380, 12406, 12465, 12502, 12504, 12505, 12506, 12507, 12573, 12608, 12609, 12660, 12669, 12727, 12744, 12753, 12848, 12849, 12863, 12874, 12875, 12896, 12919, 12929, 12936, 12966, 13069, 13101, 13114, 13116, 13170, 13178, 13187, 13203, 13205, 13263, 13312, 13313, 13330, 13380, 13381, 13382, 13383, 13388, 13391, 13416, 13504, 13535, 13574, 13620, 13622, 13660, 13667, 13836, 13884, 13888, 13891, 13935, 13977, 13980, 14009, 14011, 14068, 14105, 14300, 14407, 14444, 14447, 14458, 14463, 14477, 14480, 14481, 14486, 14487, 14489, 14491, 14492, 14506, 14507, 14538, 14551, 14564, 14572, 14608, 14609, 14611, 14619, 14620, 14635, 14637, 14673, 14674, 14675, 14677, 14687, 14698, 14704, 14705, 14747, 14760, 14768, 14769, 14782, 14786, 14788, 14790, 14791, 14804, 14805, 14808, 14817, 14819, 14823, 14828, 14829, 14830, 14833, 15011, 15036, 15050, 15059, 15060, 15067, 15103, 15105, 15117, 15137, 15145, 15152, 15153, 15161, 15162, 15216, 15217, 15252, 15265, 15360, 15365, 15366, 15367, 15381, 15383, 15386, 15387, 15465, 15507, 15532, 15553, 15555, 15591, 15631, 15632, 15645, 15646, 15659, 15660, 15739, 15748, 15755, 15761, 15764, 15769, 15785, 15810, 15840, 15846, 15851, 15852, 15866, 15881, 15910, 15936, 15947, 16008, 16030, 16032, 16033, 16039, 16051, 16069, 16073, 16074, 16077, 16078, 16103, 16105, 16107, 16113, 16115, 16118, 16119, 16170, 16191, 16258, 16274, 16305, 16323, 16332, 16339, 16342, 16350, 16366, 16367, 16370, 16372, 16381, 16391, 16420, 16421, 16422, 16423, 16529, 16531, 16540, 16541, 16543, 16544, 16547, 16548, 16551, 16559, 16566, 16573, 16575, 16576, 16584, 16593, 16600, 16612, 16648, 16666, 16698, 16700, 16702, 16779, 16794, 16795, 16801, 16870, 16875, 16899, 16909, 16911, 16940, 17226, 17242, 17264, 17318, 17363, 17369, 17390, 17434, 17447, 17449, 17500, 17546, 17554, 17566, 17567, 17579, 17580, 17581, 17599, 17603, 17628, 17656, 17659, 17661, 17662, 17670, 17671, 17678, 17680, 17732, 17746, 17747, 17749, 17756, 17757, 17761, 17765, 17766, 17823, 17825, 17826, 17843, 17846, 17848, 17849, 17903, 17905, 17919, 17922, 17943, 17962, 18089, 18132, 18154, 18165, 18167, 18196, 18216, 18217, 18218, 18219, 18296, 18312, 18313, 18320, 18324, 18359, 18421, 18444, 18457, 18472, 18501, 18508, 18528, 18566, 18586, 18587, 18588, 18609, 18611, 18661, 18683, 18684, 18685, 18686, 18694, 18704, 18712, 18752, 18777, 18786, 18805, 18806, 18809, 18818, 18849, 18903, 18911, 18954, 18983, 18986, 18988, 18990, 18994, 19001, 19019, 19026, 19027, 19028, 19054, 19055, 19061, 19062, 19064, 19065, 19072, 19079, 19112, 19117, 19118, 19119, 19120, 19121, 19125, 19130, 19131, 19133, 19135, 19137, 19138, 19145, 19153, 19154, 19158, 19159, 19160, 19161, 19164, 19165, 19179, 19186, 19187, 19188, 19189, 19190, 19197, 19204, 19212, 19214, 19216, 19233, 19234, 19235, 19236, 19237, 19250, 19251, 19252, 19263, 19264, 19265, 19266, 19267, 19272, 19273, 19275, 19277, 19279, 19292, 19293, 19294, 19296, 19297, 19299, 19300, 19301, 19303, 19304, 19313, 19314, 19315, 19317, 19318, 19319, 19322, 19323, 19324, 19325, 19326, 19339, 19345, 19358, 19359, 19361, 19362, 19364, 19365, 19384, 19386, 19388, 19391, 19394, 19395, 19396, 19397, 19402, 19404, 19405, 19406, 19408, 19410, 19411, 19412, 19419, 19432, 19433, 19435, 19436, 19438, 19442, 19474, 19475, 19476, 19478, 19479, 19480, 19488, 19498, 19499, 19501, 19503, 19514, 19515, 19516, 19517, 19524, 19525, 19528, 19533, 19534, 19550, 19551, 19552, 19565, 19573, 19574, 19581, 19588, 19601, 19602, 19633, 19634, 19642, 19663, 19664, 19665, 19686, 19687, 19791, 19804, 19805, 19806, 19807, 19808, 19809, 19810, 19811, 19823, 19824, 19825, 19826, 19827, 19830, 19832, 19839, 19844, 19845, 19848, 19859, 19880, 19881, 19888, 19891, 19913, 19916, 19918, 19925, 19932, 19945, 19954, 19956, 19963, 19964, 19968, 19969, 19970, 19971, 19992, 19993, 20010, 20011, 20012, 20013, 20014, 20016, 20017, 20022, 20023, 20025, 20028, 20030, 20031, 20032, 20035, 20036, 20037, 20039, 20040, 20047, 20048, 20049, 20050, 20051, 20052, 20053, 20066, 20074, 20113, 20114, 20117, 20131, 20132, 20134, 20151, 20152, 20172, 20173, 20216, 20218, 20219, 20220, 20228, 20230, 20231, 20237, 20239, 20240, 20259, 20260, 20261, 20262, 20263, 20264, 20265, 20266, 20267, 20268, 20275, 20276, 20277, 20278, 20280, 20283, 20292, 20293, 20299, 20308, 20309, 20330, 20353, 20372, 20409, 20410, 20411, 20425, 20432, 20439, 20447, 20448, 20449, 20450, 20451, 20452, 20460, 20481, 20488, 20495, 20508, 20510, 20511, 20512, 20520, 20621, 20645, 20646, 20647, 20654, 20656, 20663, 20672, 20674, 20699, 20724, 20726, 20734, 20735, 20749, 20751, 20783, 20784, 20793, 20812, 20813, 20814, 20842, 20845, 20854, 20856, 20858, 20859, 20862, 20863, 20865, 20879, 20880, 20881, 20895, 20897, 20906, 20939, 20982, 20983, 20984, 20998, 21000, 21045, 21058, 21071, 21078, 21079, 21081, 21087, 21090, 21091, 21092, 21094, 21095, 21110, 21111, 21112, 21113, 21114, 21120, 21139, 21172, 21187, 21196, 21212, 21246, 21254, 21279, 21288, 21289, 21292, 21294, 21295, 21316, 21327, 21328, 21329, 21331, 21402, 21403, 21413, 21414, 21415, 21416, 21423, 21450, 21469, 21519, 21522, 21544, 21545, 21546, 21547, 21548, 21549, 21550, 21551, 21552, 21553, 21555, 21556, 21558, 21559, 21560, 21561, 21563, 21567, 21568, 21573, 21579, 21580, 21581, 21584, 21586, 21612, 21619, 21620, 21628, 21629, 21634, 21638, 21726, 21727, 21729, 21730, 21731, 21732, 21741, 21761, 21774, 21782, 21784, 21797, 21805, 21812, 21844, 21870, 21982, 21995, 22030, 22038, 22040, 22046, 22049, 22057, 22079, 22143, 22154, 22169, 22171, 22182, 22183, 22191, 22203, 22207, 22249, 22251, 22279, 22301, 22302, 22303, 22314, 22335, 22370, 22371, 22373, 22374, 22382, 22390, 22422, 22487, 22488, 22489, 22495, 22499, 22510, 22578, 22579, 22594, 22597, 22600, 22601, 22617, 22619, 22621, 22626, 22655, 22682, 22686, 22691, 22694, 22701, 22708, 22764, 22777, 22808, 22811, 22814, 22815, 22824, 22856, 22863, 22913, 22916, 22918, 22943, 22974, 22982, 22985, 23011, 23039, 23088, 23119, 23123, 23137, 23138, 23169, 23170, 23175, 23176, 23250, 23318, 23322, 23329, 23402, 23423, 23424, 23452, 23484, 23491, 23528, 23535, 23536, 23571, 23572, 23585, 23593, 23620, 23652, 23653, 23654, 23705, 23826, 23842, 23876, 23877, 23884, 23885, 23886, 23902, 23903, 23904, 23906, 23908, 23914, 23928, 23929, 23931, 23934, 23941, 23944, 23969, 23990, 24005, 24096, 24110, 24115, 24118, 24132, 24146, 24153, 24210, 24211, 24221, 24222, 24223, 24224, 24225, 24239, 24240, 24241, 24288, 24289, 24329, 24350, 24351, 24352, 24353, 24355, 24364, 24365, 24366, 24369, 24370, 24395, 24402, 24441, 24456, 24460, 24485, 24524, 24525, 24527, 24534, 24535, 24549, 24590, 24591, 24620, 24635, 24636, 24637, 24638, 24647, 24655, 24657, 24669, 24684, 24710, 24711, 24712, 24713, 24715, 24728, 24821, 24830, 24833, 24837, 24872, 24874, 24875, 24921, 24922, 24972, 24973, 24974, 24975, 25004, 25024, 25068, 25075, 25082, 25085, 25087, 25118, 25173, 25175, 25176, 25181, 25190, 25191, 25192, 25194, 25197, 25198, 25200, 25223, 25243, 25263, 25318, 25320, 25334, 25373, 25374, 25375, 25376, 25378, 25379, 25380, 25397, 25400, 25408, 25409, 25441, 25442, 25443, 25444, 25451, 25452, 25453, 25478, 25480, 25505, 25513, 25514, 25515, 25535, 25536, 25569, 25582, 25583, 25650, 25651, 25652, 25654, 25679, 25694, 25710, 25729, 25730, 25737, 25738, 25745, 25746, 25766, 25777, 25810, 25812, 25826, 25839, 25840, 25847, 25848, 25849, 25850, 25863, 25864, 25867, 25868, 25875, 25876, 25877, 25890, 25917, 25960, 25975, 25977, 25978, 25999, 26000, 26046, 26048, 26050, 26052, 26069, 26070, 26085, 26086, 26087, 26088, 26195, 26199, 26260, 26305, 26306, 26308, 26358, 26384, 26385, 26538, 26663, 26688, 26799, 26879, 26955, 26968, 26979, 26980, 27008, 27022, 27029, 27080, 27081, 27154, 27155, 27156, 27159, 27248, 27285, 27382, 27383, 27391, 27392, 27402, 27409, 27410, 27439, 27447, 27449, 27481, 27521, 27522, 27553, 27657, 27679, 27681, 27684, 27685, 27699, 27712, 27719, 27727, 27812, 27813, 27823, 27824, 27825, 27833, 27834, 27835, 27850, 27851, 27852, 27856, 27864, 27869, 27870, 27871, 27876, 27878, 27879, 27889, 27890, 27892, 27894, 27898, 27952, 27966, 27968, 27973, 27976, 27978, 27979, 27984, 27990, 27999, 28003, 28018, 28025, 28038, 28039, 28041, 28042, 28076, 28090, 28093, 28147, 28191, 28257, 28258, 28259, 28260, 28298, 28302, 28304, 28311, 28324, 28331, 28360, 28387, 28450, 28457, 28458, 28459, 28460, 28461, 28462, 28481, 28494, 28495, 28496, 28497, 28506, 28541, 28554, 28563, 28564, 28565, 28567, 28569, 28571, 28573, 28574, 28575, 28583, 28584, 28587, 28594, 28613, 28633, 28634, 28636, 28637, 28708, 28771, 28772, 28773, 28802, 28815, 28816, 28818, 28819, 28820, 28857, 28897, 28918, 28925, 28926, 28953, 28978, 29009, 29018, 29085, 29115, 29167, 29168, 29186, 29190, 29243, 29286, 29288, 29289, 29290, 29297, 29298, 29300, 29315, 29323, 29324, 29325, 29347, 29348, 29349, 29364, 29387, 29394, 29395, 29398, 29406, 29408, 29409, 29420, 29421, 29422, 29435, 29438, 29439, 29452, 29462, 29467, 29471, 29488, 29489, 29491, 29492, 29507, 29508, 29513, 29533, 29534, 29540, 29542, 29552, 29554, 29564, 29565, 29579, 29580, 29582, 29585, 29587, 29593, 29604, 29605, 29607, 29608, 29609, 29622, 29624, 29625, 29626, 29643, 29647, 29676, 29684, 29685, 29694, 29718, 29752, 29760, 29780, 29781, 29782, 29784, 29785, 29787, 29795, 29802, 29803, 29804, 29805, 29806, 29815, 29816, 29829, 29842, 29843, 29849, 29851, 29852, 29854, 29855, 29856, 29861, 29871, 29872, 29880, 29882, 29886, 29888, 29891, 29892, 29920, 29921, 29940, 29941, 29954, 29966, 29967, 29974, 29978, 29979, 29980, 29990, 29992, 29993, 29994, 30000, 30007, 30008, 30010, 30011, 30016, 30028, 30031, 30032, 30034, 30043, 30068, 30075, 30076, 30080, 30097, 30114, 30127, 30129, 30130, 30133, 30142, 30143, 30144, 30147, 30149, 30150, 30151, 30159, 30161, 30162, 30170, 30171, 30172, 30179, 30182, 30183, 30184, 30195, 30207, 30209, 30212, 30213, 30220, 30234, 30235, 30256, 30257, 30274, 30284, 30286, 30295, 30305, 30319, 30320, 30321, 30322, 30337, 30338, 30366, 30367, 30368, 30370, 30385, 30404, 30412, 30416, 30417, 30419, 30423, 30424, 30426, 30463, 30464, 30465, 30475, 30477, 30488, 30515, 30543, 30544, 30562, 30568, 30569, 30570, 30572, 30585, 30594, 30597, 30599, 30600, 30604, 30607, 30625, 30628, 30629, 30632, 30635, 30636, 30639, 30640, 30643, 30645, 30646, 30647, 30648, 30655, 30656, 30675, 30707, 30710, 30711, 30713, 30721, 30722, 30723, 30724, 30726, 30727, 30729, 30734, 30742, 30745, 30748, 30759, 30764, 30765, 30826, 30848, 30856, 30860, 30862, 30865, 30866, 30867, 30869, 30870, 30890, 30897, 30898, 30905, 30906, 30907, 30908, 30910, 30912, 30913, 30921, 30960, 30976, 30984, 30993, 30995, 31007, 31009, 31013, 31028, 31039, 31045, 31048, 31050, 31057, 31065, 31066, 31085, 31091, 31094, 31103, 31107, 31108, 31109, 31111, 31114, 31118, 31120, 31124, 31125, 31132, 31134, 31194, 31195, 31196, 31198, 31216, 31225, 31226, 31227, 31243, 31244, 31258, 31259, 31284, 31295, 31298, 31318, 31319, 31321, 31333, 31351, 31352, 31360, 31361, 31362, 31363, 31364, 31366, 31367, 31380, 31381, 31383, 31385, 31387, 31388, 31389, 31390, 31392, 31399, 31400, 31401, 31441, 31444, 31445, 31447, 31452, 31453, 31455, 31460, 31461, 31463, 31470, 31483, 31490, 31497, 31498, 31505, 31509, 31511, 31512, 31525, 31559, 31561, 31562, 31597, 31600, 31601, 31602, 31603, 31604, 31606, 31613, 31614, 31617, 31618, 31619, 31623, 31647, 31652, 31655, 31656, 31657, 31706, 31708, 31710, 31712, 31734, 31736, 31743, 31757, 31771, 31772, 31781, 31782, 31790, 31797, 31802, 31804, 31818, 31849, 31850, 31851, 31852, 31854, 31855, 31858, 31860, 31906, 31908, 31909, 31910, 31917, 31918, 31969, 31971, 31974, 31975, 31976, 31977, 31978, 31979, 31980, 31981, 31982, 31983, 31984, 31986, 31988, 31989, 31993, 32001, 32002, 32004, 32006, 32008, 32009, 32011, 32012, 32017, 32026, 32037, 32039, 32046, 32047, 32048, 32055, 32056, 32057, 32058, 32059, 32078, 32079, 32082, 32084, 32085, 32087, 32089, 32091, 32092, 32095, 32098, 32099, 32100, 32114, 32115, 32119, 32120, 32129, 32130, 32131, 32132, 32133, 32156, 32157, 32159, 32160, 32161, 32162, 32166, 32167, 32174, 32175, 32176, 32177, 32180, 32181, 32189, 32193, 32194, 32196, 32203, 32204, 32205, 32207, 32208, 32209, 32210, 32211, 32212, 32213, 32246, 32247, 32248, 32249, 32250, 32251, 32281, 32282, 32283, 32292, 32293, 32294, 32295, 32296, 32298, 32306, 32307, 32310, 32314, 32327, 32329, 32338, 32339, 32340, 32341);
+# Time: 2025-02-02T09:26:34.380091Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.029272  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 11007
+SET timestamp=1738488394;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 2) limit 1;
+# Time: 2025-02-02T09:26:35.453456Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   642
+# Query_time: 0.097621  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 40375
+SET timestamp=1738488395;
+select count(*) as aggregate from `tickets` where (`desc` like '%khaldoon_sc%' or `title` like '%khaldoon_sc%');
+# Time: 2025-02-02T09:26:36.349558Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   655
+# Query_time: 0.000625  Lock_time: 0.000003 Rows_sent: 20  Rows_examined: 20
+SET timestamp=1738488396;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` limit 20 offset 0;
+# Time: 2025-02-02T09:26:36.367491Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   655
+# Query_time: 0.015155  Lock_time: 0.000004 Rows_sent: 3452  Rows_examined: 6703
+SET timestamp=1738488396;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 320, 1892);
+# Time: 2025-02-02T09:26:36.530471Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   655
+# Query_time: 0.023958  Lock_time: 0.000005 Rows_sent: 5203  Rows_examined: 6703
+SET timestamp=1738488396;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 6, 8, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 1950, 1987, 2022, 2149, 2151, 2173, 2177, 2179, 2181, 2233, 2234, 2235, 2238, 2241, 2247, 2303, 2307, 2341, 2342, 2346, 2361, 2363, 2364, 2415, 2476, 2483, 2531, 2533, 2534, 2572, 2573, 2575, 2651, 2662, 2706, 2722, 2782, 2819, 2947, 2953, 2974, 2982, 2983, 3088, 3091, 3098, 3099, 3124, 3168, 3233, 3234, 3235, 3256, 3315, 3316, 3331, 3332, 3333, 3334, 3335, 3355, 3357, 3365, 3378, 3418, 3419, 3420, 3421, 3422, 3424, 3425, 3426, 3428, 3429, 3430, 3431, 3432, 3433, 3434, 3435, 3437, 3440, 3441, 3449, 3452, 3459, 3466, 3467, 3468, 3469, 3471, 3472, 3473, 3474, 3475, 3476, 3477, 3481, 3482, 3483, 3484, 3485, 3486, 3487, 3488, 3489, 3490, 3491, 3492, 3493, 3495, 3496, 3497, 3498, 3499, 3500, 3501, 3502, 3503, 3504, 3505, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3515, 3516, 3517, 3519, 3520, 3521, 3522, 3523, 3524, 3525, 3526, 3527, 3529, 3531, 3533, 3535, 3536, 3537, 3538, 3539, 3540, 3542, 3543, 3544, 3545, 3546, 3547, 3548, 3549, 3550, 3551, 3552, 3553, 3554, 3556, 3557, 3558, 3559, 3560, 3562, 3563, 3564, 3565, 3567, 3568, 3569, 3570, 3571, 3573, 3574, 3575, 3576, 3577, 3578, 3579, 3580, 3581, 3582, 3583, 3584, 3585, 3586, 3587, 3588, 3603, 3604, 3605, 3613, 3621, 3622, 3629, 3636, 3637, 3656, 3657, 3658, 3659, 3660, 3662, 3666, 3667, 3668, 3669, 3682, 3683, 3684, 3686, 3687, 3691, 3702, 3703, 3704, 3705, 3706, 3707, 3708, 3709, 3716, 3717, 3718, 3719, 3720, 3722, 3723, 3724, 3726, 3727, 3740, 3747, 3748, 3749, 3771, 3772, 3773, 3774, 3776, 3777, 3778, 3779, 3780, 3787, 3788, 3789, 3790, 3791, 3792, 3794, 3795, 3796, 3797, 3799, 3807, 3820, 3827, 3861, 3862, 3863, 3865, 3872, 3874, 3905, 3906, 3907, 3924, 3925, 3926, 3927, 3928, 3935, 3936, 3937, 3938, 3957, 3958, 3959, 3980, 3987, 3988, 3989, 3990, 3991, 3992, 3993, 3994, 3995, 3996, 4034, 4035, 4042, 4055, 4063, 4067, 4068, 4070, 4078, 4080, 4081, 4082, 4096, 4101, 4103, 4105, 4106, 4110, 4118, 4120, 4122, 4132, 4137, 4140, 4141, 4144, 4155, 4156, 4158, 4162, 4164, 4170, 4171, 4175, 4178, 4179, 4180, 4181, 4183, 4184, 4185, 4188, 4190, 4192, 4195, 4197, 4201, 4202, 4204, 4205, 4208, 4209, 4210, 4212, 4213, 4214, 4215, 4217, 4218, 4219, 4221, 4223, 4224, 4227, 4228, 4230, 4232, 4234, 4235, 4236, 4237, 4239, 4240, 4242, 4243, 4245, 4250, 4251, 4252, 4254, 4255, 4256, 4260, 4261, 4262, 4263, 4264, 4265, 4266, 4267, 4268, 4269, 4271, 4273, 4276, 4277, 4280, 4281, 4285, 4286, 4287, 4290, 4292, 4296, 4297, 4298, 4300, 4302, 4304, 4306, 4308, 4309, 4314, 4315, 4316, 4318, 4319, 4325, 4327, 4328, 4333, 4335, 4338, 4348, 4350, 4351, 4353, 4362, 4364, 4370, 4371, 4380, 4381, 4395, 4396, 4399, 4404, 4406, 4408, 4410, 4411, 4414, 4415, 4416, 4417, 4418, 4419, 4420, 4422, 4423, 4424, 4430, 4433, 4434, 4438, 4439, 4440, 4441, 4442, 4443, 4444, 4445, 4448, 4449, 4450, 4451, 4453, 4454, 4455, 4456, 4460, 4461, 4462, 4463, 4465, 4466, 4470, 4471, 4472, 4473, 4474, 4475, 4476, 4477, 4480, 4481, 4482, 4484, 4486, 4487, 4488, 4489, 4490, 4491, 4492, 4493, 4497, 4498, 4499, 4500, 4504, 4505, 4506, 4508, 4509, 4512, 4515, 4516, 4517, 4520, 4523, 4527, 4530, 4531, 4534, 4536, 4539, 4540, 4542, 4543, 4545, 4546, 4548, 4549, 4550, 4551, 4552, 4554, 4556, 4557, 4558, 4560, 4562, 4563, 4564, 4567, 4568, 4569, 4572, 4573, 4574, 4575, 4576, 4577, 4579, 4582, 4585, 4587, 4592, 4594, 4595, 4596, 4600, 4602, 4603, 4604, 4605, 4606, 4608, 4609, 4610, 4611, 4612, 4613, 4615, 4616, 4617, 4620, 4623, 4625, 4627, 4628, 4629, 4630, 4631, 4632, 4633, 4635, 4637, 4638, 4639, 4641, 4642, 4643, 4644, 4645, 4647, 4649, 4650, 4653, 4654, 4655, 4656, 4657, 4658, 4660, 4662, 4663, 4664, 4665, 4666, 4668, 4669, 4670, 4672, 4673, 4674, 4676, 4680, 4684, 4687, 4689, 4690, 4691, 4693, 4694, 4697, 4698, 4699, 4700, 4702, 4705, 4706, 4707, 4710, 4711, 4713, 4714, 4715, 4716, 4717, 4718, 4719, 4720, 4722, 4723, 4725, 4727, 4728, 4729, 4730, 4731, 4732, 4733, 4734, 4737, 4740, 4741, 4743, 4744, 4746, 4747, 4748, 4749, 4750, 4751, 4752, 4753, 4754, 4755, 4756, 4759, 4760, 4762, 4763, 4764, 4765, 4766, 4767, 4769, 4770, 4771, 4772, 4773, 4774, 4776, 4777, 4778, 4781, 4782, 4784, 4785, 4786, 4787, 4788, 4790, 4791, 4794, 4795, 4796, 4797, 4798, 4799, 4800, 4802, 4803, 4804, 4805, 4806, 4807, 4808, 4809, 4811, 4813, 4814, 4815, 4816, 4817, 4819, 4820, 4821, 4822, 4823, 4825, 4826, 4827, 4828, 4830, 4832, 4833, 4838, 4840, 4841, 4843, 4844, 4845, 4847, 4848, 4849, 4851, 4852, 4853, 4854, 4856, 4857, 4858, 4859, 4860, 4863, 4865, 4884, 4891, 4892, 4893, 4895, 4902, 4903, 4904, 4905, 4912, 4925, 4926, 4927, 4928, 4929, 4930, 4952, 4953, 4954, 4955, 4968, 4969, 4988, 4989, 4991, 4992, 4994, 4995, 4996, 4997, 4998, 4999, 5001, 5002, 5004, 5005, 5012, 5013, 5014, 5015, 5023, 5024, 5025, 5026, 5027, 5028, 5029, 5031, 5033, 5034, 5041, 5042, 5050, 5051, 5052, 5053, 5054, 5055, 5057, 5058, 5059, 5060, 5080, 5088, 5090, 5091, 5092, 5094, 5095, 5102, 5109, 5110, 5111, 5112, 5114, 5121, 5122, 5129, 5130, 5131, 5133, 5134, 5135, 5136, 5149, 5150, 5155, 5156, 5157, 5158, 5159, 5160, 5167, 5180, 5187, 5188, 5189, 5190, 5191, 5192, 5193, 5194, 5195, 5196, 5197, 5198, 5199, 5200, 5201, 5202, 5203, 5204, 5205, 5208, 5210, 5211, 5212, 5213, 5214, 5216, 5218, 5219, 5221, 5222, 5223, 5224, 5225, 5226, 5227, 5228, 5229, 5230, 5231, 5232, 5233, 5234, 5236, 5244, 5251, 5264, 5265, 5266, 5268, 5269, 5270, 5271, 5272, 5273, 5274, 5318, 5321, 5328, 5329, 5347, 5349, 5350, 5352, 5353, 5354, 5356, 5357, 5424, 5425, 5426, 5428, 5435, 5436, 5439, 5440, 5442, 5443, 5444, 5445, 5450, 5451, 5484, 5485, 5486, 5487, 5488, 5489, 5496, 5497, 5510, 5511, 5518, 5521, 5522, 5525, 5538, 5558, 5565, 5566, 5567, 5568, 5569, 5571, 5573, 5574, 5575, 5576, 5577, 5578, 5589, 5590, 5591, 5592, 5593, 5595, 5596, 5603, 5610, 5611, 5612, 5613, 5614, 5615, 5616, 5619, 5620, 5621, 5622, 5623, 5627, 5634, 5642, 5643, 5645, 5646, 5647, 5648, 5649, 5651, 5652, 5654, 5690, 5691, 5695, 5702, 5703, 5778, 5821, 6144, 6146, 6164, 6169, 6170, 6174, 6175, 6178, 6184, 6186, 6205, 6210, 6225, 6230, 6237, 6255, 6270, 6274, 6280, 6287, 6299, 6304, 6313, 6325, 6341, 6399, 6412, 6415, 6465, 6487, 6505, 6574, 6628, 6631, 6729, 6745, 6774, 6815, 6842, 6880, 6887, 6919, 6948, 6974, 6977, 6983, 7005, 7038, 7076, 7083, 7123, 7225, 7233, 7262, 7264, 7267, 7275, 7279, 7280, 7281, 7282, 7284, 7285, 7286, 7290, 7297, 7298, 7299, 7314, 7315, 7316, 7317, 7348, 7351, 7352, 7353, 7463, 7470, 7484, 7521, 7535, 7537, 7543, 7545, 7546, 7547, 7549, 7550, 7552, 7554, 7559, 7560, 7563, 7565, 7578, 7580, 7594, 7652, 7657, 7661, 7663, 7665, 7670, 7672, 7674, 7702, 7710, 7718, 7720, 7721, 7727, 7729, 7734, 7736, 7738, 7741, 7746, 7753, 7764, 7788, 7791, 7796, 7803, 7808, 7811, 7817, 7836, 7842, 7843, 7853, 7854, 7857, 7858, 7860, 7862, 7863, 7865, 7867, 7873, 7874, 7876, 7885, 7887, 7890, 7895, 7898, 7928, 7936, 7944, 7948, 7962, 7964, 7966, 7968, 7970, 8011, 8013, 8016, 8030, 8034, 8103, 8114, 8144, 8187, 8229, 8236, 8249, 8270, 8298, 8313, 8314, 8316, 8319, 8322, 8345, 8348, 8355, 8363, 8372, 8378, 8386, 8389, 8403, 8404, 8411, 8436, 8448, 8464, 8466, 8480, 8486, 8492, 8501, 8516, 8529, 8530, 8545, 8546, 8548, 8549, 8551, 8574, 8575, 8577, 8580, 8584, 8585, 8586, 8587, 8590, 8592, 8594, 8595, 8598, 8599, 8602, 8606, 8608, 8613, 8614, 8624, 8626, 8628, 8629, 8630, 8635, 8636, 8637, 8639, 8977, 8979, 8981, 8982, 8983, 8984, 8985, 8995, 9010, 9049, 9059, 9060, 9077, 9078, 9086, 9095, 9102, 9104, 9107, 9109, 9112, 9113, 9114, 9118, 9119, 9122, 9124, 9125, 9127, 9129, 9132, 9137, 9140, 9141, 9143, 9146, 9153, 9155, 9163, 9182, 9183, 9192, 9198, 9200, 9201, 9202, 9213, 9230, 9233, 9237, 9246, 9265, 9272, 9276, 9288, 9306, 9321, 9326, 9327, 9339, 9348, 9352, 9358, 9367, 9371, 9379, 9384, 9389, 9400, 9412, 9417, 9447, 9454, 9456, 9474, 9487, 9496, 9511, 9524, 9527, 9537, 9545, 9556, 9558, 9563, 9565, 9568, 9575, 9592, 9627, 9628, 9634, 9636, 9643, 9658, 9660, 9673, 9674, 9684, 9690, 9697, 9711, 9728, 9729, 9749, 9753, 9754, 9763, 9766, 9770, 9782, 9791, 9798, 9800, 9814, 9836, 9839, 9850, 9861, 9867, 9869, 9874, 9876, 9879, 9885, 9892, 9896, 9900, 9921, 9927, 9932, 9933, 9937, 9944, 9945, 9955, 9961, 9975, 9976, 9980, 9985, 9990, 9991, 9994, 9997, 10002, 10005, 10013, 10015, 10041, 10072, 10082, 10086, 10089, 10091, 10104, 10106, 10109, 10117, 10123, 10136, 10139, 10145, 10150, 10159, 10160, 10161, 10168, 10169, 10171, 10172, 10174, 10177, 10178, 10181, 10185, 10199, 10200, 10206, 10207, 10208, 10209, 10212, 10213, 10223, 10228, 10229, 10231, 10232, 10233, 10234, 10237, 10239, 10240, 10242, 10244, 10245, 10248, 10249, 10278, 10279, 10280, 10282, 10301, 10335, 10347, 10362, 10369, 10370, 10371, 10372, 10373, 10374, 10375, 10377, 10378, 10379, 10380, 10381, 10390, 10391, 10392, 10393, 10394, 10396, 10403, 10412, 10420, 10422, 10445, 10448, 10449, 10450, 10460, 10480, 10491, 10501, 10571, 10573, 10574, 10575, 10578, 10579, 10581, 10587, 10590, 10591, 10595, 10597, 10623, 10676, 10679, 10685, 10691, 10699, 10700, 10702, 10716, 10750, 10755, 10756, 10758, 10759, 10779, 10788, 10797, 10805, 10807, 10808, 10815, 10880, 10950, 10982, 10983, 10984, 10986, 10988, 10993, 10996, 11005, 11008, 11009, 11010, 11026, 11029, 11030, 11031, 11041, 11047, 11050, 11055, 11068, 11069, 11070, 11073, 11081, 11087, 11090, 11135, 11142, 11149, 11150, 11153, 11155, 11169, 11249, 11250, 11255, 11256, 11257, 11258, 11260, 11261, 11262, 11263, 11276, 11301, 11302, 11303, 11308, 11311, 11312, 11313, 11315, 11317, 11319, 11321, 11327, 11328, 11330, 11346, 11348, 11349, 11351, 11352, 11371, 11372, 11383, 11390, 11398, 11408, 11410, 11411, 11474, 11476, 11477, 11478, 11485, 11486, 11487, 11492, 11499, 11513, 11514, 11518, 11528, 11530, 11561, 11562, 11564, 11565, 11568, 11570, 11577, 11581, 11582, 11583, 11585, 11588, 11589, 11591, 11592, 11594, 11595, 11597, 11631, 11632, 11633, 11634, 11641, 11648, 11649, 11651, 11720, 11795, 11797, 11826, 11873, 11880, 11890, 11911, 11919, 11926, 11932, 11933, 11934, 11935, 11936, 11940, 11941, 11945, 11946, 11948, 11953, 11961, 11963, 11964, 11966, 11979, 11986, 11988, 11990, 11993, 11996, 11997, 12004, 12005, 12006, 12019, 12033, 12058, 12068, 12069, 12070, 12077, 12078, 12079, 12099, 12126, 12128, 12153, 12160, 12185, 12186, 12188, 12190, 12191, 12204, 12213, 12216, 12217, 12220, 12223, 12233, 12234, 12236, 12254, 12268, 12297, 12300, 12316, 12321, 12325, 12327, 12330, 12340, 12341, 12348, 12356, 12363, 12365, 12374, 12378, 12379, 12380, 12406, 12465, 12502, 12504, 12505, 12506, 12507, 12573, 12608, 12609, 12660, 12669, 12727, 12744, 12753, 12848, 12849, 12863, 12874, 12875, 12896, 12919, 12929, 12936, 12966, 13069, 13101, 13114, 13116, 13170, 13178, 13187, 13203, 13205, 13263, 13312, 13313, 13330, 13380, 13381, 13382, 13383, 13388, 13391, 13416, 13504, 13535, 13574, 13620, 13622, 13660, 13667, 13836, 13884, 13888, 13891, 13935, 13977, 13980, 14009, 14011, 14068, 14105, 14300, 14407, 14444, 14447, 14458, 14463, 14477, 14480, 14481, 14486, 14487, 14489, 14491, 14492, 14506, 14507, 14538, 14551, 14564, 14572, 14608, 14609, 14611, 14619, 14620, 14635, 14637, 14673, 14674, 14675, 14677, 14687, 14698, 14704, 14705, 14747, 14760, 14768, 14769, 14782, 14786, 14788, 14790, 14791, 14804, 14805, 14808, 14817, 14819, 14823, 14828, 14829, 14830, 14833, 15011, 15036, 15050, 15059, 15060, 15067, 15103, 15105, 15117, 15137, 15145, 15152, 15153, 15161, 15162, 15216, 15217, 15252, 15265, 15360, 15365, 15366, 15367, 15381, 15383, 15386, 15387, 15465, 15507, 15532, 15553, 15555, 15591, 15631, 15632, 15645, 15646, 15659, 15660, 15739, 15748, 15755, 15761, 15764, 15769, 15785, 15810, 15840, 15846, 15851, 15852, 15866, 15881, 15910, 15936, 15947, 16008, 16030, 16032, 16033, 16039, 16051, 16069, 16073, 16074, 16077, 16078, 16103, 16105, 16107, 16113, 16115, 16118, 16119, 16170, 16191, 16258, 16274, 16305, 16323, 16332, 16339, 16342, 16350, 16366, 16367, 16370, 16372, 16381, 16391, 16420, 16421, 16422, 16423, 16529, 16531, 16540, 16541, 16543, 16544, 16547, 16548, 16551, 16559, 16566, 16573, 16575, 16576, 16584, 16593, 16600, 16612, 16648, 16666, 16698, 16700, 16702, 16779, 16794, 16795, 16801, 16870, 16875, 16899, 16909, 16911, 16940, 17226, 17242, 17264, 17318, 17363, 17369, 17390, 17434, 17447, 17449, 17500, 17546, 17554, 17566, 17567, 17579, 17580, 17581, 17599, 17603, 17628, 17656, 17659, 17661, 17662, 17670, 17671, 17678, 17680, 17732, 17746, 17747, 17749, 17756, 17757, 17761, 17765, 17766, 17823, 17825, 17826, 17843, 17846, 17848, 17849, 17903, 17905, 17919, 17922, 17943, 17962, 18089, 18132, 18154, 18165, 18167, 18196, 18216, 18217, 18218, 18219, 18296, 18312, 18313, 18320, 18324, 18359, 18421, 18444, 18457, 18472, 18501, 18508, 18528, 18566, 18586, 18587, 18588, 18609, 18611, 18661, 18683, 18684, 18685, 18686, 18694, 18704, 18712, 18752, 18777, 18786, 18805, 18806, 18809, 18818, 18849, 18903, 18911, 18954, 18983, 18986, 18988, 18990, 18994, 19001, 19019, 19026, 19027, 19028, 19054, 19055, 19061, 19062, 19064, 19065, 19072, 19079, 19112, 19117, 19118, 19119, 19120, 19121, 19125, 19130, 19131, 19133, 19135, 19137, 19138, 19145, 19153, 19154, 19158, 19159, 19160, 19161, 19164, 19165, 19179, 19186, 19187, 19188, 19189, 19190, 19197, 19204, 19212, 19214, 19216, 19233, 19234, 19235, 19236, 19237, 19250, 19251, 19252, 19263, 19264, 19265, 19266, 19267, 19272, 19273, 19275, 19277, 19279, 19292, 19293, 19294, 19296, 19297, 19299, 19300, 19301, 19303, 19304, 19313, 19314, 19315, 19317, 19318, 19319, 19322, 19323, 19324, 19325, 19326, 19339, 19345, 19358, 19359, 19361, 19362, 19364, 19365, 19384, 19386, 19388, 19391, 19394, 19395, 19396, 19397, 19402, 19404, 19405, 19406, 19408, 19410, 19411, 19412, 19419, 19432, 19433, 19435, 19436, 19438, 19442, 19474, 19475, 19476, 19478, 19479, 19480, 19488, 19498, 19499, 19501, 19503, 19514, 19515, 19516, 19517, 19524, 19525, 19528, 19533, 19534, 19550, 19551, 19552, 19565, 19573, 19574, 19581, 19588, 19601, 19602, 19633, 19634, 19642, 19663, 19664, 19665, 19686, 19687, 19791, 19804, 19805, 19806, 19807, 19808, 19809, 19810, 19811, 19823, 19824, 19825, 19826, 19827, 19830, 19832, 19839, 19844, 19845, 19848, 19859, 19880, 19881, 19888, 19891, 19913, 19916, 19918, 19925, 19932, 19945, 19954, 19956, 19963, 19964, 19968, 19969, 19970, 19971, 19992, 19993, 20010, 20011, 20012, 20013, 20014, 20016, 20017, 20022, 20023, 20025, 20028, 20030, 20031, 20032, 20035, 20036, 20037, 20039, 20040, 20047, 20048, 20049, 20050, 20051, 20052, 20053, 20066, 20074, 20113, 20114, 20117, 20131, 20132, 20134, 20151, 20152, 20172, 20173, 20216, 20218, 20219, 20220, 20228, 20230, 20231, 20237, 20239, 20240, 20259, 20260, 20261, 20262, 20263, 20264, 20265, 20266, 20267, 20268, 20275, 20276, 20277, 20278, 20280, 20283, 20292, 20293, 20299, 20308, 20309, 20330, 20353, 20372, 20409, 20410, 20411, 20425, 20432, 20439, 20447, 20448, 20449, 20450, 20451, 20452, 20460, 20481, 20488, 20495, 20508, 20510, 20511, 20512, 20520, 20621, 20645, 20646, 20647, 20654, 20656, 20663, 20672, 20674, 20699, 20724, 20726, 20734, 20735, 20749, 20751, 20783, 20784, 20793, 20812, 20813, 20814, 20842, 20845, 20854, 20856, 20858, 20859, 20862, 20863, 20865, 20879, 20880, 20881, 20895, 20897, 20906, 20939, 20982, 20983, 20984, 20998, 21000, 21045, 21058, 21071, 21078, 21079, 21081, 21087, 21090, 21091, 21092, 21094, 21095, 21110, 21111, 21112, 21113, 21114, 21120, 21139, 21172, 21187, 21196, 21212, 21246, 21254, 21279, 21288, 21289, 21292, 21294, 21295, 21316, 21327, 21328, 21329, 21331, 21402, 21403, 21413, 21414, 21415, 21416, 21423, 21450, 21469, 21519, 21522, 21544, 21545, 21546, 21547, 21548, 21549, 21550, 21551, 21552, 21553, 21555, 21556, 21558, 21559, 21560, 21561, 21563, 21567, 21568, 21573, 21579, 21580, 21581, 21584, 21586, 21612, 21619, 21620, 21628, 21629, 21634, 21638, 21726, 21727, 21729, 21730, 21731, 21732, 21741, 21761, 21774, 21782, 21784, 21797, 21805, 21812, 21844, 21870, 21982, 21995, 22030, 22038, 22040, 22046, 22049, 22057, 22079, 22143, 22154, 22169, 22171, 22182, 22183, 22191, 22203, 22207, 22249, 22251, 22279, 22301, 22302, 22303, 22314, 22335, 22370, 22371, 22373, 22374, 22382, 22390, 22422, 22487, 22488, 22489, 22495, 22499, 22510, 22578, 22579, 22594, 22597, 22600, 22601, 22617, 22619, 22621, 22626, 22655, 22682, 22686, 22691, 22694, 22701, 22708, 22764, 22777, 22808, 22811, 22814, 22815, 22824, 22856, 22863, 22913, 22916, 22918, 22943, 22974, 22982, 22985, 23011, 23039, 23088, 23119, 23123, 23137, 23138, 23169, 23170, 23175, 23176, 23250, 23318, 23322, 23329, 23402, 23423, 23424, 23452, 23484, 23491, 23528, 23535, 23536, 23571, 23572, 23585, 23593, 23620, 23652, 23653, 23654, 23705, 23826, 23842, 23876, 23877, 23884, 23885, 23886, 23902, 23903, 23904, 23906, 23908, 23914, 23928, 23929, 23931, 23934, 23941, 23944, 23969, 23990, 24005, 24096, 24110, 24115, 24118, 24132, 24146, 24153, 24210, 24211, 24221, 24222, 24223, 24224, 24225, 24239, 24240, 24241, 24288, 24289, 24329, 24350, 24351, 24352, 24353, 24355, 24364, 24365, 24366, 24369, 24370, 24395, 24402, 24441, 24456, 24460, 24485, 24524, 24525, 24527, 24534, 24535, 24549, 24590, 24591, 24620, 24635, 24636, 24637, 24638, 24647, 24655, 24657, 24669, 24684, 24710, 24711, 24712, 24713, 24715, 24728, 24821, 24830, 24833, 24837, 24872, 24874, 24875, 24921, 24922, 24972, 24973, 24974, 24975, 25004, 25024, 25068, 25075, 25082, 25085, 25087, 25118, 25173, 25175, 25176, 25181, 25190, 25191, 25192, 25194, 25197, 25198, 25200, 25223, 25243, 25263, 25318, 25320, 25334, 25373, 25374, 25375, 25376, 25378, 25379, 25380, 25397, 25400, 25408, 25409, 25441, 25442, 25443, 25444, 25451, 25452, 25453, 25478, 25480, 25505, 25513, 25514, 25515, 25535, 25536, 25569, 25582, 25583, 25650, 25651, 25652, 25654, 25679, 25694, 25710, 25729, 25730, 25737, 25738, 25745, 25746, 25766, 25777, 25810, 25812, 25826, 25839, 25840, 25847, 25848, 25849, 25850, 25863, 25864, 25867, 25868, 25875, 25876, 25877, 25890, 25917, 25960, 25975, 25977, 25978, 25999, 26000, 26046, 26048, 26050, 26052, 26069, 26070, 26085, 26086, 26087, 26088, 26195, 26199, 26260, 26305, 26306, 26308, 26358, 26384, 26385, 26538, 26663, 26688, 26799, 26879, 26955, 26968, 26979, 26980, 27008, 27022, 27029, 27080, 27081, 27154, 27155, 27156, 27159, 27248, 27285, 27382, 27383, 27391, 27392, 27402, 27409, 27410, 27439, 27447, 27449, 27481, 27521, 27522, 27553, 27657, 27679, 27681, 27684, 27685, 27699, 27712, 27719, 27727, 27812, 27813, 27823, 27824, 27825, 27833, 27834, 27835, 27850, 27851, 27852, 27856, 27864, 27869, 27870, 27871, 27876, 27878, 27879, 27889, 27890, 27892, 27894, 27898, 27952, 27966, 27968, 27973, 27976, 27978, 27979, 27984, 27990, 27999, 28003, 28018, 28025, 28038, 28039, 28041, 28042, 28076, 28090, 28093, 28147, 28191, 28257, 28258, 28259, 28260, 28298, 28302, 28304, 28311, 28324, 28331, 28360, 28387, 28450, 28457, 28458, 28459, 28460, 28461, 28462, 28481, 28494, 28495, 28496, 28497, 28506, 28541, 28554, 28563, 28564, 28565, 28567, 28569, 28571, 28573, 28574, 28575, 28583, 28584, 28587, 28594, 28613, 28633, 28634, 28636, 28637, 28708, 28771, 28772, 28773, 28802, 28815, 28816, 28818, 28819, 28820, 28857, 28897, 28918, 28925, 28926, 28953, 28978, 29009, 29018, 29085, 29115, 29167, 29168, 29186, 29190, 29243, 29286, 29288, 29289, 29290, 29297, 29298, 29300, 29315, 29323, 29324, 29325, 29347, 29348, 29349, 29364, 29387, 29394, 29395, 29398, 29406, 29408, 29409, 29420, 29421, 29422, 29435, 29438, 29439, 29452, 29462, 29467, 29471, 29488, 29489, 29491, 29492, 29507, 29508, 29513, 29533, 29534, 29540, 29542, 29552, 29554, 29564, 29565, 29579, 29580, 29582, 29585, 29587, 29593, 29604, 29605, 29607, 29608, 29609, 29622, 29624, 29625, 29626, 29643, 29647, 29676, 29684, 29685, 29694, 29718, 29752, 29760, 29780, 29781, 29782, 29784, 29785, 29787, 29795, 29802, 29803, 29804, 29805, 29806, 29815, 29816, 29829, 29842, 29843, 29849, 29851, 29852, 29854, 29855, 29856, 29861, 29871, 29872, 29880, 29882, 29886, 29888, 29891, 29892, 29920, 29921, 29940, 29941, 29954, 29966, 29967, 29974, 29978, 29979, 29980, 29990, 29992, 29993, 29994, 30000, 30007, 30008, 30010, 30011, 30016, 30028, 30031, 30032, 30034, 30043, 30068, 30075, 30076, 30080, 30097, 30114, 30127, 30129, 30130, 30133, 30142, 30143, 30144, 30147, 30149, 30150, 30151, 30159, 30161, 30162, 30170, 30171, 30172, 30179, 30182, 30183, 30184, 30195, 30207, 30209, 30212, 30213, 30220, 30234, 30235, 30256, 30257, 30274, 30284, 30286, 30295, 30305, 30319, 30320, 30321, 30322, 30337, 30338, 30366, 30367, 30368, 30370, 30385, 30404, 30412, 30416, 30417, 30419, 30423, 30424, 30426, 30463, 30464, 30465, 30475, 30477, 30488, 30515, 30543, 30544, 30562, 30568, 30569, 30570, 30572, 30585, 30594, 30597, 30599, 30600, 30604, 30607, 30625, 30628, 30629, 30632, 30635, 30636, 30639, 30640, 30643, 30645, 30646, 30647, 30648, 30655, 30656, 30675, 30707, 30710, 30711, 30713, 30721, 30722, 30723, 30724, 30726, 30727, 30729, 30734, 30742, 30745, 30748, 30759, 30764, 30765, 30826, 30848, 30856, 30860, 30862, 30865, 30866, 30867, 30869, 30870, 30890, 30897, 30898, 30905, 30906, 30907, 30908, 30910, 30912, 30913, 30921, 30960, 30976, 30984, 30993, 30995, 31007, 31009, 31013, 31028, 31039, 31045, 31048, 31050, 31057, 31065, 31066, 31085, 31091, 31094, 31103, 31107, 31108, 31109, 31111, 31114, 31118, 31120, 31124, 31125, 31132, 31134, 31194, 31195, 31196, 31198, 31216, 31225, 31226, 31227, 31243, 31244, 31258, 31259, 31284, 31295, 31298, 31318, 31319, 31321, 31333, 31351, 31352, 31360, 31361, 31362, 31363, 31364, 31366, 31367, 31380, 31381, 31383, 31385, 31387, 31388, 31389, 31390, 31392, 31399, 31400, 31401, 31441, 31444, 31445, 31447, 31452, 31453, 31455, 31460, 31461, 31463, 31470, 31483, 31490, 31497, 31498, 31505, 31509, 31511, 31512, 31525, 31559, 31561, 31562, 31597, 31600, 31601, 31602, 31603, 31604, 31606, 31613, 31614, 31617, 31618, 31619, 31623, 31647, 31652, 31655, 31656, 31657, 31706, 31708, 31710, 31712, 31734, 31736, 31743, 31757, 31771, 31772, 31781, 31782, 31790, 31797, 31802, 31804, 31818, 31849, 31850, 31851, 31852, 31854, 31855, 31858, 31860, 31906, 31908, 31909, 31910, 31917, 31918, 31969, 31971, 31974, 31975, 31976, 31977, 31978, 31979, 31980, 31981, 31982, 31983, 31984, 31986, 31988, 31989, 31993, 32001, 32002, 32004, 32006, 32008, 32009, 32011, 32012, 32017, 32026, 32037, 32039, 32046, 32047, 32048, 32055, 32056, 32057, 32058, 32059, 32078, 32079, 32082, 32084, 32085, 32087, 32089, 32091, 32092, 32095, 32098, 32099, 32100, 32114, 32115, 32119, 32120, 32129, 32130, 32131, 32132, 32133, 32156, 32157, 32159, 32160, 32161, 32162, 32166, 32167, 32174, 32175, 32176, 32177, 32180, 32181, 32189, 32193, 32194, 32196, 32203, 32204, 32205, 32207, 32208, 32209, 32210, 32211, 32212, 32213, 32246, 32247, 32248, 32249, 32250, 32251, 32281, 32282, 32283, 32292, 32293, 32294, 32295, 32296, 32298, 32306, 32307, 32310, 32314, 32327, 32329, 32338, 32339, 32340, 32341);
+# Time: 2025-02-02T09:26:36.621304Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.009421  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_records` where `account_id` = 8169 and (select count(*) from `account_commercial_contracts` where `account_commercial_records`.`id` = `account_commercial_contracts`.`account_commercial_record_id`) <= 0 and `status` = 1;
+# Time: 2025-02-02T09:26:36.656901Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.028480  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 0;
+# Time: 2025-02-02T09:26:36.683629Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.024570  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 0;
+# Time: 2025-02-02T09:26:36.709731Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.023611  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 3;
+# Time: 2025-02-02T09:26:36.735551Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.023801  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 3;
+# Time: 2025-02-02T09:26:36.760815Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.023196  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 4;
+# Time: 2025-02-02T09:26:36.786340Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.023679  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 4;
+# Time: 2025-02-02T09:26:36.813854Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.025480  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 11;
+# Time: 2025-02-02T09:26:36.840400Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.024050  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 11;
+# Time: 2025-02-02T09:26:36.867044Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.024674  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 12;
+# Time: 2025-02-02T09:26:36.893903Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.024995  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 12;
+# Time: 2025-02-02T09:26:36.920111Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.024184  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 5;
+# Time: 2025-02-02T09:26:36.947344Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.025208  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 5;
+# Time: 2025-02-02T09:26:36.972912Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.024017  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 7;
+# Time: 2025-02-02T09:26:36.997934Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.023344  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` = 7;
+# Time: 2025-02-02T09:26:37.023177Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.023241  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488396;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and not exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` in (6, 10, 2, 4) and `expiry_date` between '2025-02-02 12:26:36' and '2025-03-04 12:26:36';
+# Time: 2025-02-02T09:26:37.051806Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.025831  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 14508
+SET timestamp=1738488397;
+select * from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `account_id` = 8169) and exists (select 1 from `account_commercial_contract_senders` where `account_commercial_contract_senders`.`account_commercial_contract_id` = `account_commercial_contracts`.`id`) and `status` in (6, 10, 2, 4) and `expiry_date` between '2025-02-02 12:26:37' and '2025-03-04 12:26:37';
+# Time: 2025-02-02T09:26:37.058737Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   648
+# Query_time: 0.000425  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488397;
+select count(*) as aggregate from `account_commercial_contracts` where exists (select * from `account_commercial_records` where `account_commercial_contracts`.`account_commercial_record_id` = `account_commercial_records`.`id` and `status` = 1 and `expiry_date` > '2025-02-02 12:26:37' and `account_id` = 8169) and `status` = 7;
+# Time: 2025-02-02T09:26:37.946219Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   658
+# Query_time: 0.001800  Lock_time: 0.000007 Rows_sent: 1  Rows_examined: 378
+SET timestamp=1738488397;
+select count(*) as aggregate from `whatsapp_numbers` where exists (select * from `account_packages` inner join `whatsapp_number_account_packages` on `account_packages`.`id` = `whatsapp_number_account_packages`.`account_package_id` where `whatsapp_numbers`.`id` = `whatsapp_number_account_packages`.`whatsapp_number_id` and `expire_at` >= '2025-02-02 12:26:37' and (`canceled_at` is null or `canceled_at` >= '2025-02-02 12:26:37')) and (`account_id` = 8169 or exists (select 1 from `whatsapp_accounts` where `whatsapp_number_id` = `whatsapp_numbers`.`id` and `user_account_id` = 8169 and `status` = 1 and `user_status` = 1 and (`end_at` is null or `end_at` >= '2025-02-02 12:26:37'))) and `expired_at` >= '2025-02-02 12:26:37';
+# Time: 2025-02-02T09:26:37.948466Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   658
+# Query_time: 0.000209  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 1
+SET timestamp=1738488397;
+select * from `users` where `status` = 1 limit 1;
+# Time: 2025-02-02T09:26:38.106335Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   658
+# Query_time: 0.000234  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 11
+SET timestamp=1738488398;
+select * from `currencies` where `is_default` = 1 limit 1;
+# Time: 2025-02-02T09:26:38.249342Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   666
+# Query_time: 0.000216  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488398;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354412);
+# Time: 2025-02-02T09:26:38.781851Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   667
+# Query_time: 0.000336  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488398;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354412);
+# Time: 2025-02-02T09:26:39.406802Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.022079  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 11007
+SET timestamp=1738488399;
+select * from `hawsabah_request_senders` where (`status` = 1 or (`status` in (5, 3) and trim(full_response) = 'login faild')) and exists (select * from `hawsabah_requests` where `hawsabah_request_senders`.`hawsabah_request_id` = `hawsabah_requests`.`id` and `request_type` = 2) limit 1;
+# Time: 2025-02-02T09:26:39.787786Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   667
+# Query_time: 0.000197  Lock_time: 0.000008 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488399;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354412);
+# Time: 2025-02-02T09:26:42.331436Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   677
+# Query_time: 0.000283  Lock_time: 0.000003 Rows_sent: 20  Rows_examined: 20
+SET timestamp=1738488402;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` limit 20 offset 0;
+# Time: 2025-02-02T09:26:42.349443Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   677
+# Query_time: 0.015914  Lock_time: 0.000004 Rows_sent: 3452  Rows_examined: 6703
+SET timestamp=1738488402;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 320, 1892);
+# Time: 2025-02-02T09:26:42.569626Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   677
+# Query_time: 0.020894  Lock_time: 0.000005 Rows_sent: 5203  Rows_examined: 6703
+SET timestamp=1738488402;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 6, 8, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 1950, 1987, 2022, 2149, 2151, 2173, 2177, 2179, 2181, 2233, 2234, 2235, 2238, 2241, 2247, 2303, 2307, 2341, 2342, 2346, 2361, 2363, 2364, 2415, 2476, 2483, 2531, 2533, 2534, 2572, 2573, 2575, 2651, 2662, 2706, 2722, 2782, 2819, 2947, 2953, 2974, 2982, 2983, 3088, 3091, 3098, 3099, 3124, 3168, 3233, 3234, 3235, 3256, 3315, 3316, 3331, 3332, 3333, 3334, 3335, 3355, 3357, 3365, 3378, 3418, 3419, 3420, 3421, 3422, 3424, 3425, 3426, 3428, 3429, 3430, 3431, 3432, 3433, 3434, 3435, 3437, 3440, 3441, 3449, 3452, 3459, 3466, 3467, 3468, 3469, 3471, 3472, 3473, 3474, 3475, 3476, 3477, 3481, 3482, 3483, 3484, 3485, 3486, 3487, 3488, 3489, 3490, 3491, 3492, 3493, 3495, 3496, 3497, 3498, 3499, 3500, 3501, 3502, 3503, 3504, 3505, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3515, 3516, 3517, 3519, 3520, 3521, 3522, 3523, 3524, 3525, 3526, 3527, 3529, 3531, 3533, 3535, 3536, 3537, 3538, 3539, 3540, 3542, 3543, 3544, 3545, 3546, 3547, 3548, 3549, 3550, 3551, 3552, 3553, 3554, 3556, 3557, 3558, 3559, 3560, 3562, 3563, 3564, 3565, 3567, 3568, 3569, 3570, 3571, 3573, 3574, 3575, 3576, 3577, 3578, 3579, 3580, 3581, 3582, 3583, 3584, 3585, 3586, 3587, 3588, 3603, 3604, 3605, 3613, 3621, 3622, 3629, 3636, 3637, 3656, 3657, 3658, 3659, 3660, 3662, 3666, 3667, 3668, 3669, 3682, 3683, 3684, 3686, 3687, 3691, 3702, 3703, 3704, 3705, 3706, 3707, 3708, 3709, 3716, 3717, 3718, 3719, 3720, 3722, 3723, 3724, 3726, 3727, 3740, 3747, 3748, 3749, 3771, 3772, 3773, 3774, 3776, 3777, 3778, 3779, 3780, 3787, 3788, 3789, 3790, 3791, 3792, 3794, 3795, 3796, 3797, 3799, 3807, 3820, 3827, 3861, 3862, 3863, 3865, 3872, 3874, 3905, 3906, 3907, 3924, 3925, 3926, 3927, 3928, 3935, 3936, 3937, 3938, 3957, 3958, 3959, 3980, 3987, 3988, 3989, 3990, 3991, 3992, 3993, 3994, 3995, 3996, 4034, 4035, 4042, 4055, 4063, 4067, 4068, 4070, 4078, 4080, 4081, 4082, 4096, 4101, 4103, 4105, 4106, 4110, 4118, 4120, 4122, 4132, 4137, 4140, 4141, 4144, 4155, 4156, 4158, 4162, 4164, 4170, 4171, 4175, 4178, 4179, 4180, 4181, 4183, 4184, 4185, 4188, 4190, 4192, 4195, 4197, 4201, 4202, 4204, 4205, 4208, 4209, 4210, 4212, 4213, 4214, 4215, 4217, 4218, 4219, 4221, 4223, 4224, 4227, 4228, 4230, 4232, 4234, 4235, 4236, 4237, 4239, 4240, 4242, 4243, 4245, 4250, 4251, 4252, 4254, 4255, 4256, 4260, 4261, 4262, 4263, 4264, 4265, 4266, 4267, 4268, 4269, 4271, 4273, 4276, 4277, 4280, 4281, 4285, 4286, 4287, 4290, 4292, 4296, 4297, 4298, 4300, 4302, 4304, 4306, 4308, 4309, 4314, 4315, 4316, 4318, 4319, 4325, 4327, 4328, 4333, 4335, 4338, 4348, 4350, 4351, 4353, 4362, 4364, 4370, 4371, 4380, 4381, 4395, 4396, 4399, 4404, 4406, 4408, 4410, 4411, 4414, 4415, 4416, 4417, 4418, 4419, 4420, 4422, 4423, 4424, 4430, 4433, 4434, 4438, 4439, 4440, 4441, 4442, 4443, 4444, 4445, 4448, 4449, 4450, 4451, 4453, 4454, 4455, 4456, 4460, 4461, 4462, 4463, 4465, 4466, 4470, 4471, 4472, 4473, 4474, 4475, 4476, 4477, 4480, 4481, 4482, 4484, 4486, 4487, 4488, 4489, 4490, 4491, 4492, 4493, 4497, 4498, 4499, 4500, 4504, 4505, 4506, 4508, 4509, 4512, 4515, 4516, 4517, 4520, 4523, 4527, 4530, 4531, 4534, 4536, 4539, 4540, 4542, 4543, 4545, 4546, 4548, 4549, 4550, 4551, 4552, 4554, 4556, 4557, 4558, 4560, 4562, 4563, 4564, 4567, 4568, 4569, 4572, 4573, 4574, 4575, 4576, 4577, 4579, 4582, 4585, 4587, 4592, 4594, 4595, 4596, 4600, 4602, 4603, 4604, 4605, 4606, 4608, 4609, 4610, 4611, 4612, 4613, 4615, 4616, 4617, 4620, 4623, 4625, 4627, 4628, 4629, 4630, 4631, 4632, 4633, 4635, 4637, 4638, 4639, 4641, 4642, 4643, 4644, 4645, 4647, 4649, 4650, 4653, 4654, 4655, 4656, 4657, 4658, 4660, 4662, 4663, 4664, 4665, 4666, 4668, 4669, 4670, 4672, 4673, 4674, 4676, 4680, 4684, 4687, 4689, 4690, 4691, 4693, 4694, 4697, 4698, 4699, 4700, 4702, 4705, 4706, 4707, 4710, 4711, 4713, 4714, 4715, 4716, 4717, 4718, 4719, 4720, 4722, 4723, 4725, 4727, 4728, 4729, 4730, 4731, 4732, 4733, 4734, 4737, 4740, 4741, 4743, 4744, 4746, 4747, 4748, 4749, 4750, 4751, 4752, 4753, 4754, 4755, 4756, 4759, 4760, 4762, 4763, 4764, 4765, 4766, 4767, 4769, 4770, 4771, 4772, 4773, 4774, 4776, 4777, 4778, 4781, 4782, 4784, 4785, 4786, 4787, 4788, 4790, 4791, 4794, 4795, 4796, 4797, 4798, 4799, 4800, 4802, 4803, 4804, 4805, 4806, 4807, 4808, 4809, 4811, 4813, 4814, 4815, 4816, 4817, 4819, 4820, 4821, 4822, 4823, 4825, 4826, 4827, 4828, 4830, 4832, 4833, 4838, 4840, 4841, 4843, 4844, 4845, 4847, 4848, 4849, 4851, 4852, 4853, 4854, 4856, 4857, 4858, 4859, 4860, 4863, 4865, 4884, 4891, 4892, 4893, 4895, 4902, 4903, 4904, 4905, 4912, 4925, 4926, 4927, 4928, 4929, 4930, 4952, 4953, 4954, 4955, 4968, 4969, 4988, 4989, 4991, 4992, 4994, 4995, 4996, 4997, 4998, 4999, 5001, 5002, 5004, 5005, 5012, 5013, 5014, 5015, 5023, 5024, 5025, 5026, 5027, 5028, 5029, 5031, 5033, 5034, 5041, 5042, 5050, 5051, 5052, 5053, 5054, 5055, 5057, 5058, 5059, 5060, 5080, 5088, 5090, 5091, 5092, 5094, 5095, 5102, 5109, 5110, 5111, 5112, 5114, 5121, 5122, 5129, 5130, 5131, 5133, 5134, 5135, 5136, 5149, 5150, 5155, 5156, 5157, 5158, 5159, 5160, 5167, 5180, 5187, 5188, 5189, 5190, 5191, 5192, 5193, 5194, 5195, 5196, 5197, 5198, 5199, 5200, 5201, 5202, 5203, 5204, 5205, 5208, 5210, 5211, 5212, 5213, 5214, 5216, 5218, 5219, 5221, 5222, 5223, 5224, 5225, 5226, 5227, 5228, 5229, 5230, 5231, 5232, 5233, 5234, 5236, 5244, 5251, 5264, 5265, 5266, 5268, 5269, 5270, 5271, 5272, 5273, 5274, 5318, 5321, 5328, 5329, 5347, 5349, 5350, 5352, 5353, 5354, 5356, 5357, 5424, 5425, 5426, 5428, 5435, 5436, 5439, 5440, 5442, 5443, 5444, 5445, 5450, 5451, 5484, 5485, 5486, 5487, 5488, 5489, 5496, 5497, 5510, 5511, 5518, 5521, 5522, 5525, 5538, 5558, 5565, 5566, 5567, 5568, 5569, 5571, 5573, 5574, 5575, 5576, 5577, 5578, 5589, 5590, 5591, 5592, 5593, 5595, 5596, 5603, 5610, 5611, 5612, 5613, 5614, 5615, 5616, 5619, 5620, 5621, 5622, 5623, 5627, 5634, 5642, 5643, 5645, 5646, 5647, 5648, 5649, 5651, 5652, 5654, 5690, 5691, 5695, 5702, 5703, 5778, 5821, 6144, 6146, 6164, 6169, 6170, 6174, 6175, 6178, 6184, 6186, 6205, 6210, 6225, 6230, 6237, 6255, 6270, 6274, 6280, 6287, 6299, 6304, 6313, 6325, 6341, 6399, 6412, 6415, 6465, 6487, 6505, 6574, 6628, 6631, 6729, 6745, 6774, 6815, 6842, 6880, 6887, 6919, 6948, 6974, 6977, 6983, 7005, 7038, 7076, 7083, 7123, 7225, 7233, 7262, 7264, 7267, 7275, 7279, 7280, 7281, 7282, 7284, 7285, 7286, 7290, 7297, 7298, 7299, 7314, 7315, 7316, 7317, 7348, 7351, 7352, 7353, 7463, 7470, 7484, 7521, 7535, 7537, 7543, 7545, 7546, 7547, 7549, 7550, 7552, 7554, 7559, 7560, 7563, 7565, 7578, 7580, 7594, 7652, 7657, 7661, 7663, 7665, 7670, 7672, 7674, 7702, 7710, 7718, 7720, 7721, 7727, 7729, 7734, 7736, 7738, 7741, 7746, 7753, 7764, 7788, 7791, 7796, 7803, 7808, 7811, 7817, 7836, 7842, 7843, 7853, 7854, 7857, 7858, 7860, 7862, 7863, 7865, 7867, 7873, 7874, 7876, 7885, 7887, 7890, 7895, 7898, 7928, 7936, 7944, 7948, 7962, 7964, 7966, 7968, 7970, 8011, 8013, 8016, 8030, 8034, 8103, 8114, 8144, 8187, 8229, 8236, 8249, 8270, 8298, 8313, 8314, 8316, 8319, 8322, 8345, 8348, 8355, 8363, 8372, 8378, 8386, 8389, 8403, 8404, 8411, 8436, 8448, 8464, 8466, 8480, 8486, 8492, 8501, 8516, 8529, 8530, 8545, 8546, 8548, 8549, 8551, 8574, 8575, 8577, 8580, 8584, 8585, 8586, 8587, 8590, 8592, 8594, 8595, 8598, 8599, 8602, 8606, 8608, 8613, 8614, 8624, 8626, 8628, 8629, 8630, 8635, 8636, 8637, 8639, 8977, 8979, 8981, 8982, 8983, 8984, 8985, 8995, 9010, 9049, 9059, 9060, 9077, 9078, 9086, 9095, 9102, 9104, 9107, 9109, 9112, 9113, 9114, 9118, 9119, 9122, 9124, 9125, 9127, 9129, 9132, 9137, 9140, 9141, 9143, 9146, 9153, 9155, 9163, 9182, 9183, 9192, 9198, 9200, 9201, 9202, 9213, 9230, 9233, 9237, 9246, 9265, 9272, 9276, 9288, 9306, 9321, 9326, 9327, 9339, 9348, 9352, 9358, 9367, 9371, 9379, 9384, 9389, 9400, 9412, 9417, 9447, 9454, 9456, 9474, 9487, 9496, 9511, 9524, 9527, 9537, 9545, 9556, 9558, 9563, 9565, 9568, 9575, 9592, 9627, 9628, 9634, 9636, 9643, 9658, 9660, 9673, 9674, 9684, 9690, 9697, 9711, 9728, 9729, 9749, 9753, 9754, 9763, 9766, 9770, 9782, 9791, 9798, 9800, 9814, 9836, 9839, 9850, 9861, 9867, 9869, 9874, 9876, 9879, 9885, 9892, 9896, 9900, 9921, 9927, 9932, 9933, 9937, 9944, 9945, 9955, 9961, 9975, 9976, 9980, 9985, 9990, 9991, 9994, 9997, 10002, 10005, 10013, 10015, 10041, 10072, 10082, 10086, 10089, 10091, 10104, 10106, 10109, 10117, 10123, 10136, 10139, 10145, 10150, 10159, 10160, 10161, 10168, 10169, 10171, 10172, 10174, 10177, 10178, 10181, 10185, 10199, 10200, 10206, 10207, 10208, 10209, 10212, 10213, 10223, 10228, 10229, 10231, 10232, 10233, 10234, 10237, 10239, 10240, 10242, 10244, 10245, 10248, 10249, 10278, 10279, 10280, 10282, 10301, 10335, 10347, 10362, 10369, 10370, 10371, 10372, 10373, 10374, 10375, 10377, 10378, 10379, 10380, 10381, 10390, 10391, 10392, 10393, 10394, 10396, 10403, 10412, 10420, 10422, 10445, 10448, 10449, 10450, 10460, 10480, 10491, 10501, 10571, 10573, 10574, 10575, 10578, 10579, 10581, 10587, 10590, 10591, 10595, 10597, 10623, 10676, 10679, 10685, 10691, 10699, 10700, 10702, 10716, 10750, 10755, 10756, 10758, 10759, 10779, 10788, 10797, 10805, 10807, 10808, 10815, 10880, 10950, 10982, 10983, 10984, 10986, 10988, 10993, 10996, 11005, 11008, 11009, 11010, 11026, 11029, 11030, 11031, 11041, 11047, 11050, 11055, 11068, 11069, 11070, 11073, 11081, 11087, 11090, 11135, 11142, 11149, 11150, 11153, 11155, 11169, 11249, 11250, 11255, 11256, 11257, 11258, 11260, 11261, 11262, 11263, 11276, 11301, 11302, 11303, 11308, 11311, 11312, 11313, 11315, 11317, 11319, 11321, 11327, 11328, 11330, 11346, 11348, 11349, 11351, 11352, 11371, 11372, 11383, 11390, 11398, 11408, 11410, 11411, 11474, 11476, 11477, 11478, 11485, 11486, 11487, 11492, 11499, 11513, 11514, 11518, 11528, 11530, 11561, 11562, 11564, 11565, 11568, 11570, 11577, 11581, 11582, 11583, 11585, 11588, 11589, 11591, 11592, 11594, 11595, 11597, 11631, 11632, 11633, 11634, 11641, 11648, 11649, 11651, 11720, 11795, 11797, 11826, 11873, 11880, 11890, 11911, 11919, 11926, 11932, 11933, 11934, 11935, 11936, 11940, 11941, 11945, 11946, 11948, 11953, 11961, 11963, 11964, 11966, 11979, 11986, 11988, 11990, 11993, 11996, 11997, 12004, 12005, 12006, 12019, 12033, 12058, 12068, 12069, 12070, 12077, 12078, 12079, 12099, 12126, 12128, 12153, 12160, 12185, 12186, 12188, 12190, 12191, 12204, 12213, 12216, 12217, 12220, 12223, 12233, 12234, 12236, 12254, 12268, 12297, 12300, 12316, 12321, 12325, 12327, 12330, 12340, 12341, 12348, 12356, 12363, 12365, 12374, 12378, 12379, 12380, 12406, 12465, 12502, 12504, 12505, 12506, 12507, 12573, 12608, 12609, 12660, 12669, 12727, 12744, 12753, 12848, 12849, 12863, 12874, 12875, 12896, 12919, 12929, 12936, 12966, 13069, 13101, 13114, 13116, 13170, 13178, 13187, 13203, 13205, 13263, 13312, 13313, 13330, 13380, 13381, 13382, 13383, 13388, 13391, 13416, 13504, 13535, 13574, 13620, 13622, 13660, 13667, 13836, 13884, 13888, 13891, 13935, 13977, 13980, 14009, 14011, 14068, 14105, 14300, 14407, 14444, 14447, 14458, 14463, 14477, 14480, 14481, 14486, 14487, 14489, 14491, 14492, 14506, 14507, 14538, 14551, 14564, 14572, 14608, 14609, 14611, 14619, 14620, 14635, 14637, 14673, 14674, 14675, 14677, 14687, 14698, 14704, 14705, 14747, 14760, 14768, 14769, 14782, 14786, 14788, 14790, 14791, 14804, 14805, 14808, 14817, 14819, 14823, 14828, 14829, 14830, 14833, 15011, 15036, 15050, 15059, 15060, 15067, 15103, 15105, 15117, 15137, 15145, 15152, 15153, 15161, 15162, 15216, 15217, 15252, 15265, 15360, 15365, 15366, 15367, 15381, 15383, 15386, 15387, 15465, 15507, 15532, 15553, 15555, 15591, 15631, 15632, 15645, 15646, 15659, 15660, 15739, 15748, 15755, 15761, 15764, 15769, 15785, 15810, 15840, 15846, 15851, 15852, 15866, 15881, 15910, 15936, 15947, 16008, 16030, 16032, 16033, 16039, 16051, 16069, 16073, 16074, 16077, 16078, 16103, 16105, 16107, 16113, 16115, 16118, 16119, 16170, 16191, 16258, 16274, 16305, 16323, 16332, 16339, 16342, 16350, 16366, 16367, 16370, 16372, 16381, 16391, 16420, 16421, 16422, 16423, 16529, 16531, 16540, 16541, 16543, 16544, 16547, 16548, 16551, 16559, 16566, 16573, 16575, 16576, 16584, 16593, 16600, 16612, 16648, 16666, 16698, 16700, 16702, 16779, 16794, 16795, 16801, 16870, 16875, 16899, 16909, 16911, 16940, 17226, 17242, 17264, 17318, 17363, 17369, 17390, 17434, 17447, 17449, 17500, 17546, 17554, 17566, 17567, 17579, 17580, 17581, 17599, 17603, 17628, 17656, 17659, 17661, 17662, 17670, 17671, 17678, 17680, 17732, 17746, 17747, 17749, 17756, 17757, 17761, 17765, 17766, 17823, 17825, 17826, 17843, 17846, 17848, 17849, 17903, 17905, 17919, 17922, 17943, 17962, 18089, 18132, 18154, 18165, 18167, 18196, 18216, 18217, 18218, 18219, 18296, 18312, 18313, 18320, 18324, 18359, 18421, 18444, 18457, 18472, 18501, 18508, 18528, 18566, 18586, 18587, 18588, 18609, 18611, 18661, 18683, 18684, 18685, 18686, 18694, 18704, 18712, 18752, 18777, 18786, 18805, 18806, 18809, 18818, 18849, 18903, 18911, 18954, 18983, 18986, 18988, 18990, 18994, 19001, 19019, 19026, 19027, 19028, 19054, 19055, 19061, 19062, 19064, 19065, 19072, 19079, 19112, 19117, 19118, 19119, 19120, 19121, 19125, 19130, 19131, 19133, 19135, 19137, 19138, 19145, 19153, 19154, 19158, 19159, 19160, 19161, 19164, 19165, 19179, 19186, 19187, 19188, 19189, 19190, 19197, 19204, 19212, 19214, 19216, 19233, 19234, 19235, 19236, 19237, 19250, 19251, 19252, 19263, 19264, 19265, 19266, 19267, 19272, 19273, 19275, 19277, 19279, 19292, 19293, 19294, 19296, 19297, 19299, 19300, 19301, 19303, 19304, 19313, 19314, 19315, 19317, 19318, 19319, 19322, 19323, 19324, 19325, 19326, 19339, 19345, 19358, 19359, 19361, 19362, 19364, 19365, 19384, 19386, 19388, 19391, 19394, 19395, 19396, 19397, 19402, 19404, 19405, 19406, 19408, 19410, 19411, 19412, 19419, 19432, 19433, 19435, 19436, 19438, 19442, 19474, 19475, 19476, 19478, 19479, 19480, 19488, 19498, 19499, 19501, 19503, 19514, 19515, 19516, 19517, 19524, 19525, 19528, 19533, 19534, 19550, 19551, 19552, 19565, 19573, 19574, 19581, 19588, 19601, 19602, 19633, 19634, 19642, 19663, 19664, 19665, 19686, 19687, 19791, 19804, 19805, 19806, 19807, 19808, 19809, 19810, 19811, 19823, 19824, 19825, 19826, 19827, 19830, 19832, 19839, 19844, 19845, 19848, 19859, 19880, 19881, 19888, 19891, 19913, 19916, 19918, 19925, 19932, 19945, 19954, 19956, 19963, 19964, 19968, 19969, 19970, 19971, 19992, 19993, 20010, 20011, 20012, 20013, 20014, 20016, 20017, 20022, 20023, 20025, 20028, 20030, 20031, 20032, 20035, 20036, 20037, 20039, 20040, 20047, 20048, 20049, 20050, 20051, 20052, 20053, 20066, 20074, 20113, 20114, 20117, 20131, 20132, 20134, 20151, 20152, 20172, 20173, 20216, 20218, 20219, 20220, 20228, 20230, 20231, 20237, 20239, 20240, 20259, 20260, 20261, 20262, 20263, 20264, 20265, 20266, 20267, 20268, 20275, 20276, 20277, 20278, 20280, 20283, 20292, 20293, 20299, 20308, 20309, 20330, 20353, 20372, 20409, 20410, 20411, 20425, 20432, 20439, 20447, 20448, 20449, 20450, 20451, 20452, 20460, 20481, 20488, 20495, 20508, 20510, 20511, 20512, 20520, 20621, 20645, 20646, 20647, 20654, 20656, 20663, 20672, 20674, 20699, 20724, 20726, 20734, 20735, 20749, 20751, 20783, 20784, 20793, 20812, 20813, 20814, 20842, 20845, 20854, 20856, 20858, 20859, 20862, 20863, 20865, 20879, 20880, 20881, 20895, 20897, 20906, 20939, 20982, 20983, 20984, 20998, 21000, 21045, 21058, 21071, 21078, 21079, 21081, 21087, 21090, 21091, 21092, 21094, 21095, 21110, 21111, 21112, 21113, 21114, 21120, 21139, 21172, 21187, 21196, 21212, 21246, 21254, 21279, 21288, 21289, 21292, 21294, 21295, 21316, 21327, 21328, 21329, 21331, 21402, 21403, 21413, 21414, 21415, 21416, 21423, 21450, 21469, 21519, 21522, 21544, 21545, 21546, 21547, 21548, 21549, 21550, 21551, 21552, 21553, 21555, 21556, 21558, 21559, 21560, 21561, 21563, 21567, 21568, 21573, 21579, 21580, 21581, 21584, 21586, 21612, 21619, 21620, 21628, 21629, 21634, 21638, 21726, 21727, 21729, 21730, 21731, 21732, 21741, 21761, 21774, 21782, 21784, 21797, 21805, 21812, 21844, 21870, 21982, 21995, 22030, 22038, 22040, 22046, 22049, 22057, 22079, 22143, 22154, 22169, 22171, 22182, 22183, 22191, 22203, 22207, 22249, 22251, 22279, 22301, 22302, 22303, 22314, 22335, 22370, 22371, 22373, 22374, 22382, 22390, 22422, 22487, 22488, 22489, 22495, 22499, 22510, 22578, 22579, 22594, 22597, 22600, 22601, 22617, 22619, 22621, 22626, 22655, 22682, 22686, 22691, 22694, 22701, 22708, 22764, 22777, 22808, 22811, 22814, 22815, 22824, 22856, 22863, 22913, 22916, 22918, 22943, 22974, 22982, 22985, 23011, 23039, 23088, 23119, 23123, 23137, 23138, 23169, 23170, 23175, 23176, 23250, 23318, 23322, 23329, 23402, 23423, 23424, 23452, 23484, 23491, 23528, 23535, 23536, 23571, 23572, 23585, 23593, 23620, 23652, 23653, 23654, 23705, 23826, 23842, 23876, 23877, 23884, 23885, 23886, 23902, 23903, 23904, 23906, 23908, 23914, 23928, 23929, 23931, 23934, 23941, 23944, 23969, 23990, 24005, 24096, 24110, 24115, 24118, 24132, 24146, 24153, 24210, 24211, 24221, 24222, 24223, 24224, 24225, 24239, 24240, 24241, 24288, 24289, 24329, 24350, 24351, 24352, 24353, 24355, 24364, 24365, 24366, 24369, 24370, 24395, 24402, 24441, 24456, 24460, 24485, 24524, 24525, 24527, 24534, 24535, 24549, 24590, 24591, 24620, 24635, 24636, 24637, 24638, 24647, 24655, 24657, 24669, 24684, 24710, 24711, 24712, 24713, 24715, 24728, 24821, 24830, 24833, 24837, 24872, 24874, 24875, 24921, 24922, 24972, 24973, 24974, 24975, 25004, 25024, 25068, 25075, 25082, 25085, 25087, 25118, 25173, 25175, 25176, 25181, 25190, 25191, 25192, 25194, 25197, 25198, 25200, 25223, 25243, 25263, 25318, 25320, 25334, 25373, 25374, 25375, 25376, 25378, 25379, 25380, 25397, 25400, 25408, 25409, 25441, 25442, 25443, 25444, 25451, 25452, 25453, 25478, 25480, 25505, 25513, 25514, 25515, 25535, 25536, 25569, 25582, 25583, 25650, 25651, 25652, 25654, 25679, 25694, 25710, 25729, 25730, 25737, 25738, 25745, 25746, 25766, 25777, 25810, 25812, 25826, 25839, 25840, 25847, 25848, 25849, 25850, 25863, 25864, 25867, 25868, 25875, 25876, 25877, 25890, 25917, 25960, 25975, 25977, 25978, 25999, 26000, 26046, 26048, 26050, 26052, 26069, 26070, 26085, 26086, 26087, 26088, 26195, 26199, 26260, 26305, 26306, 26308, 26358, 26384, 26385, 26538, 26663, 26688, 26799, 26879, 26955, 26968, 26979, 26980, 27008, 27022, 27029, 27080, 27081, 27154, 27155, 27156, 27159, 27248, 27285, 27382, 27383, 27391, 27392, 27402, 27409, 27410, 27439, 27447, 27449, 27481, 27521, 27522, 27553, 27657, 27679, 27681, 27684, 27685, 27699, 27712, 27719, 27727, 27812, 27813, 27823, 27824, 27825, 27833, 27834, 27835, 27850, 27851, 27852, 27856, 27864, 27869, 27870, 27871, 27876, 27878, 27879, 27889, 27890, 27892, 27894, 27898, 27952, 27966, 27968, 27973, 27976, 27978, 27979, 27984, 27990, 27999, 28003, 28018, 28025, 28038, 28039, 28041, 28042, 28076, 28090, 28093, 28147, 28191, 28257, 28258, 28259, 28260, 28298, 28302, 28304, 28311, 28324, 28331, 28360, 28387, 28450, 28457, 28458, 28459, 28460, 28461, 28462, 28481, 28494, 28495, 28496, 28497, 28506, 28541, 28554, 28563, 28564, 28565, 28567, 28569, 28571, 28573, 28574, 28575, 28583, 28584, 28587, 28594, 28613, 28633, 28634, 28636, 28637, 28708, 28771, 28772, 28773, 28802, 28815, 28816, 28818, 28819, 28820, 28857, 28897, 28918, 28925, 28926, 28953, 28978, 29009, 29018, 29085, 29115, 29167, 29168, 29186, 29190, 29243, 29286, 29288, 29289, 29290, 29297, 29298, 29300, 29315, 29323, 29324, 29325, 29347, 29348, 29349, 29364, 29387, 29394, 29395, 29398, 29406, 29408, 29409, 29420, 29421, 29422, 29435, 29438, 29439, 29452, 29462, 29467, 29471, 29488, 29489, 29491, 29492, 29507, 29508, 29513, 29533, 29534, 29540, 29542, 29552, 29554, 29564, 29565, 29579, 29580, 29582, 29585, 29587, 29593, 29604, 29605, 29607, 29608, 29609, 29622, 29624, 29625, 29626, 29643, 29647, 29676, 29684, 29685, 29694, 29718, 29752, 29760, 29780, 29781, 29782, 29784, 29785, 29787, 29795, 29802, 29803, 29804, 29805, 29806, 29815, 29816, 29829, 29842, 29843, 29849, 29851, 29852, 29854, 29855, 29856, 29861, 29871, 29872, 29880, 29882, 29886, 29888, 29891, 29892, 29920, 29921, 29940, 29941, 29954, 29966, 29967, 29974, 29978, 29979, 29980, 29990, 29992, 29993, 29994, 30000, 30007, 30008, 30010, 30011, 30016, 30028, 30031, 30032, 30034, 30043, 30068, 30075, 30076, 30080, 30097, 30114, 30127, 30129, 30130, 30133, 30142, 30143, 30144, 30147, 30149, 30150, 30151, 30159, 30161, 30162, 30170, 30171, 30172, 30179, 30182, 30183, 30184, 30195, 30207, 30209, 30212, 30213, 30220, 30234, 30235, 30256, 30257, 30274, 30284, 30286, 30295, 30305, 30319, 30320, 30321, 30322, 30337, 30338, 30366, 30367, 30368, 30370, 30385, 30404, 30412, 30416, 30417, 30419, 30423, 30424, 30426, 30463, 30464, 30465, 30475, 30477, 30488, 30515, 30543, 30544, 30562, 30568, 30569, 30570, 30572, 30585, 30594, 30597, 30599, 30600, 30604, 30607, 30625, 30628, 30629, 30632, 30635, 30636, 30639, 30640, 30643, 30645, 30646, 30647, 30648, 30655, 30656, 30675, 30707, 30710, 30711, 30713, 30721, 30722, 30723, 30724, 30726, 30727, 30729, 30734, 30742, 30745, 30748, 30759, 30764, 30765, 30826, 30848, 30856, 30860, 30862, 30865, 30866, 30867, 30869, 30870, 30890, 30897, 30898, 30905, 30906, 30907, 30908, 30910, 30912, 30913, 30921, 30960, 30976, 30984, 30993, 30995, 31007, 31009, 31013, 31028, 31039, 31045, 31048, 31050, 31057, 31065, 31066, 31085, 31091, 31094, 31103, 31107, 31108, 31109, 31111, 31114, 31118, 31120, 31124, 31125, 31132, 31134, 31194, 31195, 31196, 31198, 31216, 31225, 31226, 31227, 31243, 31244, 31258, 31259, 31284, 31295, 31298, 31318, 31319, 31321, 31333, 31351, 31352, 31360, 31361, 31362, 31363, 31364, 31366, 31367, 31380, 31381, 31383, 31385, 31387, 31388, 31389, 31390, 31392, 31399, 31400, 31401, 31441, 31444, 31445, 31447, 31452, 31453, 31455, 31460, 31461, 31463, 31470, 31483, 31490, 31497, 31498, 31505, 31509, 31511, 31512, 31525, 31559, 31561, 31562, 31597, 31600, 31601, 31602, 31603, 31604, 31606, 31613, 31614, 31617, 31618, 31619, 31623, 31647, 31652, 31655, 31656, 31657, 31706, 31708, 31710, 31712, 31734, 31736, 31743, 31757, 31771, 31772, 31781, 31782, 31790, 31797, 31802, 31804, 31818, 31849, 31850, 31851, 31852, 31854, 31855, 31858, 31860, 31906, 31908, 31909, 31910, 31917, 31918, 31969, 31971, 31974, 31975, 31976, 31977, 31978, 31979, 31980, 31981, 31982, 31983, 31984, 31986, 31988, 31989, 31993, 32001, 32002, 32004, 32006, 32008, 32009, 32011, 32012, 32017, 32026, 32037, 32039, 32046, 32047, 32048, 32055, 32056, 32057, 32058, 32059, 32078, 32079, 32082, 32084, 32085, 32087, 32089, 32091, 32092, 32095, 32098, 32099, 32100, 32114, 32115, 32119, 32120, 32129, 32130, 32131, 32132, 32133, 32156, 32157, 32159, 32160, 32161, 32162, 32166, 32167, 32174, 32175, 32176, 32177, 32180, 32181, 32189, 32193, 32194, 32196, 32203, 32204, 32205, 32207, 32208, 32209, 32210, 32211, 32212, 32213, 32246, 32247, 32248, 32249, 32250, 32251, 32281, 32282, 32283, 32292, 32293, 32294, 32295, 32296, 32298, 32306, 32307, 32310, 32314, 32327, 32329, 32338, 32339, 32340, 32341);
+# Time: 2025-02-02T09:26:43.151904Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   680
+# Query_time: 0.000249  Lock_time: 0.000002 Rows_sent: 20  Rows_examined: 20
+SET timestamp=1738488403;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` limit 20 offset 0;
+# Time: 2025-02-02T09:26:43.163245Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   680
+# Query_time: 0.009685  Lock_time: 0.000003 Rows_sent: 3452  Rows_examined: 6703
+SET timestamp=1738488403;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 320, 1892);
+# Time: 2025-02-02T09:26:43.337388Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   680
+# Query_time: 0.018408  Lock_time: 0.000004 Rows_sent: 5203  Rows_examined: 6703
+SET timestamp=1738488403;
+select `id`, `name`, `email`, `mobile`, `country_iso` from `accounts` where `accounts`.`account_id` in (1, 4, 6, 8, 11, 12, 13, 14, 15, 16, 17, 53, 315, 316, 318, 1950, 1987, 2022, 2149, 2151, 2173, 2177, 2179, 2181, 2233, 2234, 2235, 2238, 2241, 2247, 2303, 2307, 2341, 2342, 2346, 2361, 2363, 2364, 2415, 2476, 2483, 2531, 2533, 2534, 2572, 2573, 2575, 2651, 2662, 2706, 2722, 2782, 2819, 2947, 2953, 2974, 2982, 2983, 3088, 3091, 3098, 3099, 3124, 3168, 3233, 3234, 3235, 3256, 3315, 3316, 3331, 3332, 3333, 3334, 3335, 3355, 3357, 3365, 3378, 3418, 3419, 3420, 3421, 3422, 3424, 3425, 3426, 3428, 3429, 3430, 3431, 3432, 3433, 3434, 3435, 3437, 3440, 3441, 3449, 3452, 3459, 3466, 3467, 3468, 3469, 3471, 3472, 3473, 3474, 3475, 3476, 3477, 3481, 3482, 3483, 3484, 3485, 3486, 3487, 3488, 3489, 3490, 3491, 3492, 3493, 3495, 3496, 3497, 3498, 3499, 3500, 3501, 3502, 3503, 3504, 3505, 3507, 3508, 3509, 3510, 3511, 3512, 3513, 3515, 3516, 3517, 3519, 3520, 3521, 3522, 3523, 3524, 3525, 3526, 3527, 3529, 3531, 3533, 3535, 3536, 3537, 3538, 3539, 3540, 3542, 3543, 3544, 3545, 3546, 3547, 3548, 3549, 3550, 3551, 3552, 3553, 3554, 3556, 3557, 3558, 3559, 3560, 3562, 3563, 3564, 3565, 3567, 3568, 3569, 3570, 3571, 3573, 3574, 3575, 3576, 3577, 3578, 3579, 3580, 3581, 3582, 3583, 3584, 3585, 3586, 3587, 3588, 3603, 3604, 3605, 3613, 3621, 3622, 3629, 3636, 3637, 3656, 3657, 3658, 3659, 3660, 3662, 3666, 3667, 3668, 3669, 3682, 3683, 3684, 3686, 3687, 3691, 3702, 3703, 3704, 3705, 3706, 3707, 3708, 3709, 3716, 3717, 3718, 3719, 3720, 3722, 3723, 3724, 3726, 3727, 3740, 3747, 3748, 3749, 3771, 3772, 3773, 3774, 3776, 3777, 3778, 3779, 3780, 3787, 3788, 3789, 3790, 3791, 3792, 3794, 3795, 3796, 3797, 3799, 3807, 3820, 3827, 3861, 3862, 3863, 3865, 3872, 3874, 3905, 3906, 3907, 3924, 3925, 3926, 3927, 3928, 3935, 3936, 3937, 3938, 3957, 3958, 3959, 3980, 3987, 3988, 3989, 3990, 3991, 3992, 3993, 3994, 3995, 3996, 4034, 4035, 4042, 4055, 4063, 4067, 4068, 4070, 4078, 4080, 4081, 4082, 4096, 4101, 4103, 4105, 4106, 4110, 4118, 4120, 4122, 4132, 4137, 4140, 4141, 4144, 4155, 4156, 4158, 4162, 4164, 4170, 4171, 4175, 4178, 4179, 4180, 4181, 4183, 4184, 4185, 4188, 4190, 4192, 4195, 4197, 4201, 4202, 4204, 4205, 4208, 4209, 4210, 4212, 4213, 4214, 4215, 4217, 4218, 4219, 4221, 4223, 4224, 4227, 4228, 4230, 4232, 4234, 4235, 4236, 4237, 4239, 4240, 4242, 4243, 4245, 4250, 4251, 4252, 4254, 4255, 4256, 4260, 4261, 4262, 4263, 4264, 4265, 4266, 4267, 4268, 4269, 4271, 4273, 4276, 4277, 4280, 4281, 4285, 4286, 4287, 4290, 4292, 4296, 4297, 4298, 4300, 4302, 4304, 4306, 4308, 4309, 4314, 4315, 4316, 4318, 4319, 4325, 4327, 4328, 4333, 4335, 4338, 4348, 4350, 4351, 4353, 4362, 4364, 4370, 4371, 4380, 4381, 4395, 4396, 4399, 4404, 4406, 4408, 4410, 4411, 4414, 4415, 4416, 4417, 4418, 4419, 4420, 4422, 4423, 4424, 4430, 4433, 4434, 4438, 4439, 4440, 4441, 4442, 4443, 4444, 4445, 4448, 4449, 4450, 4451, 4453, 4454, 4455, 4456, 4460, 4461, 4462, 4463, 4465, 4466, 4470, 4471, 4472, 4473, 4474, 4475, 4476, 4477, 4480, 4481, 4482, 4484, 4486, 4487, 4488, 4489, 4490, 4491, 4492, 4493, 4497, 4498, 4499, 4500, 4504, 4505, 4506, 4508, 4509, 4512, 4515, 4516, 4517, 4520, 4523, 4527, 4530, 4531, 4534, 4536, 4539, 4540, 4542, 4543, 4545, 4546, 4548, 4549, 4550, 4551, 4552, 4554, 4556, 4557, 4558, 4560, 4562, 4563, 4564, 4567, 4568, 4569, 4572, 4573, 4574, 4575, 4576, 4577, 4579, 4582, 4585, 4587, 4592, 4594, 4595, 4596, 4600, 4602, 4603, 4604, 4605, 4606, 4608, 4609, 4610, 4611, 4612, 4613, 4615, 4616, 4617, 4620, 4623, 4625, 4627, 4628, 4629, 4630, 4631, 4632, 4633, 4635, 4637, 4638, 4639, 4641, 4642, 4643, 4644, 4645, 4647, 4649, 4650, 4653, 4654, 4655, 4656, 4657, 4658, 4660, 4662, 4663, 4664, 4665, 4666, 4668, 4669, 4670, 4672, 4673, 4674, 4676, 4680, 4684, 4687, 4689, 4690, 4691, 4693, 4694, 4697, 4698, 4699, 4700, 4702, 4705, 4706, 4707, 4710, 4711, 4713, 4714, 4715, 4716, 4717, 4718, 4719, 4720, 4722, 4723, 4725, 4727, 4728, 4729, 4730, 4731, 4732, 4733, 4734, 4737, 4740, 4741, 4743, 4744, 4746, 4747, 4748, 4749, 4750, 4751, 4752, 4753, 4754, 4755, 4756, 4759, 4760, 4762, 4763, 4764, 4765, 4766, 4767, 4769, 4770, 4771, 4772, 4773, 4774, 4776, 4777, 4778, 4781, 4782, 4784, 4785, 4786, 4787, 4788, 4790, 4791, 4794, 4795, 4796, 4797, 4798, 4799, 4800, 4802, 4803, 4804, 4805, 4806, 4807, 4808, 4809, 4811, 4813, 4814, 4815, 4816, 4817, 4819, 4820, 4821, 4822, 4823, 4825, 4826, 4827, 4828, 4830, 4832, 4833, 4838, 4840, 4841, 4843, 4844, 4845, 4847, 4848, 4849, 4851, 4852, 4853, 4854, 4856, 4857, 4858, 4859, 4860, 4863, 4865, 4884, 4891, 4892, 4893, 4895, 4902, 4903, 4904, 4905, 4912, 4925, 4926, 4927, 4928, 4929, 4930, 4952, 4953, 4954, 4955, 4968, 4969, 4988, 4989, 4991, 4992, 4994, 4995, 4996, 4997, 4998, 4999, 5001, 5002, 5004, 5005, 5012, 5013, 5014, 5015, 5023, 5024, 5025, 5026, 5027, 5028, 5029, 5031, 5033, 5034, 5041, 5042, 5050, 5051, 5052, 5053, 5054, 5055, 5057, 5058, 5059, 5060, 5080, 5088, 5090, 5091, 5092, 5094, 5095, 5102, 5109, 5110, 5111, 5112, 5114, 5121, 5122, 5129, 5130, 5131, 5133, 5134, 5135, 5136, 5149, 5150, 5155, 5156, 5157, 5158, 5159, 5160, 5167, 5180, 5187, 5188, 5189, 5190, 5191, 5192, 5193, 5194, 5195, 5196, 5197, 5198, 5199, 5200, 5201, 5202, 5203, 5204, 5205, 5208, 5210, 5211, 5212, 5213, 5214, 5216, 5218, 5219, 5221, 5222, 5223, 5224, 5225, 5226, 5227, 5228, 5229, 5230, 5231, 5232, 5233, 5234, 5236, 5244, 5251, 5264, 5265, 5266, 5268, 5269, 5270, 5271, 5272, 5273, 5274, 5318, 5321, 5328, 5329, 5347, 5349, 5350, 5352, 5353, 5354, 5356, 5357, 5424, 5425, 5426, 5428, 5435, 5436, 5439, 5440, 5442, 5443, 5444, 5445, 5450, 5451, 5484, 5485, 5486, 5487, 5488, 5489, 5496, 5497, 5510, 5511, 5518, 5521, 5522, 5525, 5538, 5558, 5565, 5566, 5567, 5568, 5569, 5571, 5573, 5574, 5575, 5576, 5577, 5578, 5589, 5590, 5591, 5592, 5593, 5595, 5596, 5603, 5610, 5611, 5612, 5613, 5614, 5615, 5616, 5619, 5620, 5621, 5622, 5623, 5627, 5634, 5642, 5643, 5645, 5646, 5647, 5648, 5649, 5651, 5652, 5654, 5690, 5691, 5695, 5702, 5703, 5778, 5821, 6144, 6146, 6164, 6169, 6170, 6174, 6175, 6178, 6184, 6186, 6205, 6210, 6225, 6230, 6237, 6255, 6270, 6274, 6280, 6287, 6299, 6304, 6313, 6325, 6341, 6399, 6412, 6415, 6465, 6487, 6505, 6574, 6628, 6631, 6729, 6745, 6774, 6815, 6842, 6880, 6887, 6919, 6948, 6974, 6977, 6983, 7005, 7038, 7076, 7083, 7123, 7225, 7233, 7262, 7264, 7267, 7275, 7279, 7280, 7281, 7282, 7284, 7285, 7286, 7290, 7297, 7298, 7299, 7314, 7315, 7316, 7317, 7348, 7351, 7352, 7353, 7463, 7470, 7484, 7521, 7535, 7537, 7543, 7545, 7546, 7547, 7549, 7550, 7552, 7554, 7559, 7560, 7563, 7565, 7578, 7580, 7594, 7652, 7657, 7661, 7663, 7665, 7670, 7672, 7674, 7702, 7710, 7718, 7720, 7721, 7727, 7729, 7734, 7736, 7738, 7741, 7746, 7753, 7764, 7788, 7791, 7796, 7803, 7808, 7811, 7817, 7836, 7842, 7843, 7853, 7854, 7857, 7858, 7860, 7862, 7863, 7865, 7867, 7873, 7874, 7876, 7885, 7887, 7890, 7895, 7898, 7928, 7936, 7944, 7948, 7962, 7964, 7966, 7968, 7970, 8011, 8013, 8016, 8030, 8034, 8103, 8114, 8144, 8187, 8229, 8236, 8249, 8270, 8298, 8313, 8314, 8316, 8319, 8322, 8345, 8348, 8355, 8363, 8372, 8378, 8386, 8389, 8403, 8404, 8411, 8436, 8448, 8464, 8466, 8480, 8486, 8492, 8501, 8516, 8529, 8530, 8545, 8546, 8548, 8549, 8551, 8574, 8575, 8577, 8580, 8584, 8585, 8586, 8587, 8590, 8592, 8594, 8595, 8598, 8599, 8602, 8606, 8608, 8613, 8614, 8624, 8626, 8628, 8629, 8630, 8635, 8636, 8637, 8639, 8977, 8979, 8981, 8982, 8983, 8984, 8985, 8995, 9010, 9049, 9059, 9060, 9077, 9078, 9086, 9095, 9102, 9104, 9107, 9109, 9112, 9113, 9114, 9118, 9119, 9122, 9124, 9125, 9127, 9129, 9132, 9137, 9140, 9141, 9143, 9146, 9153, 9155, 9163, 9182, 9183, 9192, 9198, 9200, 9201, 9202, 9213, 9230, 9233, 9237, 9246, 9265, 9272, 9276, 9288, 9306, 9321, 9326, 9327, 9339, 9348, 9352, 9358, 9367, 9371, 9379, 9384, 9389, 9400, 9412, 9417, 9447, 9454, 9456, 9474, 9487, 9496, 9511, 9524, 9527, 9537, 9545, 9556, 9558, 9563, 9565, 9568, 9575, 9592, 9627, 9628, 9634, 9636, 9643, 9658, 9660, 9673, 9674, 9684, 9690, 9697, 9711, 9728, 9729, 9749, 9753, 9754, 9763, 9766, 9770, 9782, 9791, 9798, 9800, 9814, 9836, 9839, 9850, 9861, 9867, 9869, 9874, 9876, 9879, 9885, 9892, 9896, 9900, 9921, 9927, 9932, 9933, 9937, 9944, 9945, 9955, 9961, 9975, 9976, 9980, 9985, 9990, 9991, 9994, 9997, 10002, 10005, 10013, 10015, 10041, 10072, 10082, 10086, 10089, 10091, 10104, 10106, 10109, 10117, 10123, 10136, 10139, 10145, 10150, 10159, 10160, 10161, 10168, 10169, 10171, 10172, 10174, 10177, 10178, 10181, 10185, 10199, 10200, 10206, 10207, 10208, 10209, 10212, 10213, 10223, 10228, 10229, 10231, 10232, 10233, 10234, 10237, 10239, 10240, 10242, 10244, 10245, 10248, 10249, 10278, 10279, 10280, 10282, 10301, 10335, 10347, 10362, 10369, 10370, 10371, 10372, 10373, 10374, 10375, 10377, 10378, 10379, 10380, 10381, 10390, 10391, 10392, 10393, 10394, 10396, 10403, 10412, 10420, 10422, 10445, 10448, 10449, 10450, 10460, 10480, 10491, 10501, 10571, 10573, 10574, 10575, 10578, 10579, 10581, 10587, 10590, 10591, 10595, 10597, 10623, 10676, 10679, 10685, 10691, 10699, 10700, 10702, 10716, 10750, 10755, 10756, 10758, 10759, 10779, 10788, 10797, 10805, 10807, 10808, 10815, 10880, 10950, 10982, 10983, 10984, 10986, 10988, 10993, 10996, 11005, 11008, 11009, 11010, 11026, 11029, 11030, 11031, 11041, 11047, 11050, 11055, 11068, 11069, 11070, 11073, 11081, 11087, 11090, 11135, 11142, 11149, 11150, 11153, 11155, 11169, 11249, 11250, 11255, 11256, 11257, 11258, 11260, 11261, 11262, 11263, 11276, 11301, 11302, 11303, 11308, 11311, 11312, 11313, 11315, 11317, 11319, 11321, 11327, 11328, 11330, 11346, 11348, 11349, 11351, 11352, 11371, 11372, 11383, 11390, 11398, 11408, 11410, 11411, 11474, 11476, 11477, 11478, 11485, 11486, 11487, 11492, 11499, 11513, 11514, 11518, 11528, 11530, 11561, 11562, 11564, 11565, 11568, 11570, 11577, 11581, 11582, 11583, 11585, 11588, 11589, 11591, 11592, 11594, 11595, 11597, 11631, 11632, 11633, 11634, 11641, 11648, 11649, 11651, 11720, 11795, 11797, 11826, 11873, 11880, 11890, 11911, 11919, 11926, 11932, 11933, 11934, 11935, 11936, 11940, 11941, 11945, 11946, 11948, 11953, 11961, 11963, 11964, 11966, 11979, 11986, 11988, 11990, 11993, 11996, 11997, 12004, 12005, 12006, 12019, 12033, 12058, 12068, 12069, 12070, 12077, 12078, 12079, 12099, 12126, 12128, 12153, 12160, 12185, 12186, 12188, 12190, 12191, 12204, 12213, 12216, 12217, 12220, 12223, 12233, 12234, 12236, 12254, 12268, 12297, 12300, 12316, 12321, 12325, 12327, 12330, 12340, 12341, 12348, 12356, 12363, 12365, 12374, 12378, 12379, 12380, 12406, 12465, 12502, 12504, 12505, 12506, 12507, 12573, 12608, 12609, 12660, 12669, 12727, 12744, 12753, 12848, 12849, 12863, 12874, 12875, 12896, 12919, 12929, 12936, 12966, 13069, 13101, 13114, 13116, 13170, 13178, 13187, 13203, 13205, 13263, 13312, 13313, 13330, 13380, 13381, 13382, 13383, 13388, 13391, 13416, 13504, 13535, 13574, 13620, 13622, 13660, 13667, 13836, 13884, 13888, 13891, 13935, 13977, 13980, 14009, 14011, 14068, 14105, 14300, 14407, 14444, 14447, 14458, 14463, 14477, 14480, 14481, 14486, 14487, 14489, 14491, 14492, 14506, 14507, 14538, 14551, 14564, 14572, 14608, 14609, 14611, 14619, 14620, 14635, 14637, 14673, 14674, 14675, 14677, 14687, 14698, 14704, 14705, 14747, 14760, 14768, 14769, 14782, 14786, 14788, 14790, 14791, 14804, 14805, 14808, 14817, 14819, 14823, 14828, 14829, 14830, 14833, 15011, 15036, 15050, 15059, 15060, 15067, 15103, 15105, 15117, 15137, 15145, 15152, 15153, 15161, 15162, 15216, 15217, 15252, 15265, 15360, 15365, 15366, 15367, 15381, 15383, 15386, 15387, 15465, 15507, 15532, 15553, 15555, 15591, 15631, 15632, 15645, 15646, 15659, 15660, 15739, 15748, 15755, 15761, 15764, 15769, 15785, 15810, 15840, 15846, 15851, 15852, 15866, 15881, 15910, 15936, 15947, 16008, 16030, 16032, 16033, 16039, 16051, 16069, 16073, 16074, 16077, 16078, 16103, 16105, 16107, 16113, 16115, 16118, 16119, 16170, 16191, 16258, 16274, 16305, 16323, 16332, 16339, 16342, 16350, 16366, 16367, 16370, 16372, 16381, 16391, 16420, 16421, 16422, 16423, 16529, 16531, 16540, 16541, 16543, 16544, 16547, 16548, 16551, 16559, 16566, 16573, 16575, 16576, 16584, 16593, 16600, 16612, 16648, 16666, 16698, 16700, 16702, 16779, 16794, 16795, 16801, 16870, 16875, 16899, 16909, 16911, 16940, 17226, 17242, 17264, 17318, 17363, 17369, 17390, 17434, 17447, 17449, 17500, 17546, 17554, 17566, 17567, 17579, 17580, 17581, 17599, 17603, 17628, 17656, 17659, 17661, 17662, 17670, 17671, 17678, 17680, 17732, 17746, 17747, 17749, 17756, 17757, 17761, 17765, 17766, 17823, 17825, 17826, 17843, 17846, 17848, 17849, 17903, 17905, 17919, 17922, 17943, 17962, 18089, 18132, 18154, 18165, 18167, 18196, 18216, 18217, 18218, 18219, 18296, 18312, 18313, 18320, 18324, 18359, 18421, 18444, 18457, 18472, 18501, 18508, 18528, 18566, 18586, 18587, 18588, 18609, 18611, 18661, 18683, 18684, 18685, 18686, 18694, 18704, 18712, 18752, 18777, 18786, 18805, 18806, 18809, 18818, 18849, 18903, 18911, 18954, 18983, 18986, 18988, 18990, 18994, 19001, 19019, 19026, 19027, 19028, 19054, 19055, 19061, 19062, 19064, 19065, 19072, 19079, 19112, 19117, 19118, 19119, 19120, 19121, 19125, 19130, 19131, 19133, 19135, 19137, 19138, 19145, 19153, 19154, 19158, 19159, 19160, 19161, 19164, 19165, 19179, 19186, 19187, 19188, 19189, 19190, 19197, 19204, 19212, 19214, 19216, 19233, 19234, 19235, 19236, 19237, 19250, 19251, 19252, 19263, 19264, 19265, 19266, 19267, 19272, 19273, 19275, 19277, 19279, 19292, 19293, 19294, 19296, 19297, 19299, 19300, 19301, 19303, 19304, 19313, 19314, 19315, 19317, 19318, 19319, 19322, 19323, 19324, 19325, 19326, 19339, 19345, 19358, 19359, 19361, 19362, 19364, 19365, 19384, 19386, 19388, 19391, 19394, 19395, 19396, 19397, 19402, 19404, 19405, 19406, 19408, 19410, 19411, 19412, 19419, 19432, 19433, 19435, 19436, 19438, 19442, 19474, 19475, 19476, 19478, 19479, 19480, 19488, 19498, 19499, 19501, 19503, 19514, 19515, 19516, 19517, 19524, 19525, 19528, 19533, 19534, 19550, 19551, 19552, 19565, 19573, 19574, 19581, 19588, 19601, 19602, 19633, 19634, 19642, 19663, 19664, 19665, 19686, 19687, 19791, 19804, 19805, 19806, 19807, 19808, 19809, 19810, 19811, 19823, 19824, 19825, 19826, 19827, 19830, 19832, 19839, 19844, 19845, 19848, 19859, 19880, 19881, 19888, 19891, 19913, 19916, 19918, 19925, 19932, 19945, 19954, 19956, 19963, 19964, 19968, 19969, 19970, 19971, 19992, 19993, 20010, 20011, 20012, 20013, 20014, 20016, 20017, 20022, 20023, 20025, 20028, 20030, 20031, 20032, 20035, 20036, 20037, 20039, 20040, 20047, 20048, 20049, 20050, 20051, 20052, 20053, 20066, 20074, 20113, 20114, 20117, 20131, 20132, 20134, 20151, 20152, 20172, 20173, 20216, 20218, 20219, 20220, 20228, 20230, 20231, 20237, 20239, 20240, 20259, 20260, 20261, 20262, 20263, 20264, 20265, 20266, 20267, 20268, 20275, 20276, 20277, 20278, 20280, 20283, 20292, 20293, 20299, 20308, 20309, 20330, 20353, 20372, 20409, 20410, 20411, 20425, 20432, 20439, 20447, 20448, 20449, 20450, 20451, 20452, 20460, 20481, 20488, 20495, 20508, 20510, 20511, 20512, 20520, 20621, 20645, 20646, 20647, 20654, 20656, 20663, 20672, 20674, 20699, 20724, 20726, 20734, 20735, 20749, 20751, 20783, 20784, 20793, 20812, 20813, 20814, 20842, 20845, 20854, 20856, 20858, 20859, 20862, 20863, 20865, 20879, 20880, 20881, 20895, 20897, 20906, 20939, 20982, 20983, 20984, 20998, 21000, 21045, 21058, 21071, 21078, 21079, 21081, 21087, 21090, 21091, 21092, 21094, 21095, 21110, 21111, 21112, 21113, 21114, 21120, 21139, 21172, 21187, 21196, 21212, 21246, 21254, 21279, 21288, 21289, 21292, 21294, 21295, 21316, 21327, 21328, 21329, 21331, 21402, 21403, 21413, 21414, 21415, 21416, 21423, 21450, 21469, 21519, 21522, 21544, 21545, 21546, 21547, 21548, 21549, 21550, 21551, 21552, 21553, 21555, 21556, 21558, 21559, 21560, 21561, 21563, 21567, 21568, 21573, 21579, 21580, 21581, 21584, 21586, 21612, 21619, 21620, 21628, 21629, 21634, 21638, 21726, 21727, 21729, 21730, 21731, 21732, 21741, 21761, 21774, 21782, 21784, 21797, 21805, 21812, 21844, 21870, 21982, 21995, 22030, 22038, 22040, 22046, 22049, 22057, 22079, 22143, 22154, 22169, 22171, 22182, 22183, 22191, 22203, 22207, 22249, 22251, 22279, 22301, 22302, 22303, 22314, 22335, 22370, 22371, 22373, 22374, 22382, 22390, 22422, 22487, 22488, 22489, 22495, 22499, 22510, 22578, 22579, 22594, 22597, 22600, 22601, 22617, 22619, 22621, 22626, 22655, 22682, 22686, 22691, 22694, 22701, 22708, 22764, 22777, 22808, 22811, 22814, 22815, 22824, 22856, 22863, 22913, 22916, 22918, 22943, 22974, 22982, 22985, 23011, 23039, 23088, 23119, 23123, 23137, 23138, 23169, 23170, 23175, 23176, 23250, 23318, 23322, 23329, 23402, 23423, 23424, 23452, 23484, 23491, 23528, 23535, 23536, 23571, 23572, 23585, 23593, 23620, 23652, 23653, 23654, 23705, 23826, 23842, 23876, 23877, 23884, 23885, 23886, 23902, 23903, 23904, 23906, 23908, 23914, 23928, 23929, 23931, 23934, 23941, 23944, 23969, 23990, 24005, 24096, 24110, 24115, 24118, 24132, 24146, 24153, 24210, 24211, 24221, 24222, 24223, 24224, 24225, 24239, 24240, 24241, 24288, 24289, 24329, 24350, 24351, 24352, 24353, 24355, 24364, 24365, 24366, 24369, 24370, 24395, 24402, 24441, 24456, 24460, 24485, 24524, 24525, 24527, 24534, 24535, 24549, 24590, 24591, 24620, 24635, 24636, 24637, 24638, 24647, 24655, 24657, 24669, 24684, 24710, 24711, 24712, 24713, 24715, 24728, 24821, 24830, 24833, 24837, 24872, 24874, 24875, 24921, 24922, 24972, 24973, 24974, 24975, 25004, 25024, 25068, 25075, 25082, 25085, 25087, 25118, 25173, 25175, 25176, 25181, 25190, 25191, 25192, 25194, 25197, 25198, 25200, 25223, 25243, 25263, 25318, 25320, 25334, 25373, 25374, 25375, 25376, 25378, 25379, 25380, 25397, 25400, 25408, 25409, 25441, 25442, 25443, 25444, 25451, 25452, 25453, 25478, 25480, 25505, 25513, 25514, 25515, 25535, 25536, 25569, 25582, 25583, 25650, 25651, 25652, 25654, 25679, 25694, 25710, 25729, 25730, 25737, 25738, 25745, 25746, 25766, 25777, 25810, 25812, 25826, 25839, 25840, 25847, 25848, 25849, 25850, 25863, 25864, 25867, 25868, 25875, 25876, 25877, 25890, 25917, 25960, 25975, 25977, 25978, 25999, 26000, 26046, 26048, 26050, 26052, 26069, 26070, 26085, 26086, 26087, 26088, 26195, 26199, 26260, 26305, 26306, 26308, 26358, 26384, 26385, 26538, 26663, 26688, 26799, 26879, 26955, 26968, 26979, 26980, 27008, 27022, 27029, 27080, 27081, 27154, 27155, 27156, 27159, 27248, 27285, 27382, 27383, 27391, 27392, 27402, 27409, 27410, 27439, 27447, 27449, 27481, 27521, 27522, 27553, 27657, 27679, 27681, 27684, 27685, 27699, 27712, 27719, 27727, 27812, 27813, 27823, 27824, 27825, 27833, 27834, 27835, 27850, 27851, 27852, 27856, 27864, 27869, 27870, 27871, 27876, 27878, 27879, 27889, 27890, 27892, 27894, 27898, 27952, 27966, 27968, 27973, 27976, 27978, 27979, 27984, 27990, 27999, 28003, 28018, 28025, 28038, 28039, 28041, 28042, 28076, 28090, 28093, 28147, 28191, 28257, 28258, 28259, 28260, 28298, 28302, 28304, 28311, 28324, 28331, 28360, 28387, 28450, 28457, 28458, 28459, 28460, 28461, 28462, 28481, 28494, 28495, 28496, 28497, 28506, 28541, 28554, 28563, 28564, 28565, 28567, 28569, 28571, 28573, 28574, 28575, 28583, 28584, 28587, 28594, 28613, 28633, 28634, 28636, 28637, 28708, 28771, 28772, 28773, 28802, 28815, 28816, 28818, 28819, 28820, 28857, 28897, 28918, 28925, 28926, 28953, 28978, 29009, 29018, 29085, 29115, 29167, 29168, 29186, 29190, 29243, 29286, 29288, 29289, 29290, 29297, 29298, 29300, 29315, 29323, 29324, 29325, 29347, 29348, 29349, 29364, 29387, 29394, 29395, 29398, 29406, 29408, 29409, 29420, 29421, 29422, 29435, 29438, 29439, 29452, 29462, 29467, 29471, 29488, 29489, 29491, 29492, 29507, 29508, 29513, 29533, 29534, 29540, 29542, 29552, 29554, 29564, 29565, 29579, 29580, 29582, 29585, 29587, 29593, 29604, 29605, 29607, 29608, 29609, 29622, 29624, 29625, 29626, 29643, 29647, 29676, 29684, 29685, 29694, 29718, 29752, 29760, 29780, 29781, 29782, 29784, 29785, 29787, 29795, 29802, 29803, 29804, 29805, 29806, 29815, 29816, 29829, 29842, 29843, 29849, 29851, 29852, 29854, 29855, 29856, 29861, 29871, 29872, 29880, 29882, 29886, 29888, 29891, 29892, 29920, 29921, 29940, 29941, 29954, 29966, 29967, 29974, 29978, 29979, 29980, 29990, 29992, 29993, 29994, 30000, 30007, 30008, 30010, 30011, 30016, 30028, 30031, 30032, 30034, 30043, 30068, 30075, 30076, 30080, 30097, 30114, 30127, 30129, 30130, 30133, 30142, 30143, 30144, 30147, 30149, 30150, 30151, 30159, 30161, 30162, 30170, 30171, 30172, 30179, 30182, 30183, 30184, 30195, 30207, 30209, 30212, 30213, 30220, 30234, 30235, 30256, 30257, 30274, 30284, 30286, 30295, 30305, 30319, 30320, 30321, 30322, 30337, 30338, 30366, 30367, 30368, 30370, 30385, 30404, 30412, 30416, 30417, 30419, 30423, 30424, 30426, 30463, 30464, 30465, 30475, 30477, 30488, 30515, 30543, 30544, 30562, 30568, 30569, 30570, 30572, 30585, 30594, 30597, 30599, 30600, 30604, 30607, 30625, 30628, 30629, 30632, 30635, 30636, 30639, 30640, 30643, 30645, 30646, 30647, 30648, 30655, 30656, 30675, 30707, 30710, 30711, 30713, 30721, 30722, 30723, 30724, 30726, 30727, 30729, 30734, 30742, 30745, 30748, 30759, 30764, 30765, 30826, 30848, 30856, 30860, 30862, 30865, 30866, 30867, 30869, 30870, 30890, 30897, 30898, 30905, 30906, 30907, 30908, 30910, 30912, 30913, 30921, 30960, 30976, 30984, 30993, 30995, 31007, 31009, 31013, 31028, 31039, 31045, 31048, 31050, 31057, 31065, 31066, 31085, 31091, 31094, 31103, 31107, 31108, 31109, 31111, 31114, 31118, 31120, 31124, 31125, 31132, 31134, 31194, 31195, 31196, 31198, 31216, 31225, 31226, 31227, 31243, 31244, 31258, 31259, 31284, 31295, 31298, 31318, 31319, 31321, 31333, 31351, 31352, 31360, 31361, 31362, 31363, 31364, 31366, 31367, 31380, 31381, 31383, 31385, 31387, 31388, 31389, 31390, 31392, 31399, 31400, 31401, 31441, 31444, 31445, 31447, 31452, 31453, 31455, 31460, 31461, 31463, 31470, 31483, 31490, 31497, 31498, 31505, 31509, 31511, 31512, 31525, 31559, 31561, 31562, 31597, 31600, 31601, 31602, 31603, 31604, 31606, 31613, 31614, 31617, 31618, 31619, 31623, 31647, 31652, 31655, 31656, 31657, 31706, 31708, 31710, 31712, 31734, 31736, 31743, 31757, 31771, 31772, 31781, 31782, 31790, 31797, 31802, 31804, 31818, 31849, 31850, 31851, 31852, 31854, 31855, 31858, 31860, 31906, 31908, 31909, 31910, 31917, 31918, 31969, 31971, 31974, 31975, 31976, 31977, 31978, 31979, 31980, 31981, 31982, 31983, 31984, 31986, 31988, 31989, 31993, 32001, 32002, 32004, 32006, 32008, 32009, 32011, 32012, 32017, 32026, 32037, 32039, 32046, 32047, 32048, 32055, 32056, 32057, 32058, 32059, 32078, 32079, 32082, 32084, 32085, 32087, 32089, 32091, 32092, 32095, 32098, 32099, 32100, 32114, 32115, 32119, 32120, 32129, 32130, 32131, 32132, 32133, 32156, 32157, 32159, 32160, 32161, 32162, 32166, 32167, 32174, 32175, 32176, 32177, 32180, 32181, 32189, 32193, 32194, 32196, 32203, 32204, 32205, 32207, 32208, 32209, 32210, 32211, 32212, 32213, 32246, 32247, 32248, 32249, 32250, 32251, 32281, 32282, 32283, 32292, 32293, 32294, 32295, 32296, 32298, 32306, 32307, 32310, 32314, 32327, 32329, 32338, 32339, 32340, 32341);
+# Time: 2025-02-02T09:26:43.519453Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.051604  Lock_time: 0.000003 Rows_sent: 2  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'najran cf';
+# Time: 2025-02-02T09:26:43.573656Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.041232  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'najrancforg';
+# Time: 2025-02-02T09:26:43.623891Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.040541  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'hawayij';
+# Time: 2025-02-02T09:26:43.672508Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.040117  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'hwayjchr';
+# Time: 2025-02-02T09:26:43.721314Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.040033  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'hwayjorg';
+# Time: 2025-02-02T09:26:43.774087Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.040459  Lock_time: 0.000002 Rows_sent: 2  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'amtarorg';
+# Time: 2025-02-02T09:26:43.828439Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.041760  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'afaqh';
+# Time: 2025-02-02T09:26:43.879232Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.040464  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'afaqcar';
+# Time: 2025-02-02T09:26:43.928126Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.040391  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'affaq';
+# Time: 2025-02-02T09:26:43.978705Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   676
+# Query_time: 0.040541  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 16733
+SET timestamp=1738488403;
+select * from `hawsabah_senders` where lower(sender_name) = 'afaaq';
+# Time: 2025-02-02T09:26:44.420790Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.008560  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488404;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:44.814536Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   682
+# Query_time: 0.000300  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488404;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (354398);
+# Time: 2025-02-02T09:26:46.432780Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.008889  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488406;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:48.448110Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.011855  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488408;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:48.476273Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   684
+# Query_time: 0.031422  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 13018
+SET timestamp=1738488408;
+select count(*) as aggregate from `hawsabah_requests` inner join `hawsabah_request_senders` on `id` = `hawsabah_request_id` where `sender` like '%khaldoon_sc%';
+# Time: 2025-02-02T09:26:48.533165Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   684
+# Query_time: 0.055410  Lock_time: 0.000003 Rows_sent: 2  Rows_examined: 13020
+SET timestamp=1738488408;
+select * from `hawsabah_requests` inner join `hawsabah_request_senders` on `id` = `hawsabah_request_id` where `sender` like '%khaldoon_sc%' order by `id` desc limit 10 offset 0;
+# Time: 2025-02-02T09:26:48.619523Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   684
+# Query_time: 0.051102  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488408;
+select * from `hawsabah_senders` where lower(sender_name) = 'khaldoon_sc';
+# Time: 2025-02-02T09:26:48.677126Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   684
+# Query_time: 0.043829  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488408;
+select * from `hawsabah_senders` where lower(sender_name) = 'khaldoon sc';
+# Time: 2025-02-02T09:26:48.899838Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   687
+# Query_time: 0.015368  Lock_time: 0.000024 Rows_sent: 1  Rows_examined: 13017
+SET timestamp=1738488408;
+select count(*) as aggregate from `hawsabah_requests` inner join `hawsabah_request_senders` on `id` = `hawsabah_request_id` where `sender` = 'khaldoon_sc';
+# Time: 2025-02-02T09:26:48.951763Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   687
+# Query_time: 0.050543  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 13018
+SET timestamp=1738488408;
+select * from `hawsabah_requests` inner join `hawsabah_request_senders` on `id` = `hawsabah_request_id` where `sender` = 'khaldoon_sc' order by `id` desc limit 10 offset 0;
+# Time: 2025-02-02T09:26:49.063643Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   687
+# Query_time: 0.066823  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488408;
+select * from `hawsabah_senders` where lower(sender_name) = 'khaldoon_sc';
+# Time: 2025-02-02T09:26:49.362167Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   689
+# Query_time: 0.020659  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 13018
+SET timestamp=1738488409;
+select count(*) as aggregate from `hawsabah_requests` inner join `hawsabah_request_senders` on `id` = `hawsabah_request_id` where `sender` like '%khaldoon_sc%';
+# Time: 2025-02-02T09:26:49.421646Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   689
+# Query_time: 0.058738  Lock_time: 0.000003 Rows_sent: 2  Rows_examined: 13020
+SET timestamp=1738488409;
+select * from `hawsabah_requests` inner join `hawsabah_request_senders` on `id` = `hawsabah_request_id` where `sender` like '%khaldoon_sc%' order by `id` desc limit 10 offset 0;
+# Time: 2025-02-02T09:26:49.507527Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   689
+# Query_time: 0.057931  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488409;
+select * from `hawsabah_senders` where lower(sender_name) = 'khaldoon_sc';
+# Time: 2025-02-02T09:26:49.560507Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   689
+# Query_time: 0.041933  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 16733
+SET timestamp=1738488409;
+select * from `hawsabah_senders` where lower(sender_name) = 'khaldoon sc';
+# Time: 2025-02-02T09:26:50.460382Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.009372  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488410;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:51.167853Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    37
+# Query_time: 0.000183  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488411;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (245186);
+# Time: 2025-02-02T09:26:51.647079Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   692
+# Query_time: 0.000181  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488411;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356273);
+# Time: 2025-02-02T09:26:52.086744Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   693
+# Query_time: 0.000183  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488412;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (356273);
+# Time: 2025-02-02T09:26:52.474805Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.011002  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488412;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:53.225911Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   701
+# Query_time: 0.000367  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 30
+SET timestamp=1738488413;
+select * from `crm_lead_inputs` where (`account_id` = 8169 or `account_id` is null);
+# Time: 2025-02-02T09:26:53.791689Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   703
+# Query_time: 0.000246  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488413;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (1836, 1941, 21351, 38927, 110337, 229139, 229507, 244501, 252056, 345548, 348865, 349381, 349850, 351093, 351111);
+# Time: 2025-02-02T09:26:54.005974Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   704
+# Query_time: 0.000275  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488414;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351094);
+# Time: 2025-02-02T09:26:54.485348Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   523
+# Query_time: 0.007884  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 3427
+SET timestamp=1738488414;
+select * from `hawsabah_request_contracts` where (`h_status` = 1 or (`h_status` = 5 and trim(error_msg)='login faild')) limit 1;
+# Time: 2025-02-02T09:26:54.699077Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   198
+# Query_time: 0.000288  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738488414;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (351094);

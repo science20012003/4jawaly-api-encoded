@@ -1,0 +1,5000 @@
+# Time: 2025-02-05T06:52:07.565911Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.030126  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'CashifCo'))  and
+		 trim(cr_number) = '1010595349'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.574792Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029701  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Dhama'))  and
+		 trim(cr_number) = '1010794161'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.586982Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.029771  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Rafea.Co'))  and
+		 trim(cr_number) = '4650245504'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.598065Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.030875  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Zayan Cln'))  and
+		 trim(cr_number) = '1010225938'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.599947Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.031855  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Bld-Abanat'))  and
+		 trim(cr_number) = '197704'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.610124Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.032538  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'VIPGym'))  and
+		 trim(cr_number) = '4031218581'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.620963Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.029859  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Hadaf.E'))  and
+		 trim(cr_number) = '3550126311'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.629836Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029389  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'SaarCollect'))  and
+		 trim(cr_number) = '2050130612'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.641739Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029461  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'HARAMELSHRQ'))  and
+		 trim(cr_number) = '1131058175'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.648599Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.046477  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'aldawli'))  and
+		 trim(cr_number) = '1010176878'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.652170Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.029435  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Rabiah_SC'))  and
+		 trim(cr_number) = '110729'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.661197Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029111  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'SaarCLCT'))  and
+		 trim(cr_number) = '2050130612'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.672662Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029042  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'NOR-ZNKI_SC'))  and
+		 trim(cr_number) = '140001'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.685398Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.030614  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AlbaiarqSCH'))  and
+		 trim(cr_number) = '1010248187'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.688701Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.037071  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Dukkank'))  and
+		 trim(cr_number) = '4603150254'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.694135Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029014  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Saar-Colect'))  and
+		 trim(cr_number) = '2050130612'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.704559Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029028  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'NajranScool'))  and
+		 trim(cr_number) = '93346'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.717891Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.029829  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Almhamh_SC'))  and
+		 trim(cr_number) = '44237'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.724088Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.032503  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'tipappsa'))  and
+		 trim(cr_number) = '4030478152'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.725662Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029220  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ZayanClinic'))  and
+		 trim(cr_number) = '1010225938'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.735685Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029415  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Samorschool'))  and
+		 trim(cr_number) = '50145'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.749385Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.029772  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AMALTALOMM'))  and
+		 trim(cr_number) = '1010687917'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.757611Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029936  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'alhalqa'))  and
+		 trim(cr_number) = '4031237487'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.757898Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029437  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'tipapp'))  and
+		 trim(cr_number) = '4030478152'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.767310Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029905  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALShamla'))  and
+		 trim(cr_number) = '1011151193'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.780360Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.029441  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'IMOOIE'))  and
+		 trim(cr_number) = '1010603973'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.789263Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029386  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'PetVetExpo'))  and
+		 trim(cr_number) = '1010211192'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.791312Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029277  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AsadMedcal'))  and
+		 trim(cr_number) = '4030156435'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.799726Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029282  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'JarirBgl_SC'))  and
+		 trim(cr_number) = '10822'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.821974Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.039056  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Original Co'))  and
+		 trim(cr_number) = '4031237983'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.830028Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.027133  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AlbaharSCH'))  and
+		 trim(cr_number) = '2251041885'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.830381Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.036531  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AsadService'))  and
+		 trim(cr_number) = '4030156435'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.834668Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.043149  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'PetVet'))  and
+		 trim(cr_number) = '1010211192'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.852452Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.028118  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'wonderworld'))  and
+		 trim(cr_number) = '1010743862'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.864479Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.031486  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Asad.Med'))  and
+		 trim(cr_number) = '4030156435'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.871821Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.037812  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ENJAZSCH'))  and
+		 trim(cr_number) = '4031046331'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.877969Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.040011  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Experts'))  and
+		 trim(cr_number) = '1010683454'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.878076Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.023999  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BRIDGE'))  and
+		 trim(cr_number) = '1010728857'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.897357Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.030888  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'JICC'))  and
+		 trim(cr_number) = '4030168297'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.904241Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023755  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'OHOD_M_SC'))  and
+		 trim(cr_number) = '32605'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.906415Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025085  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'VIPGem'))  and
+		 trim(cr_number) = '4031218581'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.913771Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.033142  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ExpertTR'))  and
+		 trim(cr_number) = '1010683454'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.930448Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023616  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Dr-Asmaa'))  and
+		 trim(cr_number) = '4030486501'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.931297Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.031809  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'MHARAT'))  and
+		 trim(cr_number) = '4030168297'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.933361Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025538  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'JEEL_Fisal'))  and
+		 trim(cr_number) = '4030169301'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.945966Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029662  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ExpertIT'))  and
+		 trim(cr_number) = '1010683454'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.956173Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023713  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'TreeDais'))  and
+		 trim(cr_number) = '2050157276'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.960964Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.024942  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'MhmdSaud_SC'))  and
+		 trim(cr_number) = '32457'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.961903Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.028021  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BIC'))  and
+		 trim(cr_number) = '4030168297'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.977781Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029569  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Bloom'))  and
+		 trim(cr_number) = '4030246169'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.981011Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023204  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'HALQAH'))  and
+		 trim(cr_number) = '103/04/02'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.993364Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029373  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'KhatwaNaema'))  and
+		 trim(cr_number) = '4650226189'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:07.993692Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.029679  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Targi APP'))  and
+		 trim(cr_number) = '4030471177'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.008627Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.026214  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Ahmedhanbl'))  and
+		 trim(cr_number) = '103/04/02'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.013493Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.033471  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BloomSCH'))  and
+		 trim(cr_number) = '4030246169'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.019174Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.023434  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Khatwa.N'))  and
+		 trim(cr_number) = '4650226189'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.025604Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.030062  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738327;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'B-ALAJFAR'))  and
+		 trim(cr_number) = '706'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.033978Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023917  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'D.C.A-MO'))  and
+		 trim(cr_number) = '712'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.045970Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029909  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Bloom SCH'))  and
+		 trim(cr_number) = '4030246169'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.046840Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.023668  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM '3ROD'))  and
+		 trim(cr_number) = '1010192867'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.056415Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.028634  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'KNZALSAHRA'))  and
+		 trim(cr_number) = '1010144558'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.059530Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.024070  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'HOSP.SHOABH'))  and
+		 trim(cr_number) = '7001656029'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.072474Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.023796  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Stars'))  and
+		 trim(cr_number) = '4030315290'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.077978Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029824  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'FamilyMedcn'))  and
+		 trim(cr_number) = '4030381942'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.084640Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.026411  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'KANZSAHR'))  and
+		 trim(cr_number) = '1010144558'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.086237Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023750  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'gurnataSch'))  and
+		 trim(cr_number) = '3940940'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.103021Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.028863  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Alnejom'))  and
+		 trim(cr_number) = '4030315290'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.111114Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.031083  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'yfoz'))  and
+		 trim(cr_number) = '1010772031'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.115307Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.027397  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'KHALIDIA_M'))  and
+		 trim(cr_number) = '57524'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.129578Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.043512  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Kingfhad_SC'))  and
+		 trim(cr_number) = '10786'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.134603Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029245  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'RMCOPANY'))  and
+		 trim(cr_number) = '4030405466'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.140643Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023638  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AL-FUDAIL'))  and
+		 trim(cr_number) = '54047'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.143334Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029384  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'yfoz app'))  and
+		 trim(cr_number) = '1010772031'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.166520Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.034290  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AL-HNAN_SC'))  and
+		 trim(cr_number) = '3550020892'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.167340Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.025171  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'saadmoth-m'))  and
+		 trim(cr_number) = '10570'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.168015Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029655  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'slamtalmudn'))  and
+		 trim(cr_number) = '4031061002'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.175204Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029593  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BaziiShop'))  and
+		 trim(cr_number) = 'bc50148a'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.192740Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023843  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALhasan_SC'))  and
+		 trim(cr_number) = '10823'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.199837Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.030642  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Waqf-hessah'))  and
+		 trim(cr_number) = '100406350'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.200342Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029684  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'alkhatah.jm'))  and
+		 trim(cr_number) = '183'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.206601Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029306  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BaziShop'))  and
+		 trim(cr_number) = 'bc50148a'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.219121Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.024853  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Orbits Pio'))  and
+		 trim(cr_number) = '2051213707'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.229103Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.027366  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'JEEL_F1_SC'))  and
+		 trim(cr_number) = '4030170288'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.234157Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029869  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'alkhatah'))  and
+		 trim(cr_number) = '183'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.238717Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029982  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Raml'))  and
+		 trim(cr_number) = '1011150197'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.245280Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023649  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALALAM'))  and
+		 trim(cr_number) = '1010104857'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.256025Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025046  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'abu_hanefah'))  and
+		 trim(cr_number) = '24102'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.267727Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029768  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'APD'))  and
+		 trim(cr_number) = '7020805722'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.270054Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023163  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'JazzAbaya'))  and
+		 trim(cr_number) = '4030367866'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.270629Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029450  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Raml'))  and
+		 trim(cr_number) = '1011150197'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.283764Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025313  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BnSerenB_SC'))  and
+		 trim(cr_number) = '32157'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.295064Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023420  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'JazAbaya'))  and
+		 trim(cr_number) = '4030367866'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.300274Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029753  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'SANDWICH'))  and
+		 trim(cr_number) = '1010588283'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.302453Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029613  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'KAFAA Team'))  and
+		 trim(cr_number) = '1010669889'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.312032Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.026317  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Alemeis-Hos'))  and
+		 trim(cr_number) = '5900014830'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.320151Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023508  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'EASYDOC'))  and
+		 trim(cr_number) = '4030371354'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.332467Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029796  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALTALEB'))  and
+		 trim(cr_number) = '2050090071'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.334234Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029748  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Almaha eye'))  and
+		 trim(cr_number) = '2050141744'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.340919Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025508  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AlemeisH'))  and
+		 trim(cr_number) = '5900014830'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.346671Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023763  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BirRafha'))  and
+		 trim(cr_number) = '96'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.364971Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.030082  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AL-MDRQA'))  and
+		 trim(cr_number) = '3261'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.366356Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029587  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Maha Eye'))  and
+		 trim(cr_number) = '2050141744'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.368569Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.023863  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM '5th school'))  and
+		 trim(cr_number) = '23210'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.372113Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023722  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Bir-umluj'))  and
+		 trim(cr_number) = '65'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.396435Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025277  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALEMTIZ'))  and
+		 trim(cr_number) = '1010063039'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.397146Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023332  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'TRUEME'))  and
+		 trim(cr_number) = '4030432295'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.397409Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.030007  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALMDRQA'))  and
+		 trim(cr_number) = '4103'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.399874Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029475  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'A.ASSELA'))  and
+		 trim(cr_number) = '4650214079'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.423618Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023516  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AboAlaswd_D'))  and
+		 trim(cr_number) = '32470'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.423777Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.024989  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'HwaweiKH'))  and
+		 trim(cr_number) = '2051221769'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.428899Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029139  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'transfer'))  and
+		 trim(cr_number) = '2050204372'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.431878Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029245  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ACTM'))  and
+		 trim(cr_number) = '4650067854'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.448670Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023224  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'EB_24_SCH'))  and
+		 trim(cr_number) = '60562'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.450998Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025066  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Psnedu'))  and
+		 trim(cr_number) = '54060'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.460265Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.028717  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ERTIQAA'))  and
+		 trim(cr_number) = '660'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.463305Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029437  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'YASEEL'))  and
+		 trim(cr_number) = '1010475331'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.473549Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023053  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'DarHanan_H'))  and
+		 trim(cr_number) = '3550020894'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.478432Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.024285  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Ohod School'))  and
+		 trim(cr_number) = '10132'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.489242Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.026986  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM '4nas'))  and
+		 trim(cr_number) = '7011304222'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.495210Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029337  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AlOfoq'))  and
+		 trim(cr_number) = '1038785359'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.500190Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023590  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Nawawi_B_SC'))  and
+		 trim(cr_number) = '74232'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.505756Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.025193  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'EmamAbdlhSC'))  and
+		 trim(cr_number) = '33079'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.525562Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023500  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Quratschool'))  and
+		 trim(cr_number) = '861555'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.526156Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.034684  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Knafa Kh'))  and
+		 trim(cr_number) = '4030394541'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.527194Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029669  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'A.BnAbyBkr'))  and
+		 trim(cr_number) = '32247'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.532737Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.024710  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'apptqd'))  and
+		 trim(cr_number) = '1118106664'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.551300Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.023656  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'TharwatReef'))  and
+		 trim(cr_number) = '4032260320'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.556988Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.027718  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Mohamad-SCH'))  and
+		 trim(cr_number) = '47207'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.558317Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029537  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Unique Care'))  and
+		 trim(cr_number) = '1010364496'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.567621Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.031243  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'MoathJabal'))  and
+		 trim(cr_number) = '39132801'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.579106Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.024120  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALGAR-AD'))  and
+		 trim(cr_number) = '4030162699'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.584548Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.025234  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ShikMohamad'))  and
+		 trim(cr_number) = '47207'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.591461Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.030630  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Unique.C'))  and
+		 trim(cr_number) = '1010364496'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.605291Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.036605  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'MoathSchool'))  and
+		 trim(cr_number) = '39132801'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.607971Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.024676  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'VET-APP'))  and
+		 trim(cr_number) = '1010793899'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.615360Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.029093  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALAWAN'))  and
+		 trim(cr_number) = '1010654178'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.623641Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.029467  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'HIJAMA'))  and
+		 trim(cr_number) = '1010609617'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.638740Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.028155  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Ekhtsasi'))  and
+		 trim(cr_number) = '1010555791'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.645944Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.028098  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AfousSchool'))  and
+		 trim(cr_number) = '79342'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.659234Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.052633  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'pm-hbeebzed'))  and
+		 trim(cr_number) = '47352'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.667168Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.025876  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'AlnahdaCare'))  and
+		 trim(cr_number) = '1131043442'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.667235Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.040614  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Hejama CL'))  and
+		 trim(cr_number) = '1010609617'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.698972Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.037395  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'ALQRTUBI_SC'))  and
+		 trim(cr_number) = '60324'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.701203Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.052638  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'EmamWarshSC'))  and
+		 trim(cr_number) = '40656'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.701894Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.029529  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Jerjane_SC'))  and
+		 trim(cr_number) = '32317'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.721541Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.043775  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'HejamaCL'))  and
+		 trim(cr_number) = '1010609617'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.772991Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.053214  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'RABEZZA'))  and
+		 trim(cr_number) = '4030359309'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.781950Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.078101  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'WarshSchool'))  and
+		 trim(cr_number) = '40656'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.783756Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   243
+# Query_time: 0.062430  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Abna.B.J_SC'))  and
+		 trim(cr_number) = '53729'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.786457Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.050465  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'NukhbahRE'))  and
+		 trim(cr_number) = '2055007282'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.814324Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.030231  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'BCCI'))  and
+		 trim(cr_number) = '7000801790'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.824027Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.047123  Lock_time: 0.000204 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'RABEZZ'))  and
+		 trim(cr_number) = '4030359309'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.847630Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    27
+# Query_time: 0.037110  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'Nukhbah'))  and
+		 trim(cr_number) = '2055007282'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.847659Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.030676  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'RMSHEYES'))  and
+		 trim(cr_number) = '1010404729'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.874807Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   245
+# Query_time: 0.044670  Lock_time: 0.000002 Rows_sent: 0  Rows_examined: 15723
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'RRRA'))  and
+		 trim(cr_number) = '1677'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+# Time: 2025-02-05T06:52:08.880815Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    58
+# Query_time: 0.031795  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 15724
+SET timestamp=1738738328;
+SELECT
+            CONCAT_WS('_',request_status,sender_status) as k ,
+            hawsabah_refuse_reason,
+            id,
+            remaining_days,
+            created_date,request_status,total_days,expiry_date,last_modified_date,number_of_actions,payment_date,sender_expiry_date
+FROM
+hawsabah_sender_contracts
+WHERE
+ lower(trim(sender_name)) = lower(TRIM(TRAILING '-AD' FROM 'REMSHELOYOn'))  and
+		 trim(cr_number) = '1010404729'
+ORDER BY
+CASE
+WHEN request_status = 1 THEN
+		1
+		  WHEN request_status = 2 or request_status = 7 THEN
+		3
+		 WHEN request_status = 3 THEN
+		4
+    	 WHEN request_status = 5 THEN
+		2
+		  WHEN  request_status = 6 THEN
+    5
+		  WHEN  request_status = 4 THEN
+		0
+	END
+asc , `remaining_days` desc LIMIT 1;
+/usr/sbin/mysqld, Version: 8.0.37-0ubuntu0.20.04.3 ((Ubuntu)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.37-0ubuntu0.20.04.3 ((Ubuntu)). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2025-02-05T06:58:20.268540Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    18
+# Query_time: 0.003591  Lock_time: 0.000003 Rows_sent: 0  Rows_examined: 0
+use 4jawaly;
+SET timestamp=1738738700;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (227196);
+# Time: 2025-02-05T07:01:08.844339Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    51
+# Query_time: 0.000294  Lock_time: 0.000004 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738738868;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (56777);
+# Time: 2025-02-05T07:02:51.844208Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:    66
+# Query_time: 0.000273  Lock_time: 0.000005 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738738971;
+select `id`, `name`, `whatsapp_dialog_tags`.`whatsapp_dialog_id` as `pivot_whatsapp_dialog_id`, `whatsapp_dialog_tags`.`whatsapp_tag_id` as `pivot_whatsapp_tag_id` from `whatsapp_tags` inner join `whatsapp_dialog_tags` on `whatsapp_tags`.`id` = `whatsapp_dialog_tags`.`whatsapp_tag_id` where `whatsapp_dialog_tags`.`whatsapp_dialog_id` in (232410);
+# Time: 2025-02-05T07:07:36.024607Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   147
+# Query_time: 0.007216  Lock_time: 0.000010 Rows_sent: 41  Rows_examined: 82
+use mysql;
+SET timestamp=1738739256;
+SELECT `CHARACTER_SET_NAME` AS `Charset`, `DEFAULT_COLLATE_NAME` AS `Default collation`, `DESCRIPTION` AS `Description`, `MAXLEN` AS `Maxlen` FROM `information_schema`.`CHARACTER_SETS`;
+# Time: 2025-02-05T07:07:36.033018Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   147
+# Query_time: 0.006599  Lock_time: 0.000010 Rows_sent: 286  Rows_examined: 327
+SET timestamp=1738739256;
+SELECT `COLLATION_NAME` AS `Collation`, `CHARACTER_SET_NAME` AS `Charset`, `ID` AS `Id`, `IS_DEFAULT` AS `Default`, `IS_COMPILED` AS `Compiled`, `SORTLEN` AS `Sortlen` FROM `information_schema`.`COLLATIONS`;
+# Time: 2025-02-05T07:07:36.271998Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   147
+# Query_time: 0.006761  Lock_time: 0.000014 Rows_sent: 6  Rows_examined: 31
+SET timestamp=1738739256;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2025-02-05T07:07:36.280621Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   147
+# Query_time: 0.000874  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1738739256;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2025-02-05T07:07:36.284907Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   147
+# Query_time: 0.000866  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1738739256;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2025-02-05T07:07:36.345681Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   147
+# Query_time: 0.004278  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738739256;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:36.347401Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   147
+# Query_time: 0.001463  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 184
+SET timestamp=1738739256;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.161366Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   150
+# Query_time: 0.002872  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738739258;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.163409Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   150
+# Query_time: 0.001587  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 184
+SET timestamp=1738739258;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.192220Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   152
+# Query_time: 0.003318  Lock_time: 0.000007 Rows_sent: 6  Rows_examined: 31
+SET timestamp=1738739258;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2025-02-05T07:07:38.205470Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   152
+# Query_time: 0.000944  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1738739258;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2025-02-05T07:07:38.210523Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   152
+# Query_time: 0.000904  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 6
+SET timestamp=1738739258;
+SELECT COUNT(*) FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t;
+# Time: 2025-02-05T07:07:38.269091Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   152
+# Query_time: 0.002781  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738739258;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.270938Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   152
+# Query_time: 0.001568  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 184
+SET timestamp=1738739258;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.335240Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   156
+# Query_time: 0.002709  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738739258;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.337483Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   156
+# Query_time: 0.001931  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 184
+SET timestamp=1738739258;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.587691Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   158
+# Query_time: 0.002632  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738739258;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:38.589298Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   158
+# Query_time: 0.001290  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 184
+SET timestamp=1738739258;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:39.727559Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   160
+# Query_time: 0.004526  Lock_time: 0.000005 Rows_sent: 286  Rows_examined: 327
+use 4jawaly;
+SET timestamp=1738739259;
+SELECT `COLLATION_NAME` AS `Collation`, `CHARACTER_SET_NAME` AS `Charset`, `ID` AS `Id`, `IS_DEFAULT` AS `Default`, `IS_COMPILED` AS `Compiled`, `SORTLEN` AS `Sortlen` FROM `information_schema`.`COLLATIONS`;
+# Time: 2025-02-05T07:07:39.853957Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   160
+# Query_time: 0.036582  Lock_time: 0.000013 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1738739259;
+SELECT COUNT(*) FROM `4jawaly`.`account_commercial_contract_service`;
+# Time: 2025-02-05T07:07:41.722044Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   160
+# Query_time: 0.002178  Lock_time: 0.000000 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738739261;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:41.723438Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   160
+# Query_time: 0.001139  Lock_time: 0.000000 Rows_sent: 1  Rows_examined: 184
+SET timestamp=1738739261;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:41.724444Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   160
+# Query_time: 0.000660  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 357
+SET timestamp=1738739261;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''jawaly_admin''@''localhost''' AND PRIVILEGE_TYPE='EVENT';
+# Time: 2025-02-05T07:07:41.725318Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   160
+# Query_time: 0.000628  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 357
+SET timestamp=1738739261;
+SELECT `PRIVILEGE_TYPE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE GRANTEE='''jawaly_admin''@''localhost''' AND PRIVILEGE_TYPE='TRIGGER';
+# Time: 2025-02-05T07:07:42.339000Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   162
+# Query_time: 0.003273  Lock_time: 0.000005 Rows_sent: 6  Rows_examined: 31
+SET timestamp=1738739262;
+SELECT `SCHEMA_NAME` FROM `INFORMATION_SCHEMA`.`SCHEMATA`, (SELECT DB_first_level FROM ( SELECT DISTINCT SUBSTRING_INDEX(SCHEMA_NAME, '_', 1) DB_first_level FROM INFORMATION_SCHEMA.SCHEMATA WHERE TRUE ) t ORDER BY DB_first_level ASC LIMIT 0, 100) t2 WHERE TRUE AND 1 = LOCATE(CONCAT(DB_first_level, '_'), CONCAT(SCHEMA_NAME, '_')) ORDER BY SCHEMA_NAME ASC;
+# Time: 2025-02-05T07:07:42.369114Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   162
+# Query_time: 0.001954  Lock_time: 0.000011 Rows_sent: 1  Rows_examined: 0
+SET timestamp=1738739262;
+SELECT COUNT(*) FROM `INFORMATION_SCHEMA`.`EVENTS` WHERE `EVENT_SCHEMA` ='4jawaly';
+# Time: 2025-02-05T07:07:42.456301Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   162
+# Query_time: 0.002365  Lock_time: 0.000001 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1738739262;
+SELECT 1 FROM (SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`COLUMN_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`TABLE_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`SCHEMA_PRIVILEGES` UNION SELECT `GRANTEE`, `IS_GRANTABLE` FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES`) t WHERE `IS_GRANTABLE` = 'YES' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
+# Time: 2025-02-05T07:07:42.458737Z
+# User@Host: jawaly_admin[jawaly_admin] @ localhost []  Id:   162
+# Query_time: 0.001977  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 184
+SET timestamp=1738739262;
+SELECT 1 FROM `INFORMATION_SCHEMA`.`USER_PRIVILEGES` WHERE `PRIVILEGE_TYPE` = 'CREATE USER' AND '''jawaly_admin''@''localhost''' LIKE `GRANTEE` LIMIT 1;
